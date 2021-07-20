@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   font-family: "Poppins", sans-serif;
   width: 100%;
@@ -91,129 +92,149 @@ body {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
 
-/*HTML CONEXION*/
+/*HTML ROSCA*/
+.body-rosca {
+  background-image: url("../imagenes/fondo gris.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .body-rosca main {
+    padding-top: 2%; }
+    .body-rosca main h1 {
+      text-align: center; }
+    .body-rosca main .menu__desplegable {
+      margin: 0px;
+      width: 500px; }
+      .body-rosca main .menu__desplegable #nav__height1 {
+        height: 270px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height2 {
+        height: 270px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height3 {
+        height: 150px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height4 {
+        height: 280px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height5 {
+        height: 250px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable .nav {
+        display: block; }
+        .body-rosca main .menu__desplegable .nav .m1 {
+          background-color: #a31cb4;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m2 {
+          background-color: #e956d5;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m3 {
+          background-color: #2956ac;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m4 {
+          background-color: #7eca74;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m5 {
+          background-color: #e0de53;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav li {
+          list-style: none;
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: bold;
+          padding-left: 0;
+          float: left;
+          position: relative; }
+          .body-rosca main .menu__desplegable .nav li:hover > ul {
+            display: block; }
+          .body-rosca main .menu__desplegable .nav li a {
+            width: 200px;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 3% 7%;
+            display: block;
+            text-align: center;
+            font-size: 1rem; }
+          .body-rosca main .menu__desplegable .nav li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0px;
+            width: 200px; }
+            .body-rosca main .menu__desplegable .nav li ul li {
+              position: relative;
+              float: none; }
+              .body-rosca main .menu__desplegable .nav li ul li .m1__item {
+                background-color: #ffffff;
+                color: #a31cb4;
+                border: 2px solid #a31cb4;
+                width: 450px;
+                font-size: 1rem; }
+                .body-rosca main .menu__desplegable .nav li ul li .m1__item:hover {
+                  background-color: #a21cb4b4;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m2__item {
+                background-color: #ffffff;
+                color: #e956d5;
+                border: 2px solid #e956d5;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m2__item:hover {
+                  background-color: #e956d5b7;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m3__item {
+                background-color: #ffffff;
+                color: #2956ac;
+                border: 2px solid #2956ac;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m3__item:hover {
+                  background-color: #2957acb2;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m4__item {
+                background-color: #ffffff;
+                color: #7eca74;
+                border: 2px solid #7eca74;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m4__item:hover {
+                  background-color: #7eca74af;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m5__item {
+                background-color: #ffffff;
+                color: #e0de53;
+                border: 2px solid #e0de53;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m5__item:hover {
+                  background-color: #e0de53b4;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li ul {
+                left: 134%;
+                top: 0px; }
+                .body-rosca main .menu__desplegable .nav li ul li ul li {
+                  width: 450px; }
+
+/*HTML CONEXIÓN*/
 .body-conexion {
   background-image: url("../imagenes/fondo gris.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  /*
-      .row{
-        .col-6{
-
-         
-          h4{
-            text-align:initial ;
-            color: #000000;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            padding-left: 5%;
-          }
-
- .btn-ttc1{
-      color: #ffffff;
-      list-style-type: none;
-      text-decoration: none;
-      background: rgb(112, 180, 10);
-      text-align: center;
-      width: 70%;
-     
-    }
-
-    .btn-ttc2{
-      color: #ffffff;
-      list-style-type: none;
-      text-decoration: none;
-      background: rgb(140, 8, 173);
-      text-align: center;
-      width: 70%;
-    }
-
-    .btn-ttc3{
-      color: #ffffff;
-      list-style-type: none;
-      text-decoration: none;
-      background: rgb(225, 238, 48);
-      text-align: center;
-      width: 70%;
-    }
-
-    .btn-ttc4{
-      color: #ffffff;
-      list-style-type: none;
-      text-decoration: none;
-      background: rgb(218, 53, 163);
-      text-align: center;
-      width: 70%;
-    }
-        }
-        .col-6{
-          h4{
-            text-align:initial ;
-            color: #000000;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            font-size: 1rem;
-          }
-
-          ul{
-
-            padding-left: 0;
-
-            .btn-ttc1{
-              color: #ffffff;
-              list-style-type: none;
-              text-decoration: none;
-              background: rgb(112, 180, 10);
-              text-align: center;
-              width: 70%;
-              font-size: 1rem;
-            }
-        
-            .btn-ttc2{
-              color: #ffffff;
-              list-style-type: none;
-              text-decoration: none;
-              background: rgb(140, 8, 173);
-              text-align: center;
-              width: 70%;
-              font-size: 1rem;
-            }
-        
-            .btn-ttc3{
-              color: #ffffff;
-              list-style-type: none;
-              text-decoration: none;
-              background: rgb(225, 238, 48);
-              text-align: center;
-              width: 70%;
-              font-size: 1rem;
-            }
-        
-            .btn-ttc4{
-              color: #ffffff;
-              list-style-type: none;
-              text-decoration: none;
-              background: rgb(218, 53, 163);
-              text-align: center;
-              width: 70%;
-              font-size: 1rem;
-            }
-
-          }
-        }
-
-      
-    }*/ }
+  background-size: cover; }
   .body-conexion main {
     padding-top: 2%; }
     .body-conexion main h1 {
       text-align: center; }
-    .body-conexion main .menu__desplegable {
-      margin: auto;
-      width: 1000px; }
-      .body-conexion main .menu__desplegable .nav {
+    .body-conexion main .menu__desplegable--conexion {
+      margin: 0px;
+      width: 500px; }
+      .body-conexion main .menu__desplegable--conexion .nav {
         display: block; }
-        .body-conexion main .menu__desplegable .nav li {
+        .body-conexion main .menu__desplegable--conexion .nav li {
           list-style: none;
           text-decoration: none;
           color: #000000;
@@ -222,9 +243,9 @@ body {
           padding-left: 0;
           float: left;
           position: relative; }
-          .body-conexion main .menu__desplegable .nav li:hover > ul {
+          .body-conexion main .menu__desplegable--conexion .nav li:hover > ul {
             display: block; }
-          .body-conexion main .menu__desplegable .nav li a {
+          .body-conexion main .menu__desplegable--conexion .nav li a {
             width: 200px;
             text-decoration: none;
             color: #000000;
@@ -233,20 +254,20 @@ body {
             display: block;
             text-align: center;
             border: 2px solid #ffffff; }
-            .body-conexion main .menu__desplegable .nav li a:hover {
+            .body-conexion main .menu__desplegable--conexion .nav li a:hover {
               background-color: yellowgreen; }
-          .body-conexion main .menu__desplegable .nav li ul {
+          .body-conexion main .menu__desplegable--conexion .nav li ul {
             display: none;
             position: absolute;
             top: 100%;
             left: 0;
             padding: 0px;
             width: 200px; }
-            .body-conexion main .menu__desplegable .nav li ul li {
+            .body-conexion main .menu__desplegable--conexion .nav li ul li {
               position: relative;
               float: none;
               width: 150px; }
-              .body-conexion main .menu__desplegable .nav li ul li ul {
+              .body-conexion main .menu__desplegable--conexion .nav li ul li ul {
                 left: 134%;
                 top: 0px; }
 
@@ -324,169 +345,128 @@ body {
       body main section .cuadro3:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
-  .body-conexion {
+  .body-rosca {
     background-image: url("../imagenes/fondo gris.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    /*
-        .row{
-          .col-6{
-  
-           
-            h4{
-              text-align:initial ;
-              color: #000000;
-              padding-top: 2%;
-              padding-bottom: 2%;
-              padding-left: 5%;
-            }
-  
-   .btn-ttc1{
-        color: #ffffff;
-        list-style-type: none;
-        text-decoration: none;
-        background: rgb(112, 180, 10);
-        text-align: center;
-        width: 70%;
-       
-      }
-  
-      .btn-ttc2{
-        color: #ffffff;
-        list-style-type: none;
-        text-decoration: none;
-        background: rgb(140, 8, 173);
-        text-align: center;
-        width: 70%;
-      }
-  
-      .btn-ttc3{
-        color: #ffffff;
-        list-style-type: none;
-        text-decoration: none;
-        background: rgb(225, 238, 48);
-        text-align: center;
-        width: 70%;
-      }
-  
-      .btn-ttc4{
-        color: #ffffff;
-        list-style-type: none;
-        text-decoration: none;
-        background: rgb(218, 53, 163);
-        text-align: center;
-        width: 70%;
-      }
-          }
-          .col-6{
-            h4{
-              text-align:initial ;
-              color: #000000;
-              padding-top: 2%;
-              padding-bottom: 2%;
-              font-size: 1rem;
-            }
-  
-            ul{
-  
-              padding-left: 0;
-  
-              .btn-ttc1{
-                color: #ffffff;
-                list-style-type: none;
-                text-decoration: none;
-                background: rgb(112, 180, 10);
-                text-align: center;
-                width: 70%;
-                font-size: 1rem;
-              }
-          
-              .btn-ttc2{
-                color: #ffffff;
-                list-style-type: none;
-                text-decoration: none;
-                background: rgb(140, 8, 173);
-                text-align: center;
-                width: 70%;
-                font-size: 1rem;
-              }
-          
-              .btn-ttc3{
-                color: #ffffff;
-                list-style-type: none;
-                text-decoration: none;
-                background: rgb(225, 238, 48);
-                text-align: center;
-                width: 70%;
-                font-size: 1rem;
-              }
-          
-              .btn-ttc4{
-                color: #ffffff;
-                list-style-type: none;
-                text-decoration: none;
-                background: rgb(218, 53, 163);
-                text-align: center;
-                width: 70%;
-                font-size: 1rem;
-              }
-  
-            }
-          }
-  
-        
-      }*/ }
-    .body-conexion main {
+    background-size: cover; }
+    .body-rosca main {
       padding-top: 2%; }
-      .body-conexion main h1 {
+      .body-rosca main h1 {
         text-align: center; }
-      .body-conexion main .menu__desplegable {
+      .body-rosca main .menu__desplegable {
         margin: 0px;
         width: 200px; }
-        .body-conexion main .menu__desplegable .nav {
-          display: inline-block;
-          height: 150px; }
-          .body-conexion main .menu__desplegable .nav li {
+        .body-rosca main .menu__desplegable #nav__height1 {
+          height: 300px;
+          padding: 5%; }
+        .body-rosca main .menu__desplegable #nav__height2 {
+          height: 300px;
+          padding: 5%; }
+        .body-rosca main .menu__desplegable #nav__height3 {
+          height: 140px;
+          padding: 5%; }
+        .body-rosca main .menu__desplegable #nav__height4 {
+          height: 280px;
+          padding: 5%; }
+        .body-rosca main .menu__desplegable #nav__height5 {
+          height: 100px;
+          padding: 5%; }
+        .body-rosca main .menu__desplegable .nav {
+          display: inline-block; }
+          .body-rosca main .menu__desplegable .nav .m1 {
+            background-color: #a31cb4;
+            width: 420px;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav .m2 {
+            background-color: #e956d5;
+            width: 420px;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav .m3 {
+            background-color: #2956ac;
+            width: 420px;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav .m4 {
+            background-color: #7eca74;
+            width: 420px;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav .m5 {
+            background-color: #e0de53;
+            width: 420px;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav li {
             list-style: none;
             text-decoration: none;
             color: #ffffff;
             font-weight: bold;
-            width: 50%;
             padding-left: 0;
             float: left;
             position: relative;
             font-size: .8rem; }
-            .body-conexion main .menu__desplegable .nav li:hover > ul {
+            .body-rosca main .menu__desplegable .nav li:hover > ul {
               display: block; }
-            .body-conexion main .menu__desplegable .nav li a {
+            .body-rosca main .menu__desplegable .nav li a {
               width: 100px;
               text-decoration: none;
               color: #ffffff;
               padding: 3% 5%;
-              background-color: #ce27b8;
               display: block;
               text-align: center;
-              border: 2px solid #ffffff; }
-              .body-conexion main .menu__desplegable .nav li a:hover {
-                background-color: yellowgreen; }
-            .body-conexion main .menu__desplegable .nav li ul {
+              font-size: .9rem; }
+            .body-rosca main .menu__desplegable .nav li ul {
               display: none;
               position: absolute;
               top: 100%;
               left: 0;
               padding: 0px;
-              width: 40px;
-              font-size: .7rem; }
-              .body-conexion main .menu__desplegable .nav li ul li {
+              width: 40px; }
+              .body-rosca main .menu__desplegable .nav li ul li {
                 position: relative;
-                float: none;
-                width: 20px;
-                font-size: .7rem; }
-                .body-conexion main .menu__desplegable .nav li ul li ul {
-                  left: 500%;
-                  top: 0px;
-                  width: 50px;
-                  font-size: .7rem; } }
+                float: none; }
+                .body-rosca main .menu__desplegable .nav li ul li .m1__item {
+                  background-color: #ffffff;
+                  color: #a31cb4;
+                  border: 2px solid #a31cb4;
+                  font-size: .9rem;
+                  width: 420px;
+                  height: 40px;
+                  padding-top: 25%; }
+                .body-rosca main .menu__desplegable .nav li ul li .m2__item {
+                  background-color: #ffffff;
+                  color: #e956d5;
+                  border: 2px solid #e956d5;
+                  font-size: .9rem;
+                  width: 420px;
+                  height: 40px;
+                  padding-top: 25%; }
+                .body-rosca main .menu__desplegable .nav li ul li .m3__item {
+                  background-color: #ffffff;
+                  color: #2956ac;
+                  border: 2px solid #2956ac;
+                  font-size: .9rem;
+                  width: 420px;
+                  height: 40px;
+                  padding-top: 25%; }
+                .body-rosca main .menu__desplegable .nav li ul li .m4__item {
+                  background-color: #ffffff;
+                  color: #7eca74;
+                  border: 2px solid #7eca74;
+                  font-size: .9rem;
+                  width: 420px;
+                  height: 40px;
+                  padding-top: 25%; }
+                .body-rosca main .menu__desplegable .nav li ul li .m5__item {
+                  background-color: #ffffff;
+                  color: #e0de53;
+                  border: 2px solid #e0de53;
+                  font-size: .9rem;
+                  width: 420px;
+                  height: 40px;
+                  padding-top: 25%; }
+              .body-rosca main .menu__desplegable .nav li ul ul {
+                left: 500%;
+                top: 0px; }
+                .body-rosca main .menu__desplegable .nav li ul ul li {
+                  width: 420px; } }
 
 .grid__footer {
   bottom: 0%;
