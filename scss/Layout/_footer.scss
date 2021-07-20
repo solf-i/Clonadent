@@ -1,0 +1,289 @@
+.grid__footer {
+  bottom: 0%;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  color: #085c94;
+  font-weight: bold;
+  background-color: #ffffff;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  display: grid;
+  position: fixed;
+  grid-template: 25px 25px 25px 25px 25px / 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "direccion  .   .   ."
+    "telefono   telefono seguinos seguinos"
+    "horario  horario   .   ."
+    "email email   .   logo"
+    "web  web  .    .";
+
+  .direccion {
+    grid-area: direccion;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    
+
+  }
+
+  .telefono {
+    grid-area: telefono;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    p {
+      margin-left: 20px;
+    }
+  }
+
+  .horario {
+    grid-area: horario;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    p {
+      margin-left: 20px;
+    }
+  }
+
+  .email {
+    grid-area: email;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      margin-left: 20px;
+    }
+  }
+
+  .web {
+    grid-area: web;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+
+    ion-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    p {
+      margin-left: 20px;
+
+      a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        grid-area: web;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .seguinos {
+    text-align: end;
+    grid-area: seguinos;
+    font-size: 0.9rem;
+    padding-right: 3%;
+  }
+  .logo {
+    grid-area: logo;
+    .rrss {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 40%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__footer {
+    bottom: 0%;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    color: #085c94;
+    font-weight: bold;
+    background-color: #ffffff;
+    opacity: 0.6;
+    font-size: 0.8rem;
+    display: grid;
+    grid-template: 18px 18px 18px 18px 18px / 1fr 1fr;
+    grid-template-areas:
+      "direccion  .   "
+      "telefono   telefono"
+      "horario  seguinos"
+      "email   logo"
+      "web    .";
+    font-size: 0.5rem;
+
+    .direccion {
+      grid-area: direccion;
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+
+      ion-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        margin-left: 10px;
+        font-size: 0.6rem;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .telefono {
+      grid-area: telefono;
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+
+      ion-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        margin-left: 10px;
+        font-size: 0.6rem;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .horario {
+      grid-area: horario;
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+
+      ion-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        margin-left: 10px;
+        font-size: 0.6rem;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .email {
+      grid-area: email;
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+
+      ion-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        margin-left: 10px;
+        font-size: 0.6rem;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    .web {
+      grid-area: web;
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+
+      ion-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        margin-left: 10px;
+        font-size: 0.6rem;
+        text-align: left;
+        margin-bottom: 0;
+
+        a {
+          text-decoration: none;
+
+          font-size: 0.6rem;
+          grid-area: web;
+          display: flex;
+          flex-direction: row;
+          margin: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .seguinos {
+      text-align: end;
+      grid-area: seguinos;
+      font-size: 0.6rem;
+      padding-right: 7%;
+    }
+    .logo {
+      grid-area: logo;
+      font-size: 0.5rem;
+      margin-right: 50px;
+
+      .rrss {
+        display: flex;
+        flex-direction: row;
+
+        img {
+          margin-top: 5%;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
