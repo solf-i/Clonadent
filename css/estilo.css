@@ -14,7 +14,8 @@ body {
   background-repeat: repeat-y;
   background-size: cover; }
   body main {
-    padding: 5%; }
+    padding: 5%;
+    width: 100%; }
     body main h1 {
       text-align: center; }
     body main section {
@@ -23,11 +24,12 @@ body {
       align-content: center;
       flex-direction: row;
       vertical-align: middle;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      width: 100%; }
       body main section .cuadro1 {
         margin-top: 3%;
         box-sizing: border-box;
-        width: 250px;
+        width: 20%;
         height: 200px;
         display: flex;
         justify-content: center;
@@ -50,7 +52,7 @@ body {
         margin-top: 3%;
         box-sizing: border-box;
         border: 1px solid grey;
-        width: 250px;
+        width: 20%;
         height: 200px;
         display: flex;
         justify-content: center;
@@ -72,7 +74,7 @@ body {
       body main section .cuadro3 {
         margin-top: 3%;
         box-sizing: border-box;
-        width: 250px;
+        width: 20%;
         height: 200px;
         display: flex;
         justify-content: center;
@@ -97,125 +99,127 @@ body {
   background-image: url("../imagenes/fondo gris.png");
   background-repeat: repeat-y;
   background-size: cover; }
-  .body-rosca main h1 {
-    text-align: center; }
-  .body-rosca main .menu__desplegable {
-    margin: 0px; }
-    .body-rosca main .menu__desplegable #nav__height1 {
-      height: 270px;
-      padding: 8%; }
-    .body-rosca main .menu__desplegable #nav__height2 {
-      height: 270px;
-      padding: 8%; }
-    .body-rosca main .menu__desplegable #nav__height3 {
-      height: 150px;
-      padding: 8%; }
-    .body-rosca main .menu__desplegable #nav__height4 {
-      height: 280px;
-      padding: 8%; }
-    .body-rosca main .menu__desplegable #nav__height5 {
-      height: 250px;
-      padding: 8%; }
-    .body-rosca main .menu__desplegable .nav {
-      display: block; }
-      .body-rosca main .menu__desplegable .nav .m1 {
-        background-color: #a31cb4;
-        width: 450px;
-        text-align: center; }
-      .body-rosca main .menu__desplegable .nav .m2 {
-        background-color: #e956d5;
-        width: 450px;
-        text-align: center; }
-      .body-rosca main .menu__desplegable .nav .m3 {
-        background-color: #2956ac;
-        width: 450px;
-        text-align: center; }
-      .body-rosca main .menu__desplegable .nav .m4 {
-        background-color: #7eca74;
-        width: 450px;
-        text-align: center; }
-      .body-rosca main .menu__desplegable .nav .m5 {
-        background-color: #e0de53;
-        width: 450px;
-        text-align: center; }
-      .body-rosca main .menu__desplegable .nav li {
-        list-style: none;
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: bold;
-        padding-left: 0;
-        float: left;
-        position: relative; }
-        .body-rosca main .menu__desplegable .nav li:hover > ul {
-          display: block; }
-        .body-rosca main .menu__desplegable .nav li a {
-          width: 200px;
+  .body-rosca main {
+    width: 100%; }
+    .body-rosca main h1 {
+      text-align: center; }
+    .body-rosca main .menu__desplegable {
+      margin: 0px; }
+      .body-rosca main .menu__desplegable #nav__height1 {
+        height: 270px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height2 {
+        height: 270px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height3 {
+        height: 150px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height4 {
+        height: 280px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable #nav__height5 {
+        height: 250px;
+        padding: 8%; }
+      .body-rosca main .menu__desplegable .nav {
+        display: block; }
+        .body-rosca main .menu__desplegable .nav .m1 {
+          background-color: #a31cb4;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m2 {
+          background-color: #e956d5;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m3 {
+          background-color: #2956ac;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m4 {
+          background-color: #7eca74;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav .m5 {
+          background-color: #e0de53;
+          width: 450px;
+          text-align: center; }
+        .body-rosca main .menu__desplegable .nav li {
+          list-style: none;
           text-decoration: none;
           color: #ffffff;
-          padding: 3% 7%;
-          display: block;
-          text-align: center;
-          font-size: 1rem; }
-        .body-rosca main .menu__desplegable .nav li ul {
-          display: none;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          padding: 0px;
-          width: 200px; }
-          .body-rosca main .menu__desplegable .nav li ul li {
-            position: relative;
-            float: none; }
-            .body-rosca main .menu__desplegable .nav li ul li .m1__item {
-              background-color: #ffffff;
-              color: #a31cb4;
-              border: 2px solid #a31cb4;
-              width: 450px;
-              font-size: 1rem; }
-              .body-rosca main .menu__desplegable .nav li ul li .m1__item:hover {
-                background-color: #a21cb4b4;
-                color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav li ul li .m2__item {
-              background-color: #ffffff;
-              color: #e956d5;
-              border: 2px solid #e956d5;
-              font-size: 1rem;
-              width: 450px; }
-              .body-rosca main .menu__desplegable .nav li ul li .m2__item:hover {
-                background-color: #e956d5b7;
-                color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav li ul li .m3__item {
-              background-color: #ffffff;
-              color: #2956ac;
-              border: 2px solid #2956ac;
-              font-size: 1rem;
-              width: 450px; }
-              .body-rosca main .menu__desplegable .nav li ul li .m3__item:hover {
-                background-color: #2957acb2;
-                color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav li ul li .m4__item {
-              background-color: #ffffff;
-              color: #7eca74;
-              border: 2px solid #7eca74;
-              font-size: 1rem;
-              width: 450px; }
-              .body-rosca main .menu__desplegable .nav li ul li .m4__item:hover {
-                background-color: #7eca74af;
-                color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav li ul li .m5__item {
-              background-color: #ffffff;
-              color: #e0de53;
-              border: 2px solid #e0de53;
-              font-size: 1rem;
-              width: 450px; }
-              .body-rosca main .menu__desplegable .nav li ul li .m5__item:hover {
-                background-color: #e0de53b4;
-                color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav li ul li ul {
-              left: 134%;
-              top: 0px; }
-              .body-rosca main .menu__desplegable .nav li ul li ul li {
+          font-weight: bold;
+          padding-left: 0;
+          float: left;
+          position: relative; }
+          .body-rosca main .menu__desplegable .nav li:hover > ul {
+            display: block; }
+          .body-rosca main .menu__desplegable .nav li a {
+            width: 200px;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 3% 7%;
+            display: block;
+            font-size: 1rem;
+            text-align: center; }
+          .body-rosca main .menu__desplegable .nav li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0px;
+            width: 200px; }
+            .body-rosca main .menu__desplegable .nav li ul li {
+              position: relative;
+              float: none; }
+              .body-rosca main .menu__desplegable .nav li ul li .m1__item {
+                background-color: #ffffff;
+                color: #a31cb4;
+                border: 2px solid #a31cb4;
+                width: 450px;
+                font-size: 1rem; }
+                .body-rosca main .menu__desplegable .nav li ul li .m1__item:hover {
+                  background-color: #a21cb4b4;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m2__item {
+                background-color: #ffffff;
+                color: #e956d5;
+                border: 2px solid #e956d5;
+                font-size: 1rem;
                 width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m2__item:hover {
+                  background-color: #e956d5b7;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m3__item {
+                background-color: #ffffff;
+                color: #2956ac;
+                border: 2px solid #2956ac;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m3__item:hover {
+                  background-color: #2957acb2;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m4__item {
+                background-color: #ffffff;
+                color: #7eca74;
+                border: 2px solid #7eca74;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m4__item:hover {
+                  background-color: #7eca74af;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li .m5__item {
+                background-color: #ffffff;
+                color: #e0de53;
+                border: 2px solid #e0de53;
+                font-size: 1rem;
+                width: 450px; }
+                .body-rosca main .menu__desplegable .nav li ul li .m5__item:hover {
+                  background-color: #e0de53b4;
+                  color: #ffffff; }
+              .body-rosca main .menu__desplegable .nav li ul li ul {
+                left: 134%;
+                top: 0px; }
+                .body-rosca main .menu__desplegable .nav li ul li ul li {
+                  width: 450px; }
 
 /*HTML CONEXIÓN*/
 .body-conexion {
@@ -322,14 +326,27 @@ body {
                   background-color: #e0de53b4;
                   color: #ffffff; }
 
+/*HTML PERIAPICAL*/
+.body-periapical .contenedor {
+  width: 100%; }
+  .body-periapical .contenedor img {
+    width: 100%;
+    height: auto; }
+
 @media only screen and (max-width: 600px) {
+  .body-periapical .contenedor {
+    width: 100%; }
+    .body-periapical .contenedor img {
+      width: 100%;
+      height: auto; }
   body {
     background-image: url("../imagenes/fondo gris.png");
     background-repeat: repeat-y;
     background-size: cover; }
     body main {
       padding: 2%;
-      padding-bottom: 20%; }
+      padding-bottom: 20%;
+      width: 100%; }
       body main h1 {
         text-align: center;
         font-size: 1.3rem;
@@ -405,7 +422,8 @@ body {
     background-repeat: repeat-y;
     background-size: cover; }
     .body-rosca main {
-      padding-top: 2%; }
+      padding-top: 2%;
+      width: 100%; }
       .body-rosca main h1 {
         text-align: center; }
       .body-rosca main .menu__desplegable {
@@ -527,121 +545,123 @@ body {
     background-image: url("../imagenes/fondo gris.png");
     background-repeat: repeat-y;
     background-size: cover; }
-    .body-conexion main h1 {
-      text-align: center; }
-    .body-conexion main .menu__desplegable--conexion {
-      margin: 0px;
-      width: 0px; }
-      .body-conexion main .menu__desplegable--conexion #nav__height1 {
-        height: 270px; }
-      .body-conexion main .menu__desplegable--conexion #nav__height2 {
-        height: 450px;
-        width: 400px;
-        padding: 8%; }
-      .body-conexion main .menu__desplegable--conexion .nav {
-        display: block; }
-        .body-conexion main .menu__desplegable--conexion .nav .m1 {
-          width: 130px;
-          height: 50px; }
-        .body-conexion main .menu__desplegable--conexion .nav .m2 {
-          width: 130px;
-          height: 50px; }
-        .body-conexion main .menu__desplegable--conexion .nav li {
-          list-style: none;
-          text-decoration: none;
-          color: #ffffff;
-          font-weight: bold;
-          font-size: .7rem;
-          padding-left: 0;
-          float: left;
-          position: relative; }
-          .body-conexion main .menu__desplegable--conexion .nav li:hover > ul {
-            display: block; }
-          .body-conexion main .menu__desplegable--conexion .nav li a {
-            width: 80px;
+    .body-conexion main {
+      width: 100%; }
+      .body-conexion main h1 {
+        text-align: center; }
+      .body-conexion main .menu__desplegable--conexion {
+        margin: 0px;
+        width: 0px; }
+        .body-conexion main .menu__desplegable--conexion #nav__height1 {
+          height: 270px; }
+        .body-conexion main .menu__desplegable--conexion #nav__height2 {
+          height: 450px;
+          width: 400px;
+          padding: 8%; }
+        .body-conexion main .menu__desplegable--conexion .nav {
+          display: block; }
+          .body-conexion main .menu__desplegable--conexion .nav .m1 {
+            width: 130px;
+            height: 50px; }
+          .body-conexion main .menu__desplegable--conexion .nav .m2 {
+            width: 130px;
+            height: 50px; }
+          .body-conexion main .menu__desplegable--conexion .nav li {
+            list-style: none;
             text-decoration: none;
             color: #ffffff;
-            padding: 3% 5%;
-            background-color: #464345;
-            display: block;
-            text-align: center;
-            border: 2px solid #ffffff;
-            font-size: .8rem; }
-            .body-conexion main .menu__desplegable--conexion .nav li a:hover {
-              background-color: #5552528e; }
-          .body-conexion main .menu__desplegable--conexion .nav li ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            padding: 0px;
-            width: 80px; }
-            .body-conexion main .menu__desplegable--conexion .nav li ul li {
-              position: relative;
-              float: none;
-              width: 300px; }
-              .body-conexion main .menu__desplegable--conexion .nav li ul li ul {
-                left: 43%;
-                top: 0px; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .sub3 {
-                  left: 60%;
+            font-weight: bold;
+            font-size: .7rem;
+            padding-left: 0;
+            float: left;
+            position: relative; }
+            .body-conexion main .menu__desplegable--conexion .nav li:hover > ul {
+              display: block; }
+            .body-conexion main .menu__desplegable--conexion .nav li a {
+              width: 80px;
+              text-decoration: none;
+              color: #ffffff;
+              padding: 3% 5%;
+              background-color: #464345;
+              display: block;
+              text-align: center;
+              border: 2px solid #ffffff;
+              font-size: .8rem; }
+              .body-conexion main .menu__desplegable--conexion .nav li a:hover {
+                background-color: #5552528e; }
+            .body-conexion main .menu__desplegable--conexion .nav li ul {
+              display: none;
+              position: absolute;
+              top: 100%;
+              left: 0;
+              padding: 0px;
+              width: 80px; }
+              .body-conexion main .menu__desplegable--conexion .nav li ul li {
+                position: relative;
+                float: none;
+                width: 300px; }
+                .body-conexion main .menu__desplegable--conexion .nav li ul li ul {
+                  left: 43%;
                   top: 0px; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul li {
-                  width: 80px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul li #sub3_1 {
-                    width: 40px;
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .sub3 {
                     left: 60%;
                     top: 0px; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m1__item {
-                  background-color: #a31cb4;
-                  color: #ffffff;
-                  border: 2px solid #ffffff;
-                  width: 80px;
-                  font-size: .8rem;
-                  height: 30px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m1__item:hover {
-                    background-color: #a21cb4b4;
-                    color: #ffffff; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m2__item {
-                  background-color: #e956d5;
-                  color: #ffffff;
-                  border: 2px solid #ffffff;
-                  font-size: .8rem;
-                  width: 80px;
-                  height: 30px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m2__item:hover {
-                    background-color: #e956d5b7;
-                    color: #ffffff; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m3__item {
-                  background-color: #2956ac;
-                  color: #ffffff;
-                  border: 2px solid #ffffff;
-                  font-size: .8rem;
-                  width: 80px;
-                  height: 30px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m3__item:hover {
-                    background-color: #2957acb2;
-                    color: #ffffff; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m4__item {
-                  background-color: #7eca74;
-                  color: #ffffff;
-                  border: 2px solid #ffffff;
-                  font-size: .8rem;
-                  width: 80px;
-                  height: 30px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m4__item:hover {
-                    background-color: #7eca74af;
-                    color: #ffffff; }
-                .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m5__item {
-                  background-color: #e0de53;
-                  color: #ffffff;
-                  border: 2px solid #ffffff;
-                  font-size: .8rem;
-                  width: 80px;
-                  height: 30px; }
-                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m5__item:hover {
-                    background-color: #e0de53b4;
-                    color: #ffffff; } }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul li {
+                    width: 80px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul li #sub3_1 {
+                      width: 40px;
+                      left: 60%;
+                      top: 0px; }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m1__item {
+                    background-color: #a31cb4;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    width: 80px;
+                    font-size: .8rem;
+                    height: 30px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m1__item:hover {
+                      background-color: #a21cb4b4;
+                      color: #ffffff; }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m2__item {
+                    background-color: #e956d5;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    font-size: .8rem;
+                    width: 80px;
+                    height: 30px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m2__item:hover {
+                      background-color: #e956d5b7;
+                      color: #ffffff; }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m3__item {
+                    background-color: #2956ac;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    font-size: .8rem;
+                    width: 80px;
+                    height: 30px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m3__item:hover {
+                      background-color: #2957acb2;
+                      color: #ffffff; }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m4__item {
+                    background-color: #7eca74;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    font-size: .8rem;
+                    width: 80px;
+                    height: 30px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m4__item:hover {
+                      background-color: #7eca74af;
+                      color: #ffffff; }
+                  .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m5__item {
+                    background-color: #e0de53;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    font-size: .8rem;
+                    width: 80px;
+                    height: 30px; }
+                    .body-conexion main .menu__desplegable--conexion .nav li ul li ul .m5__item:hover {
+                      background-color: #e0de53b4;
+                      color: #ffffff; } }
 
 .grid__footer {
   bottom: 0%;
