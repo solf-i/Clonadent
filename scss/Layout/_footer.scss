@@ -9,8 +9,8 @@
   opacity: 0.6;
   font-size: 0.8rem;
   display: grid;
-  position: fixed;
-  grid-template: 25px 25px 25px 25px 25px / 1fr 1fr 1fr 1fr;
+  position: relative;
+  grid-template: 20px 20px 20px 20px 20px / 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "direccion  .   .   ."
     "telefono   telefono seguinos seguinos"
@@ -24,7 +24,8 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
-
+    margin: 5px 0px 0px 0px;
+    
     ion-icon {
       width: 20px;
       height: 20px;
@@ -42,6 +43,7 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
+    margin: 5px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
@@ -59,6 +61,7 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
+    margin: 5px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
@@ -76,6 +79,7 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
+    margin: 5px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
@@ -92,6 +96,7 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
+    margin: 5px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
@@ -107,7 +112,7 @@
         grid-area: web;
         display: flex;
         flex-direction: row;
-        margin: 0;
+        margin: 5px 0px 0px 0px;
         padding: 0;
       }
     }
