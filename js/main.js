@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
   
 $("#desplegar").click(function (e) {
@@ -49,11 +47,3 @@ $("#desplegar5").click(function (e) {
 });
 
 })
-
-$(document).ready(function() {
-     
-    $("#toggle").click(function() {
-    $("#elemento").toggle(1000);
-    });
-  });
-
