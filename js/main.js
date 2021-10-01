@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 $(document).ready(function(){
   
 $("#desplegar").click(function (e) {
@@ -50,14 +50,10 @@ $("#desplegar5").click(function (e) {
 
 })
 
-
-
-
-=======
 $(document).ready(function() {
      
     $("#toggle").click(function() {
     $("#elemento").toggle(1000);
     });
   });
->>>>>>> 3c512ad96e1abb16df1a6456d6ded59a5a0b6873
+
