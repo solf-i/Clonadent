@@ -135,8 +135,7 @@ body main {
               background-color: #ffffff;
               color: #4F2F7A;
               font-size: 0.9rem;
-              padding: 2% 4% 2% 4%;
-              display: none; }
+              padding: 2% 4% 2% 4%; }
               .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item:hover {
                 background-color: #4f2f7ab2;
                 color: #ffffff; }
@@ -176,8 +175,7 @@ body main {
               background-color: #ffffff;
               color: #EE2556;
               font-size: 0.9rem;
-              padding: 2% 4% 2% 4%;
-              display: none; }
+              padding: 2% 4% 2% 4%; }
               .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item:hover {
                 background-color: #ee2557a8;
                 color: #ffffff; }
@@ -217,8 +215,7 @@ body main {
               background-color: #ffffff;
               color: #161FCB;
               font-size: 0.9rem;
-              padding: 2% 4% 2% 4%;
-              display: none; }
+              padding: 2% 4% 2% 4%; }
               .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item:hover {
                 background-color: #161fcbad;
                 color: #ffffff; }
@@ -258,8 +255,7 @@ body main {
               background-color: #ffffff;
               color: #08A908;
               font-size: 0.9rem;
-              padding: 2% 4% 2% 4%;
-              display: none; }
+              padding: 2% 4% 2% 4%; }
               .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item:hover {
                 background-color: #08a908a9;
                 color: #ffffff; }
@@ -299,13 +295,28 @@ body main {
               background-color: #ffffff;
               color: #f2f924;
               font-size: 0.9rem;
-              padding: 2% 4% 2% 4%;
-              display: none; }
+              padding: 2% 4% 2% 4%; }
               .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item:hover {
                 background-color: #f2f924b4;
                 color: #ffffff; }
               .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item span {
                 margin-left: 10px; }
+  .body-rosca main .card {
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px 2px #a5a3a3; }
+    .body-rosca main .card .card-body {
+      height: 400px; }
+      .body-rosca main .card .card-body .card-title {
+        font-size: 1rem; }
+      .body-rosca main .card .card-body img {
+        width: 40%;
+        height: 300px; }
+      .body-rosca main .card .card-body .btn {
+        display: block;
+        width: 40%;
+        margin: auto;
+        margin-top: 1%; }
 
 /*HTML CONEXIÓN*/
 .body-conexion .conexion {
@@ -316,18 +327,30 @@ body main {
     margin: auto; }
 
 /*HTML PERIAPICAL*/
-.body-periapical .contenedor {
+.body-periapical {
   width: 100%; }
-  .body-periapical .contenedor img {
+  .body-periapical main {
     width: 100%;
-    height: auto; }
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto; }
+    .body-periapical main .card {
+      margin: 1%;
+      box-shadow: 2px 2px 2px 2px #a5a3a3; }
+      .body-periapical main .card .card-body {
+        height: 400px; }
+        .body-periapical main .card .card-body .card-title {
+          font-size: 1rem; }
+        .body-periapical main .card .card-body img {
+          width: 40%;
+          height: 300px; }
+        .body-periapical main .card .card-body .btn {
+          display: block;
+          width: 40%;
+          margin: auto;
+          margin-top: 1%; }
 
 @media only screen and (max-width: 700px) {
-  .body-periapical .contenedor {
-    width: 100%; }
-    .body-periapical .contenedor img {
-      width: 100%;
-      height: auto; }
   body main {
     padding: 2%;
     width: 100%; }
@@ -520,7 +543,7 @@ body main {
 
 @media only screen and (max-width: 600px) {
   .grid__footer {
-    margin-top: 40%;
+    margin-top: 20%;
     margin-bottom: 0%;
     padding: 0;
     width: 100%;

@@ -179,7 +179,7 @@ body {
                 color: #4F2F7A;
                 font-size: 0.9rem;
                 padding: 2% 4% 2% 4%; 
-                display: none;
+               
                                                     
     
                 &:hover {
@@ -235,8 +235,7 @@ body {
                 color:  #EE2556;                
                 font-size: 0.9rem;       
                 padding: 2% 4% 2% 4%;         
-                display: none;
-                                       
+                                                     
     
                 &:hover {
                   background-color: #ee2557a8;
@@ -291,8 +290,7 @@ body {
                 color: #161FCB;
                 font-size: 0.9rem;
                 padding: 2% 4% 2% 4%;
-                display: none;
-                                       
+                                                       
     
                 &:hover {
                   background-color:  #161fcbad;
@@ -345,7 +343,7 @@ body {
                 color: #08A908;
                 font-size: 0.9rem;
                 padding: 2% 4% 2% 4%;
-                display: none;                                       
+                                                
     
                 &:hover {
                   background-color:  #08a908a9;
@@ -398,7 +396,7 @@ body {
                 color: #f2f924;
                 font-size: 0.9rem;
                 padding: 2% 4% 2% 4%;
-                display: none;                    
+                             
     
                 &:hover {
                   background-color: #f2f924b4;
@@ -415,12 +413,34 @@ body {
         }            
             }
           }
-          
 
-      }
-        
+          .card{
+            margin: auto;
+            margin-top: 5%;
+            box-shadow: 2px 2px 2px 2px rgb(165, 163, 163); 
+            .card-body{
+              height: 400px;     
+              
+              .card-title{
+                font-size: 1rem;
+              }
+      
+              img{
+                width: 40%;
+                height: 300px;
+              }
+    
+              .btn{
+                display: block;
+                width: 40%;
+                margin: auto;
+                margin-top: 1%;
+              }
+      
+            }
+          }         
 
-
+      }    
 }
 
 /*HTML CONEXIÓN*/
@@ -444,28 +464,47 @@ body {
 /*HTML PERIAPICAL*/
 
 .body-periapical {
-.contenedor {
-  width: 100%;
 
-  img {
-    width: 100%;
-    height: auto;
+  width: 100%;  
+
+    main{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+
+      .card{
+        margin: 1%;
+        box-shadow: 2px 2px 2px 2px rgb(165, 163, 163); 
+        .card-body{
+          height: 400px;     
+          
+          .card-title{
+            font-size: 1rem;
+          }
+  
+          img{
+            width: 40%;
+            height: 300px;
+          }
+
+          .btn{
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 1%;
+          }
+  
+        }
+      }
+
   }
-}
+
 }
 
 
 @media only screen and (max-width: 700px) {
-  .body-periapical {
-    .contenedor {
-      width: 100%;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
+ 
 
 
   body {
