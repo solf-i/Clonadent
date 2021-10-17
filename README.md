@@ -7,6 +7,7 @@ HTML5
 CSS3
 Bootstrap
 SASS
+Javascript
 
 Autores ✒️
 Sol Ferri
