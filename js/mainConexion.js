@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
   
 $("#desplegar").click(function (e) {
 
@@ -113,4 +113,4 @@ $("#desplegar14").click(function (e) {
 });
 
 
-})
+
