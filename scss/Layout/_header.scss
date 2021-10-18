@@ -1,0 +1,27 @@
+header{
+  
+    width: 100%;
+ 
+    .wapp{
+        margin-left: 1420px;
+        margin-top: 500px;
+        position: fixed;      
+
+      }
+
+}
+
+@media only screen and (max-width: 700px) {
+  header{
+  
+    width: 100%;
+ 
+    .wapp{
+        margin-left: 290px;
+        margin-top: 70px;
+        position: fixed;      
+
+      }
+
+}
+}

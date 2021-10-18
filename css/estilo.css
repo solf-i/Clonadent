@@ -9,99 +9,181 @@
   width: 100%;
   height: 100%; }
 
-.bodyIndex {
-  background-color: #085c94; }
-  .bodyIndex main {
-    padding: 5%;
+.bodyIndex main {
+  width: 100%;
+  margin-bottom: 5%; }
+  .bodyIndex main .inicio {
+    background-image: url("../../imagenes/dentista.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     width: 100%;
-    margin-bottom: 5%; }
-    .bodyIndex main h1 {
+    padding-left: 1000px;
+    padding: 0; }
+    .bodyIndex main .inicio .topnav {
+      background-color: none;
+      overflow: hidden;
+      position: relative; }
+      .bodyIndex main .inicio .topnav .logo {
+        float: left;
+        position: relative;
+        margin: 1%; }
+      .bodyIndex main .inicio .topnav #myLinks {
+        display: none; }
+        .bodyIndex main .inicio .topnav #myLinks a {
+          float: right;
+          color: #259e94;
+          font-weight: bold;
+          text-align: end;
+          padding: 1% 1%;
+          text-decoration: none;
+          font-size: 1.7rem;
+          margin-right: 2%;
+          display: block;
+          position: relative; }
+          .bodyIndex main .inicio .topnav #myLinks a:hover {
+            background: rgba(248, 246, 246, 0.4); }
+      .bodyIndex main .inicio .topnav .icon {
+        background: rgba(37, 158, 148, 0.5);
+        height: 48px;
+        width: 48px;
+        text-align: center;
+        padding-top: .5%;
+        text-shadow: 2px 2px 3px #000;
+        margin: 1%;
+        position: relative;
+        right: 20px;
+        top: 0px;
+        float: right; }
+        .bodyIndex main .inicio .topnav .icon i {
+          font-size: 2rem;
+          padding: 0;
+          color: #f7f7f7; }
+    .bodyIndex main .inicio h1 {
+      text-align: right;
+      padding-right: 10%;
+      margin-top: 150px;
+      color: #259e94;
+      font-size: 3rem; }
+  .bodyIndex main section {
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 900px;
+    position: absolute;
+    top: 320px;
+    z-index: 1; }
+    .bodyIndex main section .cuadro1, .bodyIndex main section .cuadro2, .bodyIndex main section .cuadro3 {
+      margin-top: 1%;
+      box-sizing: border-box;
+      width: 20%;
+      height: 80px;
+      justify-content: center;
+      transition: all 1s;
+      border-radius: 0px;
+      background: #4db399;
+      box-shadow: -5px 5px 12px #235246, 5px -5px 12px #77ffec;
+      display: flex; }
+      .bodyIndex main section .cuadro1 a, .bodyIndex main section .cuadro2 a, .bodyIndex main section .cuadro3 a {
+        outline: none;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 5%; }
+    .bodyIndex main section .cuadro1:hover, .bodyIndex main section .cuadro2:hover, .bodyIndex main section .cuadro3:hover {
+      transform: scale(1.2, 1.2);
+      cursor: pointer; }
+    .bodyIndex main section .cuadro2:hover {
+      transform: scale(1.2, 1.2);
+      cursor: pointer; }
+    .bodyIndex main section .cuadro3:hover {
+      transform: scale(1.2, 1.2);
+      cursor: pointer; }
+  .bodyIndex main .calibre {
+    width: 100%; }
+    .bodyIndex main .calibre h2 {
       text-align: center;
-      color: #e7d4d4; }
-    .bodyIndex main section {
-      display: flex;
-      justify-content: space-evenly;
-      align-content: center;
-      flex-direction: row;
-      vertical-align: middle;
-      flex-wrap: wrap;
-      width: 100%; }
-      .bodyIndex main section .cuadro1 {
-        margin-top: 3%;
-        box-sizing: border-box;
-        width: 20%;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 1s;
-        border-radius: 22px;
-        background: linear-gradient(145deg, #075385, #09629e);
-        box-shadow: 7px 7px 14px #03263d, -7px -7px 14px #0d92eb; }
-        .bodyIndex main section .cuadro1 a {
-          outline: none;
-          text-decoration: none;
-          color: #e7d4d4;
-          font-size: 1.5rem;
-          font-weight: bolder;
-          display: flex; }
-      .bodyIndex main section .cuadro1:hover {
-        transform: scale(1.2, 1.2);
-        cursor: pointer; }
-      .bodyIndex main section .cuadro2 {
-        margin-top: 3%;
-        box-sizing: border-box;
-        width: 20%;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 1s;
-        border-radius: 22px;
-        background: linear-gradient(145deg, #075385, #09629e);
-        box-shadow: 7px 7px 14px #03263d, -7px -7px 14px #0d92eb; }
-        .bodyIndex main section .cuadro2 a {
-          outline: none;
-          text-decoration: none;
-          color: #e7d4d4;
-          font-size: 1.5rem;
-          font-weight: bolder;
-          display: flex; }
-      .bodyIndex main section .cuadro2:hover {
-        transform: scale(1.2, 1.2);
-        cursor: pointer; }
-      .bodyIndex main section .cuadro3 {
-        margin-top: 3%;
-        box-sizing: border-box;
-        width: 20%;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 1s;
-        border-radius: 22px;
-        background: linear-gradient(145deg, #075385, #09629e);
-        box-shadow: 7px 7px 14px #03263d, -7px -7px 14px #0d92eb; }
-        .bodyIndex main section .cuadro3 a {
-          outline: none;
-          text-decoration: none;
-          color: #e7d4d4;
-          font-size: 1.5rem;
-          font-weight: bolder;
-          display: flex; }
-      .bodyIndex main section .cuadro3:hover {
-        transform: scale(1.2, 1.2);
-        cursor: pointer; }
+      font-size: 3rem;
+      padding-top: 2%;
+      color: #259e94; }
+    .bodyIndex main .calibre p {
+      text-align: center;
+      font-size: 2rem;
+      padding-top: 1%;
+      color: #1b8d84; }
+    .bodyIndex main .calibre .img {
+      text-align: center; }
 
 /*HTML ROSCA*/
 .body-rosca main {
-  width: 100%; }
-  .body-rosca main h1 {
-    text-align: center;
-    color: #325697; }
-  .body-rosca main .menu__desplegable {
-    position: relative; }
-    .body-rosca main .menu__desplegable .nav .m1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px; }
+  .body-rosca main .inicio {
+    background-image: url("../../imagenes/dentista.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    padding-left: 1000px;
+    padding: 0; }
+    .body-rosca main .inicio .topnav {
+      background-color: none;
+      overflow: hidden;
+      position: relative; }
+      .body-rosca main .inicio .topnav .logo {
+        float: left;
+        position: relative;
+        margin: 1%; }
+      .body-rosca main .inicio .topnav #myLinks {
+        display: none; }
+        .body-rosca main .inicio .topnav #myLinks a {
+          float: right;
+          color: #259e94;
+          font-weight: bold;
+          text-align: end;
+          padding: 1% 1%;
+          text-decoration: none;
+          font-size: 1.7rem;
+          margin-right: 2%;
+          display: block;
+          position: relative; }
+          .body-rosca main .inicio .topnav #myLinks a:hover {
+            background: rgba(248, 246, 246, 0.4); }
+      .body-rosca main .inicio .topnav .icon {
+        background: rgba(37, 158, 148, 0.5);
+        height: 48px;
+        width: 48px;
+        text-align: center;
+        padding-top: .5%;
+        text-shadow: 2px 2px 3px #000;
+        margin: 1%;
+        position: relative;
+        right: 20px;
+        top: 0px;
+        float: right; }
+        .body-rosca main .inicio .topnav .icon i {
+          font-size: 2rem;
+          padding: 0;
+          color: #f7f7f7; }
+    .body-rosca main .inicio h1 {
+      margin-left: 1100px;
+      padding-right: 10%;
+      margin-top: 40px;
+      color: #259e94;
+      font-size: 3rem; }
+  .body-rosca main .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 700px;
+    position: absolute;
+    top: 220px; }
+    .body-rosca main .container .menu__desplegable .nav .m1 {
       text-decoration: none;
       background-color: #4f2f7a;
       width: 300px;
@@ -111,7 +193,7 @@
       padding: 2% 0% 2% 0%;
       margin: 2% 0% 2% 0%;
       display: block; }
-      .body-rosca main .menu__desplegable .nav .m1 ul {
+      .body-rosca main .container .menu__desplegable .nav .m1 ul {
         padding: 0;
         margin: 0%;
         top: 100%;
@@ -119,7 +201,7 @@
         height: auto;
         display: none;
         background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m1 ul .m1 {
+        .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 {
           text-decoration: none;
           background-color: #4f2f7a;
           width: 300px;
@@ -129,7 +211,7 @@
           padding: 2% 0% 2% 0%;
           margin: 2% 0% 2% 0%;
           display: block; }
-          .body-rosca main .menu__desplegable .nav .m1 ul .m1 ul {
+          .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 ul {
             padding: 0;
             margin: 0%;
             top: 100%;
@@ -137,7 +219,7 @@
             height: auto;
             display: none;
             background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m1 ul li {
+        .body-rosca main .container .menu__desplegable .nav .m1 ul li {
           list-style: none;
           text-decoration: none;
           color: #ffffff;
@@ -146,7 +228,7 @@
           float: none;
           margin: 5px;
           padding: 2% 0% 2% 0%; }
-          .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item {
+          .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -154,12 +236,12 @@
             color: #4f2f7a;
             font-size: 0.9rem;
             padding: 2% 4% 2% 4%; }
-            .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item:hover {
+            .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item:hover {
               background-color: #4f2f7ab2;
               color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item span {
+            .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item span {
               margin-left: 10px; }
-    .body-rosca main .menu__desplegable .nav .m2 {
+    .body-rosca main .container .menu__desplegable .nav .m2 {
       text-decoration: none;
       background-color: #ee2556;
       width: 300px;
@@ -169,7 +251,7 @@
       padding: 2% 0% 2% 0%;
       margin: 2% 0% 2% 0%;
       display: block; }
-      .body-rosca main .menu__desplegable .nav .m2 ul {
+      .body-rosca main .container .menu__desplegable .nav .m2 ul {
         padding: 0;
         margin: 0%;
         top: 100%;
@@ -177,7 +259,7 @@
         height: auto;
         display: none;
         background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m2 ul li {
+        .body-rosca main .container .menu__desplegable .nav .m2 ul li {
           list-style: none;
           text-decoration: none;
           color: #ffffff;
@@ -186,7 +268,7 @@
           float: none;
           margin: 5px;
           padding: 2% 0% 2% 0%; }
-          .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item {
+          .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -194,12 +276,12 @@
             color: #ee2556;
             font-size: 0.9rem;
             padding: 2% 4% 2% 4%; }
-            .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item:hover {
+            .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item:hover {
               background-color: #ee2557a8;
               color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item span {
+            .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item span {
               margin-left: 10px; }
-    .body-rosca main .menu__desplegable .nav .m3 {
+    .body-rosca main .container .menu__desplegable .nav .m3 {
       text-decoration: none;
       background-color: #161fcb;
       width: 300px;
@@ -209,7 +291,7 @@
       padding: 2% 0% 2% 0%;
       margin: 2% 0% 2% 0%;
       display: block; }
-      .body-rosca main .menu__desplegable .nav .m3 ul {
+      .body-rosca main .container .menu__desplegable .nav .m3 ul {
         padding: 0;
         margin: 0%;
         top: 100%;
@@ -217,7 +299,7 @@
         height: auto;
         display: none;
         background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m3 ul li {
+        .body-rosca main .container .menu__desplegable .nav .m3 ul li {
           list-style: none;
           text-decoration: none;
           color: #ffffff;
@@ -226,7 +308,7 @@
           float: none;
           margin: 5px;
           padding: 2% 0% 2% 0%; }
-          .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item {
+          .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -234,12 +316,12 @@
             color: #161fcb;
             font-size: 0.9rem;
             padding: 2% 4% 2% 4%; }
-            .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item:hover {
+            .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item:hover {
               background-color: #161fcbad;
               color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item span {
+            .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item span {
               margin-left: 10px; }
-    .body-rosca main .menu__desplegable .nav .m4 {
+    .body-rosca main .container .menu__desplegable .nav .m4 {
       text-decoration: none;
       background-color: #08a908;
       width: 300px;
@@ -249,7 +331,7 @@
       padding: 2% 0% 2% 0%;
       margin: 2% 0% 2% 0%;
       display: block; }
-      .body-rosca main .menu__desplegable .nav .m4 ul {
+      .body-rosca main .container .menu__desplegable .nav .m4 ul {
         padding: 0;
         margin: 0%;
         top: 100%;
@@ -257,7 +339,7 @@
         height: auto;
         display: none;
         background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m4 ul li {
+        .body-rosca main .container .menu__desplegable .nav .m4 ul li {
           list-style: none;
           text-decoration: none;
           color: #ffffff;
@@ -266,7 +348,7 @@
           float: none;
           margin: 5px;
           padding: 2% 0% 2% 0%; }
-          .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item {
+          .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -274,12 +356,12 @@
             color: #08a908;
             font-size: 0.9rem;
             padding: 2% 4% 2% 4%; }
-            .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item:hover {
+            .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item:hover {
               background-color: #08a908a9;
               color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item span {
+            .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item span {
               margin-left: 10px; }
-    .body-rosca main .menu__desplegable .nav .m5 {
+    .body-rosca main .container .menu__desplegable .nav .m5 {
       text-decoration: none;
       background-color: #f2f924;
       width: 300px;
@@ -289,7 +371,7 @@
       padding: 2% 0% 2% 0%;
       margin: 2% 0% 2% 0%;
       display: block; }
-      .body-rosca main .menu__desplegable .nav .m5 ul {
+      .body-rosca main .container .menu__desplegable .nav .m5 ul {
         padding: 0;
         margin: 0%;
         top: 100%;
@@ -297,7 +379,7 @@
         height: auto;
         display: none;
         background: #fff; }
-        .body-rosca main .menu__desplegable .nav .m5 ul li {
+        .body-rosca main .container .menu__desplegable .nav .m5 ul li {
           list-style: none;
           text-decoration: none;
           color: #ffffff;
@@ -306,7 +388,7 @@
           float: none;
           margin: 5px;
           padding: 2% 0% 2% 0%; }
-          .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item {
+          .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -314,10 +396,10 @@
             color: #f2f924;
             font-size: 0.9rem;
             padding: 2% 4% 2% 4%; }
-            .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item:hover {
+            .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item:hover {
               background-color: #f2f924b4;
               color: #ffffff; }
-            .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item span {
+            .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item span {
               margin-left: 10px; }
   .body-rosca main .card {
     margin: auto;
@@ -339,16 +421,71 @@
 /*HTML CONEXIÓN*/
 .body-conexion {
   width: 100%; }
-  .body-conexion .container {
+  .body-conexion main {
     width: 100%;
-    margin-bottom: 140px; }
-    .body-conexion .container h1 {
-      padding-top: 2%;
-      text-align: center;
-      color: #000; }
-    .body-conexion .container .menu__desplegable--conexion {
-      margin-bottom: 4%; }
-      .body-conexion .container .menu__desplegable--conexion .nav .m1 {
+    margin-bottom: 400px; }
+    .body-conexion main .inicio {
+      background-image: url("../../imagenes/dentista.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      padding-left: 1000px;
+      padding: 0; }
+      .body-conexion main .inicio .topnav {
+        background-color: none;
+        overflow: hidden;
+        position: relative; }
+        .body-conexion main .inicio .topnav .logo {
+          float: left;
+          position: relative;
+          margin: 1%; }
+        .body-conexion main .inicio .topnav #myLinks {
+          display: none; }
+          .body-conexion main .inicio .topnav #myLinks a {
+            float: right;
+            color: #259e94;
+            font-weight: bold;
+            text-align: end;
+            padding: 1% 1%;
+            text-decoration: none;
+            font-size: 1.7rem;
+            margin-right: 2%;
+            display: block;
+            position: relative; }
+            .body-conexion main .inicio .topnav #myLinks a:hover {
+              background: rgba(248, 246, 246, 0.4); }
+        .body-conexion main .inicio .topnav .icon {
+          background: rgba(37, 158, 148, 0.5);
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          padding-top: .5%;
+          text-shadow: 2px 2px 3px #000;
+          margin: 1%;
+          position: relative;
+          right: 20px;
+          top: 0px;
+          float: right; }
+          .body-conexion main .inicio .topnav .icon i {
+            font-size: 2rem;
+            padding: 0;
+            color: #f7f7f7; }
+      .body-conexion main .inicio h1 {
+        margin-left: 1050px;
+        padding-right: 10%;
+        margin-top: 40px;
+        color: #259e94;
+        font-size: 3rem; }
+    .body-conexion main .container {
+      display: block;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 60%;
+      margin-left: 1000px;
+      position: absolute;
+      top: 250px; }
+      .body-conexion main .container .menu__desplegable--conexion .nav .m1 {
         text-decoration: none;
         background-color: #4f2f7a;
         width: 300px;
@@ -358,7 +495,7 @@
         padding: 2% 0% 2% 0%;
         margin: 2% 0% 2% 0%;
         display: block; }
-        .body-conexion .container .menu__desplegable--conexion .nav .m1 ul {
+        .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul {
           padding: 0%;
           margin: 0%;
           top: 100%;
@@ -368,7 +505,7 @@
           background: #fff;
           display: none;
           list-style: none; }
-          .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m2__item {
+          .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -377,12 +514,12 @@
             font-size: 1rem;
             padding: 2% 4% 2% 2%;
             height: 40px; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m2__item:hover {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item:hover {
               background-color: #ee2557a8;
               color: #ffffff; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m2__item span {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item span {
               margin-left: 10px; }
-          .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 {
+          .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 {
             text-decoration: none;
             background-color: #4f2f7a;
             width: 300px;
@@ -394,7 +531,7 @@
             display: block;
             text-decoration: none;
             list-style-type: none; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul {
               padding: 0%;
               margin: 0%;
               top: 100%;
@@ -403,7 +540,7 @@
               display: none;
               background: #fff;
               display: none; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item {
                 display: block;
                 text-decoration: none;
                 list-style-type: none;
@@ -412,12 +549,12 @@
                 font-size: 1rem;
                 padding: 2% 4% 2% 2%;
                 height: 40px; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item:hover {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item:hover {
                   background-color: #4f2f7ab2;
                   color: #ffffff; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item span {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item span {
                   margin-left: 10px; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item {
                 display: block;
                 text-decoration: none;
                 list-style-type: none;
@@ -426,12 +563,12 @@
                 font-size: 1rem;
                 padding: 2% 4% 2% 2%;
                 height: 40px; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item:hover {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item:hover {
                   background-color: #ee2557a8;
                   color: #ffffff; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item span {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item span {
                   margin-left: 10px; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item {
                 display: block;
                 text-decoration: none;
                 list-style-type: none;
@@ -440,12 +577,12 @@
                 font-size: 1rem;
                 padding: 2% 4% 2% 2%;
                 height: 40px; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item:hover {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item:hover {
                   background-color: #08a908a9;
                   color: #ffffff; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item span {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item span {
                   margin-left: 10px; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item {
                 display: block;
                 text-decoration: none;
                 list-style-type: none;
@@ -454,12 +591,12 @@
                 font-size: 1rem;
                 padding: 2% 4% 2% 2%;
                 height: 40px; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item:hover {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item:hover {
                   background-color: #f2f924b4;
                   color: #ffffff; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item span {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item span {
                   margin-left: 10px; }
-      .body-conexion .container .menu__desplegable--conexion .nav .m2 {
+      .body-conexion main .container .menu__desplegable--conexion .nav .m2 {
         text-decoration: none;
         background-color: #ee2556;
         width: 300px;
@@ -469,7 +606,7 @@
         padding: 2% 0% 2% 0%;
         margin: 2% 0% 2% 0%;
         display: block; }
-        .body-conexion .container .menu__desplegable--conexion .nav .m2 ul {
+        .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul {
           padding: 0;
           margin: 0%;
           top: 100%;
@@ -479,7 +616,7 @@
           background: #fff;
           display: none;
           list-style: none; }
-          .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 {
+          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 {
             text-decoration: none;
             background-color: #ee2556;
             width: 300px;
@@ -491,7 +628,7 @@
             display: block;
             text-decoration: none;
             list-style-type: none; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul {
               padding: 0;
               margin: 0%;
               top: 100%;
@@ -500,7 +637,7 @@
               display: none;
               background: #fff;
               display: none; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
                 text-decoration: none;
                 background-color: #ee2556;
                 width: 300px;
@@ -510,7 +647,7 @@
                 padding: 2% 0% 2% 0%;
                 margin: 2% 0% 2% 0%;
                 display: block; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul {
                   padding: 0;
                   margin: 0%;
                   top: 100%;
@@ -519,7 +656,7 @@
                   display: none;
                   background: #fff;
                   display: none; }
-                  .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item {
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item {
                     display: block;
                     text-decoration: none;
                     list-style-type: none;
@@ -528,12 +665,12 @@
                     font-size: 1rem;
                     padding: 2% 4% 2% 2%;
                     height: 40px; }
-                    .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item:hover {
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item:hover {
                       background-color: #4f2f7ab2;
                       color: #ffffff; }
-                    .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item span {
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item span {
                       margin-left: 10px; }
-                  .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item {
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item {
                     display: block;
                     text-decoration: none;
                     list-style-type: none;
@@ -542,12 +679,12 @@
                     font-size: 1rem;
                     padding: 2% 4% 2% 2%;
                     height: 40px; }
-                    .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item:hover {
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item:hover {
                       background-color: #ee2557a8;
                       color: #ffffff; }
-                    .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item span {
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item span {
                       margin-left: 10px; }
-              .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item {
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item {
                 display: block;
                 text-decoration: none;
                 list-style-type: none;
@@ -556,12 +693,12 @@
                 font-size: 1rem;
                 padding: 2% 4% 2% 2%;
                 height: 40px; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item:hover {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item:hover {
                   background-color: #ee2557a8;
                   color: #ffffff; }
-                .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item span {
+                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item span {
                   margin-left: 10px; }
-          .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m1__item {
+          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -570,12 +707,12 @@
             font-size: 1rem;
             padding: 2% 4% 2% 2%;
             height: 40px; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m1__item:hover {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item:hover {
               background-color: #4f2f7ab2;
               color: #ffffff; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m1__item span {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item span {
               margin-left: 10px; }
-          .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m4__item {
+          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item {
             display: block;
             text-decoration: none;
             list-style-type: none;
@@ -584,27 +721,76 @@
             font-size: 1rem;
             padding: 2% 4% 2% 2%;
             height: 40px; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m4__item:hover {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item:hover {
               background-color: #08a908a9;
               color: #ffffff; }
-            .body-conexion .container .menu__desplegable--conexion .nav .m2 ul .m4__item span {
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item span {
               margin-left: 10px; }
 
 /*HTML PERIAPICAL*/
 .body-periapical {
   width: 100%; }
   .body-periapical main {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
-    margin: auto; }
+    margin-left: 2%; }
+    .body-periapical main .inicio {
+      width: 100%;
+      padding-left: 1000px;
+      padding: 0; }
+      .body-periapical main .inicio .topnav {
+        background-color: none;
+        overflow: hidden;
+        position: relative; }
+        .body-periapical main .inicio .topnav .logo {
+          float: left;
+          position: relative;
+          margin: 1%; }
+        .body-periapical main .inicio .topnav #myLinks {
+          display: none; }
+          .body-periapical main .inicio .topnav #myLinks a {
+            float: right;
+            color: #259e94;
+            font-weight: bold;
+            text-align: end;
+            padding: 1% 1%;
+            text-decoration: none;
+            font-size: 1.7rem;
+            margin-right: 2%;
+            display: block;
+            position: relative; }
+            .body-periapical main .inicio .topnav #myLinks a:hover {
+              background: rgba(248, 246, 246, 0.4); }
+        .body-periapical main .inicio .topnav .icon {
+          background: rgba(37, 158, 148, 0.5);
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          padding-top: .5%;
+          text-shadow: 2px 2px 3px #000;
+          margin: 1%;
+          position: relative;
+          right: 20px;
+          top: 0px;
+          float: right; }
+          .body-periapical main .inicio .topnav .icon i {
+            font-size: 2rem;
+            padding: 0;
+            color: #f7f7f7; }
+      .body-periapical main .inicio h1 {
+        text-align: center;
+        color: #259e94;
+        font-size: 3rem;
+        padding-bottom: 2%; }
     .body-periapical main .card {
-      margin: 1%;
-      box-shadow: 2px 2px 2px 2px #a5a3a3; }
+      box-shadow: 2px 2px 2px 2px #a5a3a3;
+      margin: .8%; }
       .body-periapical main .card .card-body {
         height: 400px; }
         .body-periapical main .card .card-body .card-title {
-          font-size: 1rem; }
+          font-size: 1rem;
+          font-weight: bold; }
         .body-periapical main .card .card-body img {
           width: 40%;
           height: 300px; }
@@ -614,294 +800,527 @@
           margin: auto;
           margin-top: 1%; }
 
+.body-periapicalIndividual {
+  width: 100%; }
+  .body-periapicalIndividual main {
+    margin-bottom: 100px; }
+    .body-periapicalIndividual main .inicio {
+      width: 100%;
+      padding-left: 1000px;
+      padding: 0; }
+      .body-periapicalIndividual main .inicio .topnav {
+        background-color: none;
+        overflow: hidden;
+        position: relative; }
+        .body-periapicalIndividual main .inicio .topnav .logo {
+          float: left;
+          position: relative;
+          margin: 1%; }
+        .body-periapicalIndividual main .inicio .topnav #myLinks {
+          display: none; }
+          .body-periapicalIndividual main .inicio .topnav #myLinks a {
+            float: right;
+            color: #259e94;
+            font-weight: bold;
+            text-align: end;
+            padding: 1% 1%;
+            text-decoration: none;
+            font-size: 1.7rem;
+            margin-right: 2%;
+            display: block;
+            position: relative; }
+            .body-periapicalIndividual main .inicio .topnav #myLinks a:hover {
+              background: rgba(248, 246, 246, 0.4); }
+        .body-periapicalIndividual main .inicio .topnav .icon {
+          background: rgba(37, 158, 148, 0.5);
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          padding-top: .5%;
+          text-shadow: 2px 2px 3px #000;
+          margin: 1%;
+          position: relative;
+          right: 20px;
+          top: 0px;
+          float: right; }
+          .body-periapicalIndividual main .inicio .topnav .icon i {
+            font-size: 2rem;
+            padding: 0;
+            color: #f7f7f7; }
+      .body-periapicalIndividual main .inicio h1 {
+        text-align: center;
+        color: #259e94;
+        font-size: 3rem;
+        padding-bottom: 2%; }
+    .body-periapicalIndividual main .card {
+      box-shadow: 2px 2px 2px 2px #a5a3a3;
+      margin: auto; }
+      .body-periapicalIndividual main .card .card-body {
+        height: 440px; }
+        .body-periapicalIndividual main .card .card-body .card-title {
+          font-size: 1rem;
+          font-weight: bold; }
+        .body-periapicalIndividual main .card .card-body img {
+          width: 40%;
+          height: 300px; }
+        .body-periapicalIndividual main .card .card-body .btn {
+          display: block;
+          width: 40%;
+          margin: auto;
+          margin-top: 1%; }
+
 @media only screen and (max-width: 700px) {
   .bodyIndex main {
-    padding: 2%;
-    width: 100%; }
-    .bodyIndex main h1 {
-      text-align: center;
-      font-size: 1.3rem;
-      padding-top: 5%;
-      color: #325697; }
+    padding: 0%;
+    width: 100%;
+    margin-bottom: 0; }
+    .bodyIndex main .inicio {
+      background-image: url("../../imagenes/dentista.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+      padding-left: 1000px;
+      padding: 0; }
+      .bodyIndex main .inicio .topnav {
+        background-color: none;
+        overflow: hidden;
+        position: relative; }
+        .bodyIndex main .inicio .topnav .logo {
+          float: left;
+          position: relative;
+          margin: 1%; }
+        .bodyIndex main .inicio .topnav #myLinks {
+          display: none;
+          width: 200px;
+          height: 400px;
+          margin: auto;
+          flex-direction: row-reverse; }
+          .bodyIndex main .inicio .topnav #myLinks a {
+            float: none;
+            top: 30px;
+            right: 10px;
+            color: #259e94;
+            font-weight: bold;
+            text-align: end;
+            background-color: rgba(245, 245, 245, 0.8);
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin-right: .2%;
+            display: block;
+            position: relative; }
+            .bodyIndex main .inicio .topnav #myLinks a:hover {
+              background: rgba(248, 246, 246, 0.4); }
+        .bodyIndex main .inicio .topnav .icon {
+          background: rgba(37, 158, 148, 0.5);
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          padding-top: 1%;
+          text-shadow: 2px 2px 3px #000;
+          margin: 1%;
+          position: relative;
+          right: 20px;
+          top: 0px;
+          float: right; }
+          .bodyIndex main .inicio .topnav .icon i {
+            font-size: 2rem;
+            padding: 0;
+            color: #f7f7f7; }
+      .bodyIndex main .inicio h1 {
+        text-align: center;
+        padding-right: 0;
+        margin-top: 300px;
+        color: #259e94;
+        font-size: 2rem; }
     .bodyIndex main section {
-      display: flex;
+      display: block;
       justify-content: space-evenly;
-      align-content: center;
-      flex-direction: column;
       flex-wrap: wrap;
       width: 150px;
-      margin: auto;
-      margin-top: 4%; }
-      .bodyIndex main section .cuadro1 {
+      margin-left: 90px;
+      position: absolute;
+      top: 450px;
+      z-index: 1; }
+      .bodyIndex main section .cuadro1, .bodyIndex main section .cuadro2, .bodyIndex main section .cuadro3 {
+        margin-top: 1%;
         box-sizing: border-box;
-        width: 150px;
+        width: 200px;
         height: 70px;
-        margin-bottom: 25px;
-        border-radius: 20px;
-        background: linear-gradient(145deg, #033261 0%, #4274a7 64%, #83a3c4 100%);
-        box-shadow: 11px 11px 5px #5a5a5a;
-        transition: all 1s; }
-        .bodyIndex main section .cuadro1 a {
+        justify-content: center;
+        transition: all 1s;
+        border-radius: 0px;
+        background: #4db399;
+        box-shadow: -5px 5px 12px #235246, 5px -5px 12px #77ffec;
+        display: flex; }
+        .bodyIndex main section .cuadro1 a, .bodyIndex main section .cuadro2 a, .bodyIndex main section .cuadro3 a {
           outline: none;
           text-decoration: none;
-          color: #ffffff;
-          font-size: 1rem;
+          color: #fff;
+          font-size: 1.5rem;
           font-weight: bolder;
-          display: flex;
-          text-align: center; }
-      .bodyIndex main section .cuadro1:hover {
+          text-align: center;
+          padding-top: 10%; }
+      .bodyIndex main section .cuadro1:hover, .bodyIndex main section .cuadro2:hover, .bodyIndex main section .cuadro3:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
       .bodyIndex main section .cuadro2 {
+        margin-top: 5%;
         box-sizing: border-box;
-        width: 150px;
+        width: 200px;
         height: 70px;
-        margin-bottom: 25px;
-        border-radius: 20px;
-        background: linear-gradient(145deg, #033261 0%, #4274a7 64%, #83a3c4 100%);
-        box-shadow: 11px 11px 5px #5a5a5a;
-        transition: all 1s; }
+        justify-content: center;
+        transition: all 1s;
+        border-radius: 0px;
+        background: #4db399;
+        box-shadow: -5px 5px 12px #235246, 5px -5px 12px #77ffec;
+        display: flex; }
         .bodyIndex main section .cuadro2 a {
           outline: none;
           text-decoration: none;
-          color: #ffffff;
-          font-size: 1rem;
+          color: #fff;
+          font-size: 1.5rem;
           font-weight: bolder;
-          display: flex;
-          text-align: center; }
+          text-align: center;
+          padding-top: 10%; }
       .bodyIndex main section .cuadro2:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
       .bodyIndex main section .cuadro3 {
+        margin-top: 5%;
         box-sizing: border-box;
-        width: 150px;
+        width: 200px;
         height: 70px;
-        margin-bottom: 25px;
-        border-radius: 20px;
-        background: linear-gradient(145deg, #033261 0%, #4274a7 64%, #83a3c4 100%);
-        box-shadow: 11px 11px 5px #5a5a5a;
-        transition: all 1s; }
+        justify-content: center;
+        transition: all 1s;
+        border-radius: 0px;
+        background: #4db399;
+        box-shadow: -5px 5px 12px #235246, 5px -5px 12px #77ffec;
+        display: flex; }
         .bodyIndex main section .cuadro3 a {
           outline: none;
           text-decoration: none;
-          color: #ffffff;
-          font-size: 1rem;
+          color: #fff;
+          font-size: 1.5rem;
           font-weight: bolder;
-          display: flex;
-          text-align: center; }
+          text-align: center;
+          padding-top: 10%; }
       .bodyIndex main section .cuadro3:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
-  .body-rosca .contenedor {
-    width: 100%;
-    margin-bottom: 0; }
+    .bodyIndex main .calibre {
+      width: 100%;
+      margin-top: 300px;
+      padding-bottom: 0; }
+      .bodyIndex main .calibre h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        padding-top: 2%;
+        color: #259e94; }
+      .bodyIndex main .calibre p {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 1%;
+        color: #1b8d84; }
+      .bodyIndex main .calibre .img {
+        text-align: center; }
+        .bodyIndex main .calibre .img img {
+          height: 100px;
+          width: 300px; }
   .body-rosca main {
-    width: 100%; }
-    .body-rosca main h1 {
-      text-align: center;
-      color: #325697; }
-    .body-rosca main .menu__desplegable {
-      position: relative; }
-      .body-rosca main .menu__desplegable .nav .m1 {
-        text-decoration: none;
-        background-color: #4f2f7a;
-        width: 300px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        padding: 2% 0% 2% 0%;
-        margin: 2% 0% 2% 0%;
-        display: block; }
-        .body-rosca main .menu__desplegable .nav .m1 ul {
-          padding: 0;
-          margin: 0%;
-          top: 100%;
-          left: 0;
-          height: auto;
+    width: 100%;
+    height: auto; }
+    .body-rosca main .inicio {
+      background-image: url("../../imagenes/dentista.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+      padding-left: 1000px;
+      padding: 0;
+      margin-bottom: 0;
+      margin-bottom: 0; }
+      .body-rosca main .inicio .topnav {
+        background-color: none;
+        overflow: hidden;
+        position: relative; }
+        .body-rosca main .inicio .topnav .logo {
+          float: left;
+          position: relative;
+          margin: 1%; }
+        .body-rosca main .inicio .topnav #myLinks {
           display: none;
-          background: #fff; }
-          .body-rosca main .menu__desplegable .nav .m1 ul li {
-            list-style: none;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 1rem;
-            text-align: left;
+          width: 200px;
+          height: 400px;
+          margin: auto;
+          flex-direction: row-reverse; }
+          .body-rosca main .inicio .topnav #myLinks a {
             float: none;
-            margin: 5px;
-            padding: 2% 0% 2% 0%; }
-            .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #4f2f7a;
-              font-size: 0.9rem;
-              padding: 2% 4% 2% 4%; }
-              .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item:hover {
-                background-color: #4f2f7ab2;
-                color: #ffffff; }
-              .body-rosca main .menu__desplegable .nav .m1 ul li .m1__item span {
-                margin-left: 10px; }
-      .body-rosca main .menu__desplegable .nav .m2 {
-        text-decoration: none;
-        background-color: #ee2556;
-        width: 300px;
-        font-weight: bold;
-        color: #ffffff;
+            top: 30px;
+            right: 10px;
+            color: #259e94;
+            font-weight: bold;
+            text-align: end;
+            background-color: rgba(245, 245, 245, 0.8);
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin-right: .2%;
+            display: block;
+            position: relative; }
+            .body-rosca main .inicio .topnav #myLinks a:hover {
+              background: rgba(248, 246, 246, 0.4); }
+        .body-rosca main .inicio .topnav .icon {
+          background: rgba(37, 158, 148, 0.5);
+          height: 48px;
+          width: 48px;
+          text-align: center;
+          padding-top: 1%;
+          text-shadow: 2px 2px 3px #000;
+          margin: 1%;
+          position: relative;
+          right: 20px;
+          top: 0px;
+          float: right; }
+          .body-rosca main .inicio .topnav .icon i {
+            font-size: 2rem;
+            padding: 0;
+            color: #f7f7f7; }
+      .body-rosca main .inicio h1 {
         text-align: center;
-        padding: 2% 0% 2% 0%;
-        margin: 2% 0% 2% 0%;
-        display: block; }
-        .body-rosca main .menu__desplegable .nav .m2 ul {
-          padding: 0;
-          margin: 0%;
-          top: 100%;
-          left: 0;
-          height: auto;
-          display: none;
-          background: #fff; }
-          .body-rosca main .menu__desplegable .nav .m2 ul li {
-            list-style: none;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 1rem;
-            text-align: left;
-            float: none;
-            margin: 5px;
-            padding: 2% 0% 2% 0%; }
-            .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item {
-              display: block;
+        padding-right: 0;
+        margin-left: 0px;
+        margin-top: 320px;
+        color: #259e94;
+        font-size: 2rem; }
+    .body-rosca main .container {
+      display: block;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 150px;
+      margin-left: 30px;
+      position: relative;
+      top: 40px; }
+      .body-rosca main .container .menu__desplegable {
+        padding-top: 0; }
+        .body-rosca main .container .menu__desplegable .nav .m1 {
+          text-decoration: none;
+          background-color: #4f2f7a;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-rosca main .container .menu__desplegable .nav .m1 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 {
               text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #ee2556;
-              font-size: 0.9rem;
-              padding: 2% 4% 2% 4%; }
-              .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item:hover {
-                background-color: #ee2557a8;
-                color: #ffffff; }
-              .body-rosca main .menu__desplegable .nav .m2 ul li .m2__item span {
-                margin-left: 10px; }
-      .body-rosca main .menu__desplegable .nav .m3 {
-        text-decoration: none;
-        background-color: #161fcb;
-        width: 300px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        padding: 2% 0% 2% 0%;
-        margin: 2% 0% 2% 0%;
-        display: block; }
-        .body-rosca main .menu__desplegable .nav .m3 ul {
-          padding: 0;
-          margin: 0%;
-          top: 100%;
-          left: 0;
-          height: auto;
-          display: none;
-          background: #fff; }
-          .body-rosca main .menu__desplegable .nav .m3 ul li {
-            list-style: none;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 1rem;
-            text-align: left;
-            float: none;
-            margin: 5px;
-            padding: 2% 0% 2% 0%; }
-            .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item {
-              display: block;
+              background-color: #4f2f7a;
+              width: 300px;
+              font-weight: bold;
+              color: #ffffff;
+              text-align: center;
+              padding: 2% 0% 2% 0%;
+              margin: 2% 0% 2% 0%;
+              display: block; }
+              .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 ul {
+                padding: 0;
+                margin: 0%;
+                top: 100%;
+                left: 0;
+                height: auto;
+                display: none;
+                background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m1 ul li {
+              list-style: none;
               text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #161fcb;
-              font-size: 0.9rem;
-              padding: 2% 4% 2% 4%; }
-              .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item:hover {
-                background-color: #161fcbad;
-                color: #ffffff; }
-              .body-rosca main .menu__desplegable .nav .m3 ul li .m3__item span {
-                margin-left: 10px; }
-      .body-rosca main .menu__desplegable .nav .m4 {
-        text-decoration: none;
-        background-color: #08a908;
-        width: 300px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        padding: 2% 0% 2% 0%;
-        margin: 2% 0% 2% 0%;
-        display: block; }
-        .body-rosca main .menu__desplegable .nav .m4 ul {
-          padding: 0;
-          margin: 0%;
-          top: 100%;
-          left: 0;
-          height: auto;
-          display: none;
-          background: #fff; }
-          .body-rosca main .menu__desplegable .nav .m4 ul li {
-            list-style: none;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 1rem;
-            text-align: left;
-            float: none;
-            margin: 5px;
-            padding: 2% 0% 2% 0%; }
-            .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item {
-              display: block;
+              color: #ffffff;
+              font-size: 1rem;
+              text-align: left;
+              float: none;
+              margin: 5px;
+              padding: 2% 0% 2% 0%; }
+              .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item {
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: #ffffff;
+                color: #4f2f7a;
+                font-size: 0.9rem;
+                padding: 2% 4% 2% 4%; }
+                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item:hover {
+                  background-color: #4f2f7ab2;
+                  color: #ffffff; }
+                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item span {
+                  margin-left: 10px; }
+        .body-rosca main .container .menu__desplegable .nav .m2 {
+          text-decoration: none;
+          background-color: #ee2556;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-rosca main .container .menu__desplegable .nav .m2 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m2 ul li {
+              list-style: none;
               text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #08a908;
-              font-size: 0.9rem;
-              padding: 2% 4% 2% 4%; }
-              .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item:hover {
-                background-color: #08a908a9;
-                color: #ffffff; }
-              .body-rosca main .menu__desplegable .nav .m4 ul li .m4__item span {
-                margin-left: 10px; }
-      .body-rosca main .menu__desplegable .nav .m5 {
-        text-decoration: none;
-        background-color: #f2f924;
-        width: 300px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        padding: 2% 0% 2% 0%;
-        margin: 2% 0% 2% 0%;
-        display: block; }
-        .body-rosca main .menu__desplegable .nav .m5 ul {
-          padding: 0;
-          margin: 0%;
-          top: 100%;
-          left: 0;
-          height: auto;
-          display: none;
-          background: #fff; }
-          .body-rosca main .menu__desplegable .nav .m5 ul li {
-            list-style: none;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 1rem;
-            text-align: left;
-            float: none;
-            margin: 5px;
-            padding: 2% 0% 2% 0%; }
-            .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item {
-              display: block;
+              color: #ffffff;
+              font-size: 1rem;
+              text-align: left;
+              float: none;
+              margin: 5px;
+              padding: 2% 0% 2% 0%; }
+              .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item {
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: #ffffff;
+                color: #ee2556;
+                font-size: 0.9rem;
+                padding: 2% 4% 2% 4%; }
+                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item:hover {
+                  background-color: #ee2557a8;
+                  color: #ffffff; }
+                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item span {
+                  margin-left: 10px; }
+        .body-rosca main .container .menu__desplegable .nav .m3 {
+          text-decoration: none;
+          background-color: #161fcb;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-rosca main .container .menu__desplegable .nav .m3 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m3 ul li {
+              list-style: none;
               text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #f2f924;
-              font-size: 0.9rem;
-              padding: 2% 4% 2% 4%; }
-              .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item:hover {
-                background-color: #f2f924b4;
-                color: #ffffff; }
-              .body-rosca main .menu__desplegable .nav .m5 ul li .m5__item span {
-                margin-left: 10px; }
+              color: #ffffff;
+              font-size: 1rem;
+              text-align: left;
+              float: none;
+              margin: 5px;
+              padding: 2% 0% 2% 0%; }
+              .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item {
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: #ffffff;
+                color: #161fcb;
+                font-size: 0.9rem;
+                padding: 2% 4% 2% 4%; }
+                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item:hover {
+                  background-color: #161fcbad;
+                  color: #ffffff; }
+                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item span {
+                  margin-left: 10px; }
+        .body-rosca main .container .menu__desplegable .nav .m4 {
+          text-decoration: none;
+          background-color: #08a908;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-rosca main .container .menu__desplegable .nav .m4 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m4 ul li {
+              list-style: none;
+              text-decoration: none;
+              color: #ffffff;
+              font-size: 1rem;
+              text-align: left;
+              float: none;
+              margin: 5px;
+              padding: 2% 0% 2% 0%; }
+              .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item {
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: #ffffff;
+                color: #08a908;
+                font-size: 0.9rem;
+                padding: 2% 4% 2% 4%; }
+                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item:hover {
+                  background-color: #08a908a9;
+                  color: #ffffff; }
+                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item span {
+                  margin-left: 10px; }
+        .body-rosca main .container .menu__desplegable .nav .m5 {
+          text-decoration: none;
+          background-color: #f2f924;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-rosca main .container .menu__desplegable .nav .m5 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff; }
+            .body-rosca main .container .menu__desplegable .nav .m5 ul li {
+              list-style: none;
+              text-decoration: none;
+              color: #ffffff;
+              font-size: 1rem;
+              text-align: left;
+              float: none;
+              margin: 5px;
+              padding: 2% 0% 2% 0%; }
+              .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item {
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                background-color: #ffffff;
+                color: #f2f924;
+                font-size: 0.9rem;
+                padding: 2% 4% 2% 4%; }
+                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item:hover {
+                  background-color: #f2f924b4;
+                  color: #ffffff; }
+                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item span {
+                  margin-left: 10px; }
     .body-rosca main .card {
       margin: auto;
       margin-top: 5%;
@@ -920,23 +1339,496 @@
           margin-top: 1%; }
   /*HTML CONEXIÓN*/
   .body-conexion {
+    width: 100%;
+    margin-bottom: 0px; }
+    .body-conexion main {
+      width: 100%;
+      margin-bottom: 0px; }
+      .body-conexion main .inicio {
+        background-image: url("../../imagenes/dentista.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        padding-left: 1000px;
+        padding: 0; }
+        .body-conexion main .inicio .topnav {
+          background-color: none;
+          overflow: hidden;
+          position: relative; }
+          .body-conexion main .inicio .topnav .logo {
+            float: left;
+            position: relative;
+            margin: 1%; }
+          .body-conexion main .inicio .topnav #myLinks {
+            display: none;
+            width: 200px;
+            height: 400px;
+            margin: auto;
+            flex-direction: row-reverse; }
+            .body-conexion main .inicio .topnav #myLinks a {
+              float: none;
+              top: 30px;
+              right: 10px;
+              color: #259e94;
+              font-weight: bold;
+              text-align: end;
+              background-color: rgba(245, 245, 245, 0.8);
+              text-decoration: none;
+              font-size: 1.3rem;
+              margin-right: .2%;
+              display: block;
+              position: relative; }
+              .body-conexion main .inicio .topnav #myLinks a:hover {
+                background: rgba(248, 246, 246, 0.4); }
+          .body-conexion main .inicio .topnav .icon {
+            background: rgba(37, 158, 148, 0.5);
+            height: 48px;
+            width: 48px;
+            text-align: center;
+            padding-top: 1%;
+            text-shadow: 2px 2px 3px #000;
+            margin: 1%;
+            position: relative;
+            right: 20px;
+            top: 0px;
+            float: right; }
+            .body-conexion main .inicio .topnav .icon i {
+              font-size: 2rem;
+              padding: 0;
+              color: #f7f7f7; }
+        .body-conexion main .inicio h1 {
+          margin-left: 2px;
+          padding-right: 0;
+          margin-top: 320px;
+          color: #259e94;
+          font-size: 2rem;
+          text-align: center; }
+      .body-conexion main .container {
+        display: block;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 150px;
+        margin-left: 30px;
+        position: relative;
+        top: 40px; }
+        .body-conexion main .container .menu__desplegable--conexion .nav .m1 {
+          text-decoration: none;
+          background-color: #4f2f7a;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul {
+            padding: 0%;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff;
+            display: none;
+            list-style: none; }
+            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item {
+              display: block;
+              text-decoration: none;
+              list-style-type: none;
+              background-color: #ffffff;
+              color: #ee2556;
+              font-size: 1rem;
+              padding: 2% 4% 2% 2%;
+              height: 40px; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item:hover {
+                background-color: #ee2557a8;
+                color: #ffffff; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item span {
+                margin-left: 10px; }
+            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 {
+              text-decoration: none;
+              background-color: #4f2f7a;
+              width: 300px;
+              font-weight: bold;
+              color: #ffffff;
+              text-align: center;
+              padding: 2% 0% 2% 0%;
+              margin: 2% 0% 2% 0%;
+              display: block;
+              text-decoration: none;
+              list-style-type: none; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul {
+                padding: 0%;
+                margin: 0%;
+                top: 100%;
+                left: 0;
+                height: auto;
+                display: none;
+                background: #fff;
+                display: none; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item {
+                  display: block;
+                  text-decoration: none;
+                  list-style-type: none;
+                  background-color: #ffffff;
+                  color: #4f2f7a;
+                  font-size: 1rem;
+                  padding: 2% 4% 2% 2%;
+                  height: 40px; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item:hover {
+                    background-color: #4f2f7ab2;
+                    color: #ffffff; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item span {
+                    margin-left: 10px; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item {
+                  display: block;
+                  text-decoration: none;
+                  list-style-type: none;
+                  background-color: #ffffff;
+                  color: #ee2556;
+                  font-size: 1rem;
+                  padding: 2% 4% 2% 2%;
+                  height: 40px; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item:hover {
+                    background-color: #ee2557a8;
+                    color: #ffffff; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item span {
+                    margin-left: 10px; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item {
+                  display: block;
+                  text-decoration: none;
+                  list-style-type: none;
+                  background-color: #ffffff;
+                  color: #08a908;
+                  font-size: 1rem;
+                  padding: 2% 4% 2% 2%;
+                  height: 40px; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item:hover {
+                    background-color: #08a908a9;
+                    color: #ffffff; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item span {
+                    margin-left: 10px; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item {
+                  display: block;
+                  text-decoration: none;
+                  list-style-type: none;
+                  background-color: #ffffff;
+                  color: #f2f924;
+                  font-size: 1rem;
+                  padding: 2% 4% 2% 2%;
+                  height: 40px; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item:hover {
+                    background-color: #f2f924b4;
+                    color: #ffffff; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item span {
+                    margin-left: 10px; }
+        .body-conexion main .container .menu__desplegable--conexion .nav .m2 {
+          text-decoration: none;
+          background-color: #ee2556;
+          width: 300px;
+          font-weight: bold;
+          color: #ffffff;
+          text-align: center;
+          padding: 2% 0% 2% 0%;
+          margin: 2% 0% 2% 0%;
+          display: block; }
+          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul {
+            padding: 0;
+            margin: 0%;
+            top: 100%;
+            left: 0;
+            height: auto;
+            display: none;
+            background: #fff;
+            display: none;
+            list-style: none; }
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 {
+              text-decoration: none;
+              background-color: #ee2556;
+              width: 300px;
+              font-weight: bold;
+              color: #ffffff;
+              text-align: center;
+              padding: 2% 0% 2% 0%;
+              margin: 2% 0% 2% 0%;
+              display: block;
+              text-decoration: none;
+              list-style-type: none; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul {
+                padding: 0;
+                margin: 0%;
+                top: 100%;
+                left: 0;
+                height: auto;
+                display: none;
+                background: #fff;
+                display: none; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
+                  text-decoration: none;
+                  background-color: #ee2556;
+                  width: 300px;
+                  font-weight: bold;
+                  color: #ffffff;
+                  text-align: center;
+                  padding: 2% 0% 2% 0%;
+                  margin: 2% 0% 2% 0%;
+                  display: block; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul {
+                    padding: 0;
+                    margin: 0%;
+                    top: 100%;
+                    left: 0;
+                    height: auto;
+                    display: none;
+                    background: #fff;
+                    display: none; }
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item {
+                      display: block;
+                      text-decoration: none;
+                      list-style-type: none;
+                      background-color: #ffffff;
+                      color: #4f2f7a;
+                      font-size: 1rem;
+                      padding: 2% 4% 2% 2%;
+                      height: 40px; }
+                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item:hover {
+                        background-color: #4f2f7ab2;
+                        color: #ffffff; }
+                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item span {
+                        margin-left: 10px; }
+                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item {
+                      display: block;
+                      text-decoration: none;
+                      list-style-type: none;
+                      background-color: #ffffff;
+                      color: #ee2556;
+                      font-size: 1rem;
+                      padding: 2% 4% 2% 2%;
+                      height: 40px; }
+                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item:hover {
+                        background-color: #ee2557a8;
+                        color: #ffffff; }
+                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item span {
+                        margin-left: 10px; }
+                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item {
+                  display: block;
+                  text-decoration: none;
+                  list-style-type: none;
+                  background-color: #ffffff;
+                  color: #ee2556;
+                  font-size: 1rem;
+                  padding: 2% 4% 2% 2%;
+                  height: 40px; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item:hover {
+                    background-color: #ee2557a8;
+                    color: #ffffff; }
+                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item span {
+                    margin-left: 10px; }
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item {
+              display: block;
+              text-decoration: none;
+              list-style-type: none;
+              background-color: #ffffff;
+              color: #4f2f7a;
+              font-size: 1rem;
+              padding: 2% 4% 2% 2%;
+              height: 40px; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item:hover {
+                background-color: #4f2f7ab2;
+                color: #ffffff; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item span {
+                margin-left: 10px; }
+            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item {
+              display: block;
+              text-decoration: none;
+              list-style-type: none;
+              background-color: #ffffff;
+              color: #08a908;
+              font-size: 1rem;
+              padding: 2% 4% 2% 2%;
+              height: 40px; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item:hover {
+                background-color: #08a908a9;
+                color: #ffffff; }
+              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item span {
+                margin-left: 10px; }
+  .body-periapical {
     width: 100%; }
-    .body-conexion .container {
-      margin-bottom: 250px; }
-      .body-conexion .container h1 {
-        padding: 5%; }
-      .body-conexion .container .menu__desplegable--conexion {
-        margin-left: 7%;
-        margin-bottom: 8%; } }
+    .body-periapical main {
+      width: 95%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 2%; }
+      .body-periapical main .inicio {
+        width: 100%;
+        padding-left: 0px;
+        padding: 0;
+        margin-bottom: 4%; }
+        .body-periapical main .inicio .topnav {
+          background-color: none;
+          overflow: hidden;
+          position: relative; }
+          .body-periapical main .inicio .topnav .logo {
+            float: left;
+            position: relative;
+            margin: 1%; }
+          .body-periapical main .inicio .topnav #myLinks {
+            display: none;
+            width: 200px;
+            height: 400px;
+            margin: auto;
+            flex-direction: row-reverse; }
+            .body-periapical main .inicio .topnav #myLinks a {
+              float: none;
+              top: 30px;
+              right: 10px;
+              color: #259e94;
+              font-weight: bold;
+              text-align: end;
+              background-color: rgba(245, 245, 245, 0.8);
+              text-decoration: none;
+              font-size: 1.3rem;
+              margin-right: .2%;
+              display: block;
+              position: relative; }
+              .body-periapical main .inicio .topnav #myLinks a:hover {
+                background: rgba(248, 246, 246, 0.4); }
+          .body-periapical main .inicio .topnav .icon {
+            background: rgba(37, 158, 148, 0.5);
+            height: 48px;
+            width: 48px;
+            text-align: center;
+            padding-top: 1%;
+            text-shadow: 2px 2px 3px #000;
+            margin: 1%;
+            position: relative;
+            right: 20px;
+            top: 0px;
+            float: right; }
+            .body-periapical main .inicio .topnav .icon i {
+              font-size: 2rem;
+              padding: 0;
+              color: #f7f7f7; }
+        .body-periapical main .inicio h1 {
+          margin-left: 2px;
+          padding-right: 0;
+          margin-top: 30px;
+          color: #259e94;
+          font-size: 2rem;
+          text-align: center; }
+      .body-periapical main .card {
+        box-shadow: 2px 2px 2px 2px #a5a3a3;
+        margin: auto;
+        margin-top: 0%;
+        margin-bottom: 5%; }
+        .body-periapical main .card .card-body {
+          height: 440px; }
+          .body-periapical main .card .card-body .card-title {
+            font-size: 1rem;
+            font-weight: bold; }
+          .body-periapical main .card .card-body img {
+            width: 40%;
+            height: 300px; }
+          .body-periapical main .card .card-body .btn {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 1%; }
+  .body-periapicalIndividual {
+    width: 100%; }
+    .body-periapicalIndividual main {
+      margin-bottom: 0px; }
+      .body-periapicalIndividual main .inicio {
+        width: 100%;
+        padding-left: 0px;
+        padding: 0;
+        margin-bottom: 4%; }
+        .body-periapicalIndividual main .inicio .topnav {
+          background-color: none;
+          overflow: hidden;
+          position: relative; }
+          .body-periapicalIndividual main .inicio .topnav .logo {
+            float: left;
+            position: relative;
+            margin: 1%; }
+          .body-periapicalIndividual main .inicio .topnav #myLinks {
+            display: none;
+            width: 200px;
+            height: 400px;
+            margin: auto;
+            flex-direction: row-reverse; }
+            .body-periapicalIndividual main .inicio .topnav #myLinks a {
+              float: none;
+              top: 30px;
+              right: 10px;
+              color: #259e94;
+              font-weight: bold;
+              text-align: end;
+              background-color: rgba(245, 245, 245, 0.8);
+              text-decoration: none;
+              font-size: 1.3rem;
+              margin-right: .2%;
+              display: block;
+              position: relative; }
+              .body-periapicalIndividual main .inicio .topnav #myLinks a:hover {
+                background: rgba(248, 246, 246, 0.4); }
+          .body-periapicalIndividual main .inicio .topnav .icon {
+            background: rgba(37, 158, 148, 0.5);
+            height: 48px;
+            width: 48px;
+            text-align: center;
+            padding-top: 1%;
+            text-shadow: 2px 2px 3px #000;
+            margin: 1%;
+            position: relative;
+            right: 20px;
+            top: 0px;
+            float: right; }
+            .body-periapicalIndividual main .inicio .topnav .icon i {
+              font-size: 2rem;
+              padding: 0;
+              color: #f7f7f7; }
+      .body-periapicalIndividual main .card {
+        box-shadow: 2px 2px 2px 2px #a5a3a3;
+        margin: auto;
+        margin-top: 18%; }
+        .body-periapicalIndividual main .card .card-body {
+          height: 440px; }
+          .body-periapicalIndividual main .card .card-body .card-title {
+            font-size: 1rem;
+            font-weight: bold; }
+          .body-periapicalIndividual main .card .card-body img {
+            width: 40%;
+            height: 300px; }
+          .body-periapicalIndividual main .card .card-body .btn {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 1%; } }
+
+header {
+  width: 100%; }
+  header .wapp {
+    margin-left: 1420px;
+    margin-top: 500px;
+    position: fixed; }
+
+@media only screen and (max-width: 700px) {
+  header {
+    width: 100%; }
+    header .wapp {
+      margin-left: 290px;
+      margin-top: 70px;
+      position: fixed; } }
 
 .grid__footer {
   bottom: 0%;
   padding: 0;
   width: 100%;
-  color: #5f5959;
+  color: #056cb1;
   font-weight: bold;
-  border-top: 5px solid #5f5959;
-  background-color: #fff;
+  background-color: #90cbe2;
   font-size: 0.8rem;
   display: grid;
   position: relative;
@@ -1013,13 +1905,12 @@
         display: flex;
         flex-direction: row;
         margin: 7px 0px 0px 0px;
-        padding: 0; }
-        .grid__footer .web p a a:link {
-          color: #5f5959; }
+        padding: 0;
+        color: #056cb1; }
   .grid__footer .seguinos {
     text-align: end;
     grid-area: seguinos;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding-right: 3%; }
   .grid__footer .logo {
     grid-area: logo; }
@@ -1031,18 +1922,17 @@
       .grid__footer .logo .rrss ion-icon {
         width: 30px;
         height: 30px;
-        color: #5f5959; }
+        color: #056cb1; }
 
 @media only screen and (max-width: 600px) {
   .grid__footer {
-    margin-top: 40%;
+    margin-top: 20%;
     margin-bottom: 0%;
     padding: 0;
     width: 100%;
-    color: #5f5959;
+    color: #056cb1;
     font-weight: bold;
-    border-top: 5px solid #5f5959;
-    background-color: #fff;
+    background-color: #90cbe2;
     font-size: 0.8rem;
     display: grid;
     grid-template: 18px 18px 18px 18px 18px / 1fr 1fr;
@@ -1114,7 +2004,7 @@
       flex-direction: row;
       margin-left: 10px;
       padding-bottom: 20px;
-      color: #5f5959; }
+      color: #056cb1; }
       .grid__footer .web ion-icon {
         width: 13px;
         height: 13px;
@@ -1134,7 +2024,7 @@
           flex-direction: row;
           margin: 0;
           margin-top: 8px;
-          color: #5f5959; }
+          color: #056cb1; }
     .grid__footer .seguinos {
       text-align: end;
       grid-area: seguinos;
