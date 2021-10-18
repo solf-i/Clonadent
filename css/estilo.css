@@ -938,7 +938,7 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       width: 150px;
-      margin-left: 90px;
+      margin-left: 100px;
       position: absolute;
       top: 450px;
       z-index: 1; }
@@ -1339,11 +1339,10 @@
           margin-top: 1%; }
   /*HTML CONEXIÓN*/
   .body-conexion {
-    width: 100%;
-    margin-bottom: 0px; }
+    width: 100%; }
     .body-conexion main {
       width: 100%;
-      margin-bottom: 0px; }
+      margin-bottom: 150px; }
       .body-conexion main .inicio {
         background-image: url("../../imagenes/dentista.jpg");
         background-repeat: no-repeat;
@@ -1818,7 +1817,7 @@ header {
   header {
     width: 100%; }
     header .wapp {
-      margin-left: 290px;
+      margin-left: 305px;
       margin-top: 70px;
       position: fixed; } }
 
@@ -1933,7 +1932,7 @@ header {
     color: #056cb1;
     font-weight: bold;
     background-color: #90cbe2;
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: grid;
     grid-template: 18px 18px 18px 18px 18px / 1fr 1fr;
     grid-template-areas: "direccion  .   " "telefono   telefono" "horario  seguinos" "email   logo" "web    .";
@@ -1950,7 +1949,7 @@ header {
         padding: 0; }
       .grid__footer .direccion p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px; }
     .grid__footer .telefono {
@@ -1965,7 +1964,7 @@ header {
         padding: 0; }
       .grid__footer .telefono p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px; }
     .grid__footer .horario {
@@ -1980,7 +1979,7 @@ header {
         padding: 0; }
       .grid__footer .horario p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px; }
     .grid__footer .email {
@@ -1995,7 +1994,7 @@ header {
         padding: 0; }
       .grid__footer .email p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px; }
     .grid__footer .web {
@@ -2013,7 +2012,7 @@ header {
         margin-top: 8px; }
       .grid__footer .web p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px; }
         .grid__footer .web p a {
@@ -2028,11 +2027,11 @@ header {
     .grid__footer .seguinos {
       text-align: end;
       grid-area: seguinos;
-      font-size: 0.65rem;
+      font-size: 0.85rem;
       padding-right: 7%; }
     .grid__footer .logo {
       grid-area: logo;
-      margin-right: 60px; }
+      margin-right: 40px; }
       .grid__footer .logo .rrss {
         display: flex;
         flex-direction: row;

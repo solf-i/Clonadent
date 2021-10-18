@@ -1578,7 +1578,7 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         width: 150px;
-        margin-left: 90px;       
+        margin-left: 100px;       
         position: absolute;
         top: 450px;
         z-index: 1;
@@ -2132,11 +2132,11 @@
 
     .body-conexion {
       width: 100%;      
-      margin-bottom: 0px;
+      
     
       main{
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 150px;
             
         .inicio {
           background-image:  url("../../imagenes/dentista.jpg");

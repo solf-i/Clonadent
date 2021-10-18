@@ -154,7 +154,7 @@
     color: rgb(5, 108, 177);
     font-weight: bold;    
     background-color:rgb(144, 203, 226);   
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: grid;
     grid-template: 18px 18px 18px 18px 18px / 1fr 1fr;
     grid-template-areas:
@@ -179,7 +179,7 @@
       }
       p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px;
       }
@@ -199,7 +199,7 @@
       }
       p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px;
       }
@@ -219,7 +219,7 @@
       }
       p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px;
       }
@@ -239,7 +239,7 @@
       }
       p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px;
       }
@@ -263,7 +263,7 @@
 
       p {
         margin-left: 10px;
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         text-align: left;
         margin-top: 18px;
         
@@ -285,12 +285,12 @@
     .seguinos {
       text-align: end;
       grid-area: seguinos;
-      font-size: 0.65rem;
+      font-size: 0.85rem;
       padding-right: 7%;
     }
     .logo {
       grid-area: logo;
-      margin-right: 60px;
+      margin-right: 40px;
 
       .rrss {
         display: flex;
