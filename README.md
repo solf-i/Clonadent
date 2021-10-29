@@ -1,6 +1,7 @@
 # Proyecto Clonadent
 
-Mobile First
+Este proyecto es para Clonadent, una empresa especializada en implantes dentales.
+https://app.clonadent.com/
 
 Construido con 🛠️
 HTML5
