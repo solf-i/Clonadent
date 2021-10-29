@@ -7,7 +7,7 @@ $("#desplegar").click(function (e) {
 
   e.preventDefault();
 
-  $(".toggle").toggle();
+  $(".toggle").toggle("slow");
    
 });
 
@@ -17,7 +17,7 @@ $("#desplegar2").click(function (e) {
 
   e.preventDefault();
 
-  $(".toggle2").toggle();
+  $(".toggle2").toggle("slow");
 
    
 });
@@ -26,7 +26,7 @@ $("#desplegar3").click(function (e) {
 
   e.preventDefault();
 
-  $(".toggle3").toggle();
+  $(".toggle3").toggle("slow");
 
    
 });
@@ -35,7 +35,7 @@ $("#desplegar4").click(function (e) {
 
   e.preventDefault();
 
-  $(".toggle4").toggle();
+  $(".toggle4").toggle("slow");
    
 });
 
@@ -43,7 +43,7 @@ $("#desplegar5").click(function (e) {
 
   e.preventDefault();
 
-  $(".toggle5").toggle();
+  $(".toggle5").toggle("slow");
    
 });
 
@@ -53,10 +53,10 @@ $("#desplegar5").click(function (e) {
 function myFunction() {
 
   var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
+  if (x.style.display === "flex") {
     x.style.display = "none";
   } else {
-    x.style.display = "block";
+    x.style.display = "flex";
   }
 }
 

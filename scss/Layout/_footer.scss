@@ -1,36 +1,37 @@
 .grid__footer {
-  bottom: 0%;
-  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 2%;
   width: 100%;
-  color: rgb(5, 108, 177);
   font-weight: bold; 
-  background-color:rgb(144, 203, 226);
+  background-color:#3e5a86;
+  color: #fff;
   font-size: 0.8rem;
   display: grid;
   position: relative;
-  grid-template: 20px 20px 20px 20px 20px / 1fr 1fr 1fr 1fr;
+  grid-template: 23px 23px 23px 23px 23px / 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "direccion  .   .   ."
-    "telefono   telefono seguinos seguinos"
-    "horario  horario   .   ."
-    "email email   .   logo"
+    "telefono   telefono  . seguinos"
+    "horario  horario  .  seguinos"
+    "email email   .   ."
     "web  web  .    .";
 
   .direccion {
     grid-area: direccion;
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    align-items: center;
-    margin: 2px 0px 0px 0px;
+    align-items: center;    
     
     ion-icon {
       width: 20px;
       height: 20px;
+      margin-left: 20px;
+      margin-top: 10px;
     }
     p {
       margin-left: 20px;
-      margin-top: 12px;
+      margin-top: 24px;
+      font-size: 1rem;
     }
     
 
@@ -39,38 +40,43 @@
   .telefono {
     grid-area: telefono;
     display: flex;
-    flex-direction: row;
-    margin-left: 20px;
+    flex-direction: row;    
     align-items: center;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
       height: 20px;
+      margin-left: 20px;
+      margin-top: 14px;
     }
 
     p {
       margin-left: 20px;
-      margin-top: 12px;
+      margin-top: 24px;
+      font-size: 1rem;
     }
   }
 
   .horario {
     grid-area: horario;
     display: flex;
-    flex-direction: row;
-    margin-left: 20px;
+    flex-direction: row;    
     align-items: center;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    
 
     ion-icon {
       width: 20px;
       height: 20px;
+      margin-left: 20px;
+      margin-top: 16px;
     }
 
     p {
       margin-left: 20px;
-      margin-top: 12px;
+      margin-top: 30px;
+      font-size: 1rem;
     }
   }
 
@@ -80,43 +86,50 @@
     flex-direction: row;
     margin-left: 20px;
     align-items: center;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
       height: 20px;
+      margin-left: 20px;
+      margin-top: 18px;
     }
     p {
       margin-left: 20px;
-      margin-top: 12px;
+      margin-top: 32px;
+      font-size: 1rem;
     }
   }
 
   .web {
     grid-area: web;
     display: flex;
-    flex-direction: row;
-    margin-left: 20px;
+    flex-direction: row;   
     align-items: center;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    color: #fff ;
+   
 
     ion-icon {
       width: 20px;
       height: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
     }
 
     p {
       margin-left: 20px;
-
+      
+     
       a {
         text-decoration: none;
-        font-size: 0.8rem;
+        font-size: 1rem;
         grid-area: web;
         display: flex;
-        flex-direction: row;
-        margin: 7px 0px 0px 0px;
+        flex-direction: row;        
         padding: 0;        
-        color: rgb(5, 108, 177) ;
+        color: #fff ;
+        margin-top: 34px;
         
       }
     }
@@ -125,63 +138,71 @@
   .seguinos {
     text-align: end;
     grid-area: seguinos;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-right: 3%;
-  }
-  .logo {
-    grid-area: logo;
-    .rrss {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding-left: 40%;
+    display: block;
+    position: relative
+    ;
 
-      ion-icon {
-        width: 30px;
-        height: 30px;
-        color: rgb(5, 108, 177);
+    p{
+      margin-right: 5%;
+    }
+
+    a{  
+      
+      cursor: pointer; 
+      
+      ion-icon {     
+        width: 35px;
+        height: 35px;  
+        color: #fff;
+        padding-right: 5%;     
+  
       }
+      
     }
   }
+
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media (max-width: 575.98px){
   .grid__footer {
-    margin-top: 20%;
-    margin-bottom: 0%;
-    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 15%;
     width: 100%;
-    color: rgb(5, 108, 177);
     font-weight: bold;    
-    background-color:rgb(144, 203, 226);   
-    font-size: 1rem;
+    background-color:#3e5a86;
+    color: #fff; 
     display: grid;
-    grid-template: 18px 18px 18px 18px 18px / 1fr 1fr;
+    grid-template: 18px 18px 18px 18px 18px 18px 18px /1.5fr 1fr;
     grid-template-areas:
-      "direccion  .   "
-      "telefono   telefono"
-      "horario  seguinos"
-      "email   logo"
-      "web    .";
-    font-size: 0.5rem;
+      "direccion direccion"
+      "telefono telefono"
+      "horario horario"
+      "email email"
+      "web web"
+      "seguinos seguinos";
 
     .direccion {
       grid-area: direccion;
       display: flex;
-      flex-direction: row;
-      margin-left: 10px;
-
+      flex-direction: row;      
+      margin-left: 11%;
+      padding-top: 4%;
       ion-icon {
-        width: 13px;
-        height: 13px;
+        width: 22px;
+        height: 22px;
         margin: 0;
-        padding: 0;
+        padding-top: 2%;
+        
       }
       p {
         margin-left: 10px;
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         text-align: left;
-        margin-top: 18px;
+        margin-top: 18px;        
       }
     }
 
@@ -189,19 +210,21 @@
       grid-area: telefono;
       display: flex;
       flex-direction: row;
-      margin-left: 10px;
+      margin-left: 11%;
+      padding-top: 4%;
 
       ion-icon {
-        width: 13px;
-        height: 13px;
+        width: 22px;
+        height: 22px;
         margin: 0;
-        padding: 0;
+        padding-top: 2%;
+        
       }
       p {
         margin-left: 10px;
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         text-align: left;
-        margin-top: 18px;
+        margin-top: 18px;        
       }
     }
 
@@ -209,19 +232,20 @@
       grid-area: horario;
       display: flex;
       flex-direction: row;
-      margin-left: 10px;
-
+      margin-left: 11%;
+      padding-top: 5%;
       ion-icon {
-        width: 13px;
-        height: 13px;
+        width: 22px;
+        height: 22px;
         margin: 0;
-        padding: 0;
+        padding-top: 3%;
+        
       }
       p {
         margin-left: 10px;
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         text-align: left;
-        margin-top: 18px;
+        margin-top: 18px;        
       }
     }
 
@@ -229,74 +253,89 @@
       grid-area: email;
       display: flex;
       flex-direction: row;
-      margin-left: 10px;
+      margin-left: 11%;
+      padding-top: 7%;
 
       ion-icon {
-        width: 13px;
-        height: 13px;
+        width: 22px;
+        height: 22px;
         margin: 0;
-        padding: 0;
+        padding-top: 4%;
+        
       }
       p {
         margin-left: 10px;
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         text-align: left;
-        margin-top: 18px;
+        margin-top: 18px;        
       }
     }
 
     .web {
       grid-area: web;
       display: flex;
-      flex-direction: row;
-      margin-left: 10px;
+      flex-direction: row;      
       padding-bottom: 20px;
-      color: rgb(5, 108, 177) ;
+      color: #fff ;
+      margin-left: 11%;
+      padding-top: 8%;
 
       ion-icon {
-        width: 13px;
-        height: 13px;
+        width: 22px;
+        height: 22px;
         margin: 0;
-        padding: 0;
-        margin-top: 8px;
+        padding-top: 4%;
+        
       }
-
       p {
         margin-left: 10px;
-        font-size: 0.85rem;
+        font-size: 1.1rem;
         text-align: left;
-        margin-top: 18px;
-        
+        margin-top: 18px;        
+      
 
         a {
           text-decoration: none;
-          font-size: 0.65rem;
+          font-size: 1.1rem;
           grid-area: web;
           display: flex;
           flex-direction: row;
           margin: 0;
           margin-top: 8px;
-          color: rgb(5, 108, 177) ;
+          color: #fff ;
           
         }
       }
     }
 
     .seguinos {
-      text-align: end;
+      text-align: start;
       grid-area: seguinos;
-      font-size: 0.85rem;
-      padding-right: 7%;
-    }
-    .logo {
-      grid-area: logo;
-      margin-right: 40px;
+      font-size: 1.1rem;
+      margin-left: 13%;
+      padding-top: 13%;
+      color: #fff; 
+      display: flex;
 
-      .rrss {
-        display: flex;
-        flex-direction: row;
-        padding-left: 70%;
+      p{
+        margin-right: 5%;
       }
+      a{  
+      
+        cursor: pointer; 
+        
+        ion-icon {     
+          width: 28px;
+          height: 28px;  
+          color: #fff;
+          padding-right: 5%;     
+    
+        }
+        
+      }
+      
     }
+  
   }
+
 }

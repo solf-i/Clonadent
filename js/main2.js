@@ -4,7 +4,7 @@
 
       e.preventDefault();
     
-      $(".toggle").toggle();
+      $(".toggle").toggle("slow");
        
     });
     
@@ -14,7 +14,7 @@
     
       e.preventDefault();
     
-      $(".toggle2").toggle();
+      $(".toggle2").toggle("slow");
     
        
     });
@@ -23,7 +23,7 @@
     
       e.preventDefault();
     
-      $(".toggle3").toggle();
+      $(".toggle3").toggle("slow");
     
        
     });
@@ -32,7 +32,7 @@
     
       e.preventDefault();
     
-      $(".toggle4").toggle();
+      $(".toggle4").toggle("slow");
        
     });
     
@@ -40,7 +40,7 @@
     
       e.preventDefault();
     
-      $(".toggle5").toggle();
+      $(".toggle5").toggle("slow");
        
     });
     
@@ -48,35 +48,35 @@
     
       e.preventDefault();
     
-      $(".toggle6").toggle();
+      $(".toggle6").toggle("slow");
        
     });
     $("#desplegar7").click(function (e) {
     
       e.preventDefault();
     
-      $(".toggle7").toggle();
+      $(".toggle7").toggle("slow");
        
     });
     $("#desplegar8").click(function (e) {
     
       e.preventDefault();
     
-      $(".toggle8").toggle();
+      $(".toggle8").toggle("slow");
        
     });
     $("#desplegar9").click(function (e) {
     
       e.preventDefault();
     
-      $(".toggle9").toggle();
+      $(".toggle9").toggle("slow");
        
     });
     $("#desplegar10").click(function (e) {
     
       e.preventDefault();
     
-      $(".toggle10").toggle();
+      $(".toggle10").toggle("slow");
        
     });
     
@@ -84,7 +84,7 @@
     
       e.preventDefault();
     
-      $(".toggle11").toggle();
+      $(".toggle11").toggle("slow");
        
     });
     
@@ -92,7 +92,7 @@
     
       e.preventDefault();
     
-      $(".toggle12").toggle();
+      $(".toggle12").toggle("slow");
        
     });
     
@@ -100,7 +100,7 @@
     
       e.preventDefault();
     
-      $(".toggle13").toggle();
+      $(".toggle13").toggle("slow");
        
     });
     
@@ -108,7 +108,23 @@
     
       e.preventDefault();
     
-      $(".toggle14").toggle();
+      $(".toggle14").toggle("slow");
+       
+    });
+
+    $("#desplegar15").click(function (e) {
+    
+      e.preventDefault();
+    
+      $(".toggle15").toggle("slow");
+       
+    });
+
+    $("#desplegar16").click(function (e) {
+    
+      e.preventDefault();
+    
+      $(".toggle16").toggle("slow");
        
     });
 
