@@ -23,90 +23,153 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    />   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   
-   
+  
   </head>
 
   <header>  
-
-    <div class="wapp">
-      <a class="nav-link" href="https://wa.me/5491123227076?text=Hola,%20necesito%20información" target="_blank"> 
-      <img src="../imagenes/whatsApp.png" alt="Logo de WhatsApp" />
-      </a>                  
-    </div>
-
+    <div class="wapp col-12 ">
+      <a
+        class="nav-link float-end"
+        href="https://wa.me/5491123227076?text=Hola,%20necesito%20información"
+        target="_blank"
+      >
+        <img src="../imagenes/whatsApp.png" alt="Logo de WhatsApp" />
+      </a>
+    </div>       
   </header>
+
   <body class="body-periapicalIndividual">
     <main>
-      <div class="inicio">
-        <div class="topnav">
-          <div class="logo">
-            <img
-                src="../imagenes/logo-clonadent.png"
-                alt="Logo Clonadent"
-                width="200" height="60"
+        <!-- start: nav -->
+
+        <div class="col-12">
+          <div class="inicio">
+            <div class="topnav">
+            
+              <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <div class="container-fluid">
+                  <div class="logo">
+                    <img
+                      src="../imagenes/logo-clonadent.png"
+                      alt="Logo Clonadent"
+                      width="200"
+                      height="60"
+                    />
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item  m-auto">
+                        <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item m-auto">
+                        <a class="nav-link" href="../html/rosca.html">Roscas</a>
+                      </li>
+                      <li class="nav-item  m-auto">
+                        <a class="nav-link" href="../html/conexion.html">Conexión</a>
+                      </li>
+                      <li class="nav-item  m-auto">
+                        <a class="nav-link" href="../html/periapical.html">Periapicales</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>        
+            </div>
+          </div>        
+        </div>
+        <!-- end: nav -->
+       
+       <!-- start: card -->
+      <div class="container-fluid" role="tarjetas">
+        <div class="row">
+          <div class="col-12 col-sm-6 justify-content-center m-auto">
+            <div class="card">
+              <img src="../imagenes/boneLevel.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
               />
+              <div class="card-body">
+                <h3 class="card-title">CONICO TIPO BONE LEVEL &reg;</h3>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+              </div>
+              </div>
           </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i>
-            </a>
-            <div id="myLinks">
-              <a href="../index.html" class="active">Inicio</a>
-              <a href="./rosca.html">Rosca</a>
-              <a href="./conexion.html">Conexión</a>
-              <a href="./periapical.html">Periapical</a> 
-            </div>
-        </div>             
-  </div>  
-        <div class="card text-center" style="width: 22rem;">           
-            <div class="card-body" id="card">
-              <h5 class="card-title"> CONICO TIPO BONE LEVEL &reg;</h5>
-              <img src="../imagenes/boneLevel.png" class="card-img-top" alt="Bone Level">
-              <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-            </div>
-        </div>   
+        </div>
+      </div>
+      
+       <!-- end: card -->
+
 
     </main>
 
-    <footer class="grid__footer">
-      <div class="direccion">
-        <ion-icon name="home-outline"></ion-icon>
-        <p>Marcelo T. de Alvear y Junín</p>
-      </div>
+     <!-- start: footer -->
+     <footer>
+      <section class="container-fluid">
+        <div class="row ">
 
-      <div class="telefono">
-        <ion-icon name="call-outline"></ion-icon>
-        <p>+54 9 11 2322-7076</p>
-      </div>
+          <div class="col-12 col-md-4 col-xl-6">
+             <div class="direccion d-flex justify-content-center">
+            <ion-icon name="home-outline"></ion-icon>
+            <p>Marcelo T. de Alvear y Junín</p>
+          </div>
+         </div>
 
-      <div class="horario">
-        <ion-icon name="alarm-outline"></ion-icon>
-        <p>Lunes a viernes de 9 a 16:30 hs.</p>
-      </div>
-
-      <div class="email">
-        <ion-icon name="at-outline"></ion-icon>
-        <p>info@clonadent.com</p>
-      </div>
-
-      <div class="web">
-        <ion-icon name="globe-outline"></ion-icon>
-        <p ><a href="https://clonadent.com/" target="_blank">www.clonadent.com </a></p>
-      </div>
-
-       
-      <div class="seguinos">
-        <p>Seguinos en Instagram </p>        
-        <a href="https://www.instagram.com/clonadent/?hl=es" target="_blank"> <ion-icon name="logo-instagram">  </ion-icon>   </a>
-      </div>    
+         <div class="col-12 col-md-4 col-xl-6">
+          <div class="telefono d-flex justify-content-center">
+            <ion-icon name="call-outline"></ion-icon>
+            <p>+54 9 11 2322-7076</p>
+          </div>
+         </div>
+         
     
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="horario d-flex justify-content-center">
+              <ion-icon name="alarm-outline"></ion-icon>
+              <p>Lunes a viernes de 9 a 16:30 hs.</p>
+            </div>  
+          </div>
+          
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="email d-flex justify-content-center">
+              <ion-icon name="at-outline"></ion-icon>
+              <p>info@clonadent.com</p>
+            </div>
+          </div>   
+         
 
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="web d-flex justify-content-center">
+              <ion-icon name="globe-outline"></ion-icon>
+              <p>
+                <a href="https://clonadent.com/" target="_blank"
+                  >www.clonadent.com
+                </a>
+              </p>
+            </div>
+          </div>
+        
+         
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="seguinos d-flex justify-content-center">              
+              <a href="https://www.instagram.com/clonadent/?hl=es" target="_blank">
+                <ion-icon name="logo-instagram"> </ion-icon>
+              </a>
+              <p>Seguinos en Instagram</p>
+            </div>
+          </div>
+        </div>    
     </footer>
-    <script src="../js/main.js"></script>
+     <!-- end: footer -->
+
+       <!-- start: scripts -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"

@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clonadent</title>
     <link rel="shortcut icon" href="../imagenes/Icon.png" />
-    <meta name="description" content="Clonadent te ayuda a identificar tu tipo de implante por rosca, conexión o periapical"/>
-    <meta name="keywords"  content="CLONADENT, IMPLANTE, ROSCA, CONEXION, PERIAPICAL, HEXÁGONO, CONO MORSE, CERTAIN, KLOCNER, BONE LEVEL, NEODENT"/>
+    <meta
+      name="description"
+      content="Clonadent te ayuda a identificar tu tipo de implante por rosca, conexión o periapical"
+    />
+    <meta
+      name="keywords"
+      content="CLONADENT, IMPLANTE, ROSCA, CONEXION, PERIAPICAL, HEXÁGONO, CONO MORSE, CERTAIN, KLOCNER, BONE LEVEL, NEODENT"
+    />
     <meta name="author" content="Sol Ferri" />
     <meta name="copyright" content="Clonadent" />
     <meta property="og:title" content="Clonadent" />
-    <meta property="og:description" content="Clonadent te ayuda a identificar tu tipo de implante por rosca, conexión o periapical" />
-    <meta property="og:image" content= "../imagenes/calibreRoscas.png" />    
+    <meta
+      property="og:description"
+      content="Clonadent te ayuda a identificar tu tipo de implante por rosca, conexión o periapical"
+    />
+    <meta property="og:image" content="../imagenes/calibreRoscas.png" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:url" content= "https://app.clonadent.com/index.html"/>
-    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta property="og:url" content="https://app.clonadent.com/index.html" />
+    <meta http-equiv="cache-control" content="no-cache" />
     <link rel="stylesheet" href="../css/estilo.css" />
     <link rel="stylesheet" href="../css/fontello.css" />
     <link
@@ -24,195 +33,359 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+     
+      section[role="tarjetas"] .btn-primary,
+      div[role="tarjetas"] .btn-primary
+       {
+        background-color: #3e5a86 !important;
+        color: #fff !important;
+        border-color:#3e5a86 !important;
+        
+      }
+
+      section[role="tarjetas"] .card {
+       
+       margin-bottom: 3% !important;
+      }
   
-  
+      section[role="tarjetas"] .card-title {
+        font-weight: bold;
+        font-size: 80% !important;
+        text-align: center !important;
+      }
+    
+      section[role="tarjetas"] .card-footer {
+        /* text-align: center !important; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
 
   <header>  
-
-    <div class="wapp">
-      <a class="nav-link" href="https://wa.me/5491123227076?text=Hola,%20necesito%20información" target="_blank"> 
-      <img src="../imagenes/whatsApp.png" alt="Logo de WhatsApp" />
-      </a>                  
-    </div>
-
+      <div class="wapp col-12 ">
+        <a
+          class="nav-link float-end"
+          href="https://wa.me/5491123227076?text=Hola,%20necesito%20información"
+          target="_blank"
+        >
+          <img src="../imagenes/whatsApp.png" alt="Logo de WhatsApp" />
+        </a>
+      </div>     
   </header>
 
-<body class="body-periapical">
-  
-  <main>
-    <div class="inicio">
-      <div class="topnav">
-        <div class="logo">
-          <img
-              src="../imagenes/logo-clonadent.png"
-              alt="Logo Clonadent"
-              width="200" height="60"
-            />
-        </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i>
-          </a>
-          <div id="myLinks">
-            <a href="../index.html" class="active">Inicio</a>
-            <a href="./rosca.html">Rosca</a>
-            <a href="./conexion.html">Conexión</a>
-            <a href="./periapical.html">Periapical</a>          
-           
+  <body class="body-periapical">
+    <main>
+      <!-- start: nav -->
+
+      <div class="col-12">
+        <div class="inicio">
+          <div class="topnav">
+          
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+              <div class="container-fluid">
+                <div class="logo">
+                  <img
+                    src="../imagenes/logo-clonadent.png"
+                    alt="Logo Clonadent"
+                    width="200"
+                    height="60"
+                  />
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item  m-auto">
+                      <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item m-auto">
+                      <a class="nav-link" href="../html/rosca.html">Roscas</a>
+                    </li>
+                    <li class="nav-item  m-auto">
+                      <a class="nav-link" href="../html/conexion.html">Conexión</a>
+                    </li>
+                    <li class="nav-item  m-auto">
+                      <a class="nav-link" href="../html/periapical.html">Periapicales</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>        
           </div>
-      </div>    
-               
-</div> 
+        </div>        
+      </div>
+      <!-- end: nav -->
+         
+      
+      <!-- start: cards section   -->
+      <section class="container-fluid" role="tarjetas">
+        <div class="row">
+          <div class="col-12">
+            <div class="titulo">
+              <h1 id="h1">Periapicales:</h1>
+            </div>
+          </div>
+   
 
-<div class="titulo">
-  <h1 id="h1">Periapicales:</h1>   
-</div>
+            <!-- start: card -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="../imagenes/extConvencional.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+            />
+            <div class="card-body ">
+              <h3 class="card-title">HEXÁGONO EXTERNO CONVENCIONAL</h3>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+            </div>
+            </div>
+        </div>
+         <!-- end: card -->
 
-<section class="periapicales">
+        <!-- start: card -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+          <div class="card">
+            <img src="../imagenes/klockner.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+            />
+            <div class="card-body">
+              <h3 class="card-title">TIPO KLOCKNER &reg;</h3>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+            </div>
+            </div>
+        </div>
+         <!-- end: card -->
+
+         <!-- start: card -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+          <div class="card">
+            <img  src="../imagenes/intConvencional.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+            />
+            <div class="card-body">
+              <h3 class="card-title">HEXÁGONO INTERNO CONVENCIONAL</h3>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+            </div>
+            </div>
+        </div>
+         <!-- end: card -->
+
+          <!-- start: card -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+            <div class="card">
+              <img  src="../imagenes/Certain.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+              />
+              <div class="card-body">
+                <h3 class="card-title">TIPO CERTAIN &reg;</h3>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+              </div>
+              </div>
+          </div>
+           <!-- end: card -->
+
+             <!-- start: card -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+            <div class="card">
+              <img src="../imagenes/triChannel.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+              />
+              <div class="card-body">
+                <h3 class="card-title">TRI CHANNEL</h3>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+              </div>
+              </div>
+          </div>
+           <!-- end: card -->
+
+
+             <!-- start: card -->
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+              <div class="card">
+                <img src="../imagenes/boneLevel.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">CONICO TIPO BONE LEVEL &reg;</h3>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                </div>
+                </div>
+            </div>
+             <!-- end: card -->
+
+             
+             <!-- start: card -->
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+              <div class="card">
+                <img  src="../imagenes/tisueLevel.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">CONICO TIPO TISUE LEVEL &reg;</h3>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                </div>
+                </div>
+            </div>
+             <!-- end: card -->
+             
+             <!-- start: card -->
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+              <div class="card">
+                <img   src="../imagenes/neobiotech.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">TIPO NEOBIOTECH &reg;</h3>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                </div>
+                </div>
+            </div>
+             <!-- end: card -->
+
+              <!-- start: card -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+                <div class="card">
+                  <img     src="../imagenes/nobelActive.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">TIPO NOBEL ACTIVE &reg;</h3>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                  </div>
+                  </div>
+              </div>
+               <!-- end: card -->
+
+                <!-- start: card -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+                <div class="card">
+                  <img     src="../imagenes/neoCM.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">TIPO NEODENT &reg; CM</h3>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                  </div>
+                  </div>
+              </div>
+               <!-- end: card -->
+
+                  <!-- start: card -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center">
+                <div class="card">
+                  <img    src="../imagenes/neoIIPlus.png" class="card-img-top" alt="HEXÁGONO EXTERNO CONVENCIONAL"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title">TIPO NEODENT &reg; II Plus</h3>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn-primary" onclick="window.history.back();">Volver</button>
+                  </div>
+                  </div>
+              </div>
+               <!-- end: card -->
+        </div>
+      </section>
+       <!-- end: cards section   -->
+    </main>
+
+    <!-- start: footer -->
+    <footer>
+      <section class="container-fluid">
+        <div class="row ">
+
+          <div class="col-12 col-md-4 col-xl-6">
+             <div class="direccion d-flex justify-content-center">
+            <ion-icon name="home-outline"></ion-icon>
+            <p>Marcelo T. de Alvear y Junín</p>
+          </div>
+         </div>
+
+         <div class="col-12 col-md-4 col-xl-6">
+          <div class="telefono d-flex justify-content-center">
+            <ion-icon name="call-outline"></ion-icon>
+            <p>+54 9 11 2322-7076</p>
+          </div>
+         </div>
+         
     
-  <div class="card text-center" style="width: 22rem;">           
-    <div class="card-body">
-      <h5 class="card-title">HEXÁGONO EXTERNO CONVENCIONAL </h5>
-      <img src="../imagenes/extConvencional.png" class="card-img-top" alt="Hexágono Externo Convencional">
-      <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-    </div>
-</div>
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">TIPO KLOCKNER &reg; </h5><br>
-    <img src="../imagenes/klockner.png" class="card-img-top" alt="Neodent">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div> 
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">HEXÁGONO INTERNO CONVENCIONAL</h5>
-    <img src="../imagenes/intConvencional.png" class="card-img-top" alt="Hexágono Interno Convencional">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>  
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">TIPO CERTAIN  &reg; </h5><br>
-    <img src="../imagenes/Certain.png" class="card-img-top" alt="Certain">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>  
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body">
-    <h5 class="card-title">TRI CHANNEL</h5> <br>
-    <img src="../imagenes/triChannel.png" class="card-img-top" alt="Tri Channel">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">CONICO TIPO BONE LEVEL &reg; </h5><br>
-    <img src="../imagenes/boneLevel.png" class="card-img-top" alt="Bone Level">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>   
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">CONICO TIPO TISUE LEVEL &reg;</h5><br>
-    <img src="../imagenes/tisueLevel.png" class="card-img-top" alt="Cono Morse Tisue Level">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>  
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">TIPO NEOBIOTECH &reg;</h5><br>
-    <img src="../imagenes/neobiotech.png" class="card-img-top" alt="Neobiotech">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>   
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title"> TIPO NOBEL ACTIVE  &reg;</h5><br>
-    <img src="../imagenes/nobelActive.png" class="card-img-top" alt="Nobel Active">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>   
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">TIPO NEODENT &reg; CM</h5><br>
-    <img src="../imagenes/neoCM.png" class="card-img-top" alt="Neodent">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>   
-<br>
-<div class="card text-center" style="width: 22rem;">           
-  <div class="card-body" id="card">
-    <h5 class="card-title">TIPO NEODENT &reg; II Plus</h5><br>
-    <img src="../imagenes/neoIIPlus.png" class="card-img-top" alt="Neodent">
-    <a href="javascript: history.go(-1)" class="btn btn-primary">Volver</a>
-  </div>
-</div>  
-</section> 
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="horario d-flex justify-content-center">
+              <ion-icon name="alarm-outline"></ion-icon>
+              <p>Lunes a viernes de 9 a 16:30 hs.</p>
+            </div>  
+          </div>
+          
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="email d-flex justify-content-center">
+              <ion-icon name="at-outline"></ion-icon>
+              <p>info@clonadent.com</p>
+            </div>
+          </div>   
+         
 
-  </main>
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="web d-flex justify-content-center">
+              <ion-icon name="globe-outline"></ion-icon>
+              <p>
+                <a href="https://clonadent.com/" target="_blank"
+                  >www.clonadent.com
+                </a>
+              </p>
+            </div>
+          </div>
+        
+         
+          <div class="col-12 col-md-4 col-xl-6">
+            <div class="seguinos d-flex justify-content-center">              
+              <a href="https://www.instagram.com/clonadent/?hl=es" target="_blank">
+                <ion-icon name="logo-instagram"> </ion-icon>
+              </a>
+              <p>Seguinos en Instagram</p>
+            </div>
+          </div>
+        </div>    
+    </footer>
+     <!-- end: footer -->
 
-
-   <footer class="grid__footer">
-    <div class="direccion">
-      <ion-icon name="home-outline"></ion-icon>
-      <p>Marcelo T. de Alvear y Junín</p>
-    </div>
-
-    <div class="telefono">
-      <ion-icon name="call-outline"></ion-icon>
-      <p>+54 9 11 2322-7076</p>
-    </div>
-
-    <div class="horario">
-      <ion-icon name="alarm-outline"></ion-icon>
-      <p>Lunes a viernes de 9 a 16:30 hs.</p>
-    </div>
-
-    <div class="email">
-      <ion-icon name="at-outline"></ion-icon>
-      <p>info@clonadent.com</p>
-    </div>
-
-    <div class="web">
-      <ion-icon name="globe-outline"></ion-icon>
-      <p ><a href="https://clonadent.com/" target="_blank">www.clonadent.com </a></p>
-    </div>
-
-    
-    <div class="seguinos">
-      <p>Seguinos en Instagram </p>        
-      <a href="https://www.instagram.com/clonadent/?hl=es" target="_blank"> <ion-icon name="logo-instagram">  </ion-icon>   </a>
-    </div>    
-  
-    
-  </footer>
-  <script
+      <!-- start: scripts -->
+    <script
       type="module"
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
     ></script>
-     <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <script
-    src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"
-  ></script>      
-      <script src="../js/main.js"></script>
-</body>
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

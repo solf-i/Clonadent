@@ -1,23 +1,11 @@
-.grid__footer {
-  padding-top: 1%;
-  padding-bottom: 2%;
-  width: 100%;
+footer {
   font-weight: bold; 
   background-color:#3e5a86;
   color: #fff;
   font-size: 0.8rem;
-  display: grid;
-  position: relative;
-  grid-template: 23px 23px 23px 23px 23px / 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "direccion  .   .   ."
-    "telefono   telefono  . seguinos"
-    "horario  horario  .  seguinos"
-    "email email   .   ."
-    "web  web  .    .";
+  
 
   .direccion {
-    grid-area: direccion;
     display: flex;
     flex-direction: row;
     align-items: center;    
@@ -25,12 +13,10 @@
     ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 10px;
+      margin: 8px 0px 0px 20px;
     }
     p {
-      margin-left: 20px;
-      margin-top: 24px;
+      margin: 18px 0px 10px 20px;
       font-size: 1rem;
     }
     
@@ -38,95 +24,69 @@
   }
 
   .telefono {
-    grid-area: telefono;
     display: flex;
     flex-direction: row;    
     align-items: center;
-    margin: 10px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 14px;
+      margin: 8px 0px 0px 20px;
     }
 
     p {
-      margin-left: 20px;
-      margin-top: 24px;
+      margin: 18px 0px 10px 20px;
       font-size: 1rem;
     }
   }
 
-  .horario {
-    grid-area: horario;
-    display: flex;
-    flex-direction: row;    
+  .horario { 
     align-items: center;
-    margin: 10px 0px 0px 0px;
-    
 
     ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 16px;
+      margin: 8px 0px 0px 20px;
     }
 
     p {
-      margin-left: 20px;
-      margin-top: 30px;
+      margin: 18px 0px 10px 20px;
       font-size: 1rem;
     }
   }
 
   .email {
-    grid-area: email;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
     align-items: center;
-    margin: 10px 0px 0px 0px;
 
     ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 18px;
+      margin: 8px 0px 0px 20px;
     }
     p {
-      margin-left: 20px;
-      margin-top: 32px;
+      margin: 18px 0px 10px 20px;
       font-size: 1rem;
     }
   }
 
-  .web {
-    grid-area: web;
-    display: flex;
-    flex-direction: row;   
+  .web {  
     align-items: center;
-    margin: 10px 0px 0px 0px;
-    color: #fff ;
-   
+    color: #fff ;   
+    position: relative;
 
     ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 20px;
+      margin: 8px 0px 0px 20px;
     }
 
     p {
-      margin-left: 20px;
+      margin: 18px 0px 10px 20px;
       
      
       a {
         text-decoration: none;
-        font-size: 1rem;
-        grid-area: web;
-        display: flex;
-        flex-direction: row;        
+        font-size: 1rem;     
         padding: 0;        
         color: #fff ;
         margin-top: 34px;
@@ -136,16 +96,11 @@
   }
 
   .seguinos {
-    text-align: end;
-    grid-area: seguinos;
-    font-size: 1.2rem;
-    padding-right: 3%;
-    display: block;
-    position: relative
-    ;
+    font-size: 1rem;
+    color: #fff ;  
 
-    p{
-      margin-right: 5%;
+    p{ 
+      margin: 15px 0px 10px 20px;
     }
 
     a{  
@@ -153,189 +108,13 @@
       cursor: pointer; 
       
       ion-icon {     
-        width: 35px;
-        height: 35px;  
-        color: #fff;
-        padding-right: 5%;     
-  
+        width: 25px;
+        height: 25px;  
+        color: #fff;  
+        margin: 10px 0px 0px 20px;
       }
       
     }
-  }
-
-}
-
-
-
-@media (max-width: 575.98px){
-  .grid__footer {
-    padding-top: 1%;
-    padding-bottom: 15%;
-    width: 100%;
-    font-weight: bold;    
-    background-color:#3e5a86;
-    color: #fff; 
-    display: grid;
-    grid-template: 18px 18px 18px 18px 18px 18px 18px /1.5fr 1fr;
-    grid-template-areas:
-      "direccion direccion"
-      "telefono telefono"
-      "horario horario"
-      "email email"
-      "web web"
-      "seguinos seguinos";
-
-    .direccion {
-      grid-area: direccion;
-      display: flex;
-      flex-direction: row;      
-      margin-left: 11%;
-      padding-top: 4%;
-      ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 2%;
-        
-      }
-      p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px;        
-      }
-    }
-
-    .telefono {
-      grid-area: telefono;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 4%;
-
-      ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 2%;
-        
-      }
-      p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px;        
-      }
-    }
-
-    .horario {
-      grid-area: horario;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 5%;
-      ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 3%;
-        
-      }
-      p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px;        
-      }
-    }
-
-    .email {
-      grid-area: email;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 7%;
-
-      ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 4%;
-        
-      }
-      p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px;        
-      }
-    }
-
-    .web {
-      grid-area: web;
-      display: flex;
-      flex-direction: row;      
-      padding-bottom: 20px;
-      color: #fff ;
-      margin-left: 11%;
-      padding-top: 8%;
-
-      ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 4%;
-        
-      }
-      p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px;        
-      
-
-        a {
-          text-decoration: none;
-          font-size: 1.1rem;
-          grid-area: web;
-          display: flex;
-          flex-direction: row;
-          margin: 0;
-          margin-top: 8px;
-          color: #fff ;
-          
-        }
-      }
-    }
-
-    .seguinos {
-      text-align: start;
-      grid-area: seguinos;
-      font-size: 1.1rem;
-      margin-left: 13%;
-      padding-top: 13%;
-      color: #fff; 
-      display: flex;
-
-      p{
-        margin-right: 5%;
-      }
-      a{  
-      
-        cursor: pointer; 
-        
-        ion-icon {     
-          width: 28px;
-          height: 28px;  
-          color: #fff;
-          padding-right: 5%;     
-    
-        }
-        
-      }
-      
-    }
-  
   }
 
 }

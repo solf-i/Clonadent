@@ -6,92 +6,60 @@
 
 .bodyIndex {
   overflow-x: hidden;
-  position: relative; }
+  width: 100%;
+  font-size: 120%; }
   .bodyIndex main {
     width: 100%;
-    height: auto;
-    margin-bottom: 100px; }
-    .bodyIndex main .inicio {
-      background-image: url("../../imagenes/implante.png");
-      background-repeat: no-repeat;
-      background-size: 35%;
-      background-position-x: 20%;
-      background-position-y: 100%;
-      height: 600px;
-      width: 100%;
-      padding-left: 1000px;
-      padding: 0;
-      position: relative; }
-      .bodyIndex main .inicio .topnav {
-        background-color: none;
-        overflow: hidden;
-        position: relative; }
-        .bodyIndex main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .bodyIndex main .inicio .topnav #myLinks {
-          display: none;
-          width: 70%;
-          padding-left: 20%;
-          flex-direction: row;
-          padding-top: 1.8%;
-          text-align: right; }
-          .bodyIndex main .inicio .topnav #myLinks a {
-            color: #3e5a86;
-            font-weight: bold;
-            text-align: end;
-            padding: 1% 3%;
-            text-decoration: none;
-            font-size: 1.7rem;
-            display: flex;
-            margin-right: 0;
-            flex-direction: row;
-            width: 50%;
-            position: relative; }
-            .bodyIndex main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .bodyIndex main .inicio .topnav .icon {
-          background: #3e5a86;
-          height: 48px;
-          width: 48px;
-          text-align: center;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative;
-          right: 20px;
-          top: 0px;
-          float: right;
-          padding: 0%; }
-          .bodyIndex main .inicio .topnav .icon i {
-            font-size: 2.1rem;
-            padding-top: 0;
-            color: #f7f7f7; }
-    .bodyIndex main #h1 {
-      text-align: center;
-      padding-right: 0;
-      padding-top: 0;
-      color: #3e5a86;
-      font-weight: 500;
-      font-size: 3rem;
-      margin-bottom: 0;
-      margin-top: 0;
-      margin-left: 50%;
-      position: absolute;
-      top: 180px; }
-    .bodyIndex main section {
-      display: block;
+    height: auto; }
+    .bodyIndex main .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .bodyIndex main .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .bodyIndex main .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86; }
+        .bodyIndex main .inicio .topnav .navbar .navbar-toggler .navbar-toggler-icon {
+          color: white !important; }
+      .bodyIndex main .inicio .topnav .navbar .navbar-nav {
+        background: none; }
+        .bodyIndex main .inicio .topnav .navbar .navbar-nav a {
+          color: #3e5a86;
+          font-weight: bold;
+          text-align: end;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0; }
+          .bodyIndex main .inicio .topnav .navbar .navbar-nav a:hover {
+            background: #3e5a86b9;
+            color: #fff; }
+    .bodyIndex main .container {
+      display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin: auto;
-      position: absolute;
-      top: 280px;
-      z-index: 1;
-      margin-bottom: 0%;
-      margin-left: 60%; }
-      .bodyIndex main section .cuadro1, .bodyIndex main section .cuadro2, .bodyIndex main section .cuadro3 {
+      width: 100%; }
+      .bodyIndex main .container img {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        padding: 5% 2% 0% 4%; }
+      .bodyIndex main .container .titulo {
+        margin: auto;
+        margin-top: 12%; }
+        .bodyIndex main .container .titulo #h1 {
+          text-align: center;
+          padding-right: 0% 0% 2% 0%;
+          color: #3e5a86;
+          font-weight: 500;
+          font-size: 220%;
+          margin-right: 0; }
+      .bodyIndex main .container .cuadro1, .bodyIndex main .container .cuadro2, .bodyIndex main .container .cuadro3 {
         box-sizing: border-box;
-        width: 270px;
+        width: 75%;
         height: 80px;
         justify-content: center;
         transition: all 1s;
@@ -100,2106 +68,107 @@
         display: flex;
         margin: auto;
         margin-top: 2.5%; }
-        .bodyIndex main section .cuadro1 a, .bodyIndex main section .cuadro2 a, .bodyIndex main section .cuadro3 a {
+        .bodyIndex main .container .cuadro1 a, .bodyIndex main .container .cuadro2 a, .bodyIndex main .container .cuadro3 a {
           outline: none;
           text-decoration: none;
           color: #fff;
           font-size: 1.5rem;
           font-weight: bolder;
           text-align: center;
-          padding-top: 10%; }
-      .bodyIndex main section .cuadro1:hover, .bodyIndex main section .cuadro2:hover, .bodyIndex main section .cuadro3:hover {
+          align-self: center; }
+      .bodyIndex main .container .cuadro1:hover, .bodyIndex main .container .cuadro2:hover, .bodyIndex main .container .cuadro3:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
-      .bodyIndex main section .cuadro2:hover {
+      .bodyIndex main .container .cuadro2:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
-      .bodyIndex main section .cuadro3:hover {
+      .bodyIndex main .container .cuadro3:hover {
         transform: scale(1.2, 1.2);
         cursor: pointer; }
-    .bodyIndex main .calibre {
-      width: 100%; }
-      .bodyIndex main .calibre h2 {
-        text-align: center;
-        font-size: 3rem;
-        margin-top: 0;
-        padding-top: 0;
-        color: #3e5a86; }
-      .bodyIndex main .calibre p {
-        text-align: center;
-        font-size: 2rem;
-        padding-top: 1%;
-        color: #3e5a86; }
-      .bodyIndex main .calibre .img {
-        text-align: center; }
-
-/*HTML ROSCA*/
-.body-rosca {
-  overflow-x: hidden; }
-  .body-rosca main {
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px; }
-    .body-rosca main .inicio {
-      background-image: url("../../imagenes/implante.png");
-      background-repeat: no-repeat;
-      background-size: 35%;
-      background-position-x: 20%;
-      background-position-y: 100%;
-      height: 600px;
-      width: 100%;
-      padding-left: 1000px;
-      padding: 0;
-      position: relative; }
-      .body-rosca main .inicio .topnav {
-        background-color: none;
-        overflow: hidden;
-        position: relative; }
-        .body-rosca main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-rosca main .inicio .topnav #myLinks {
-          display: none;
-          width: 70%;
-          padding-left: 30%;
-          flex-direction: row;
-          padding-top: 1.8%;
-          text-align: right; }
-          .body-rosca main .inicio .topnav #myLinks a {
-            color: #3e5a86;
-            font-weight: bold;
-            text-align: end;
-            padding: 1% 1%;
-            text-decoration: none;
-            font-size: 1.7rem;
-            display: flex;
-            margin-right: 0;
-            flex-direction: row;
-            width: 50%;
-            position: relative; }
-            .body-rosca main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-rosca main .inicio .topnav .icon {
-          background: #3e5a86;
-          height: 48px;
-          width: 48px;
-          text-align: center;
-          padding-top: .5%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative;
-          right: 20px;
-          top: 0px;
-          float: right; }
-          .body-rosca main .inicio .topnav .icon i {
-            font-size: 2.1rem;
-            padding: 0;
-            color: #f7f7f7; }
-    .body-rosca main #h1 {
-      text-align: center;
-      padding-right: 0;
-      padding-top: 0;
-      color: #3e5a86;
-      font-weight: 500;
-      font-size: 3rem;
-      margin-bottom: 0;
-      margin-top: 0;
-      margin-left: 68%;
-      position: absolute;
-      top: 180px; }
-    .body-rosca main .container {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      width: 60%;
-      margin-left: 630px;
-      position: absolute;
-      top: 270px; }
-      .body-rosca main .container .menu__desplegable .nav {
-        font-size: 1.3rem; }
-        .body-rosca main .container .menu__desplegable .nav .m1 {
-          text-decoration: none;
-          background-color: #4f2f7a;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m1 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 {
-              text-decoration: none;
-              background-color: #4f2f7a;
-              width: 300px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block; }
-              .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 ul {
-                padding: 0;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m1 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #4f2f7a;
-                font-size: 1rem;
-                padding: 2% 4% 2% 4%;
-                font-size: 1rem; }
-                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item:hover {
-                  background-color: #4f2f7ab2;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m2 {
-          text-decoration: none;
-          background-color: #ee2556;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m2 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m2 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #ee2556;
-                font-size: 1rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item:hover {
-                  background-color: #ee2557a8;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m3 {
-          text-decoration: none;
-          background-color: #161fcb;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m3 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m3 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #161fcb;
-                font-size: 1rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item:hover {
-                  background-color: #161fcbad;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m4 {
-          text-decoration: none;
-          background-color: #08a908;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m4 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m4 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #08a908;
-                font-size: 1rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item:hover {
-                  background-color: #08a908a9;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m5 {
-          text-decoration: none;
-          background-color: #fce221;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m5 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m5 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #fce221;
-                font-size: 1rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item:hover {
-                  background-color: #fce221d8;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item span {
-                  margin-left: 10px; }
-
-/*HTML CONEXIÓN*/
-.body-conexion {
-  width: 100%;
-  overflow-x: hidden; }
-  .body-conexion main {
-    width: 100%;
-    padding-bottom: 15%;
-    width: 100%;
-    margin-bottom: 600px; }
-    .body-conexion main .inicio {
-      background-image: url("../../imagenes/implante.png");
-      background-repeat: no-repeat;
-      background-size: 35%;
-      background-position-x: 20%;
-      background-position-y: 100%;
-      height: 600px;
-      width: 100%;
-      padding-left: 1000px;
-      padding: 0;
-      position: relative; }
-      .body-conexion main .inicio .topnav {
-        background-color: none;
-        overflow: hidden;
-        position: relative; }
-        .body-conexion main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-conexion main .inicio .topnav #myLinks {
-          display: none;
-          width: 70%;
-          padding-left: 20%;
-          padding-right: 5px;
-          margin-left: 170px;
-          flex-direction: row;
-          padding-top: 2%;
-          text-align: right; }
-          .body-conexion main .inicio .topnav #myLinks a {
-            color: #3e5a86;
-            font-weight: bold;
-            text-align: end;
-            padding: 1% 3%;
-            text-decoration: none;
-            font-size: 1.7rem;
-            margin-right: 0;
-            flex-direction: row;
-            width: 50%;
-            position: relative; }
-            .body-conexion main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-conexion main .inicio .topnav .icon {
-          background: #3e5a86;
-          height: 48px;
-          width: 48px;
-          text-align: center;
-          padding-top: .5%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative;
-          right: 20px;
-          top: 0px;
-          float: right; }
-          .body-conexion main .inicio .topnav .icon i {
-            font-size: 2.1rem;
-            padding: 0;
-            color: #f7f7f7; }
-    .body-conexion main #h1 {
-      text-align: center;
-      padding-right: 0;
-      padding-top: 0;
-      color: #3e5a86;
-      font-weight: 500;
-      font-size: 3rem;
-      margin-bottom: 0;
-      margin-top: 0;
-      margin-left: 65%;
-      position: absolute;
-      top: 150px; }
-    .body-conexion main .container {
-      display: block;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      width: 60%;
-      margin-left: 925px;
-      position: absolute;
-      top: 250px; }
-      .body-conexion main .container .menu__desplegable--conexion .nav {
-        font-size: 1.1rem; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m1 {
-          text-decoration: none;
-          background-color: #3e5a86;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul {
-            padding: 0%;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff;
-            display: none;
-            list-style: none; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #ee2556;
-              font-size: 1.2rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item:hover {
-                background-color: #ee2557a8;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item span {
-                margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 {
-              text-decoration: none;
-              background-color: #8695b8;
-              width: 300px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block;
-              text-decoration: none;
-              list-style-type: none; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul {
-                padding: 0%;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff;
-                display: none; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #4f2f7a;
-                  font-size: 1.2rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item:hover {
-                    background-color: #4f2f7ab2;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #ee2556;
-                  font-size: 1.2rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item:hover {
-                    background-color: #ee2557a8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #08a908;
-                  font-size: 1.2rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item:hover {
-                    background-color: #08a908a9;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #fce221;
-                  font-size: 1.2rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item:hover {
-                    background-color: #fce221d8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item span {
-                    margin-left: 10px; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m2 {
-          text-decoration: none;
-          background-color: #3e5a86;
-          width: 300px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff;
-            display: none;
-            list-style: none; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 {
-              text-decoration: none;
-              background-color: #3e5a86;
-              width: 300px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block;
-              text-decoration: none;
-              list-style-type: none; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul {
-                padding: 0;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff;
-                display: none; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
-                  text-decoration: none;
-                  background-color: #8695b8;
-                  width: 300px;
-                  font-weight: bold;
-                  color: #ffffff;
-                  text-align: center;
-                  padding: 2% 0% 2% 0%;
-                  margin: 2% 0% 2% 0%;
-                  display: block; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul {
-                    padding: 0;
-                    margin: 0%;
-                    top: 100%;
-                    left: 0;
-                    height: auto;
-                    display: none;
-                    background: #fff;
-                    display: none; }
-                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item {
-                      display: block;
-                      text-decoration: none;
-                      list-style-type: none;
-                      background-color: #ffffff;
-                      color: #4f2f7a;
-                      font-size: 1.2rem;
-                      padding: 2% 4% 2% 2%;
-                      height: 40px; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item:hover {
-                        background-color: #4f2f7ab2;
-                        color: #ffffff; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item span {
-                        margin-left: 10px; }
-                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item {
-                      display: block;
-                      text-decoration: none;
-                      list-style-type: none;
-                      background-color: #ffffff;
-                      color: #ee2556;
-                      font-size: 1.2rem;
-                      padding: 2% 4% 2% 2%;
-                      height: 40px; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item:hover {
-                        background-color: #ee2557a8;
-                        color: #ffffff; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item span {
-                        margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #ee2556;
-                  font-size: 1.2rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item:hover {
-                    background-color: #ee2557a8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item span {
-                    margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #4f2f7a;
-              font-size: 1.2rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item:hover {
-                background-color: #4f2f7ab2;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item span {
-                margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #08a908;
-              font-size: 1.2rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item:hover {
-                background-color: #08a908a9;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item span {
-                margin-left: 10px; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m3__item {
-          display: block;
-          text-decoration: none;
-          list-style-type: none;
-          background-color: #ffffff;
-          color: #161fcb;
-          font-size: 1.2rem;
-          padding: 2% 4% 2% 4%;
-          height: 40px; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m3__item:hover {
-            background-color: #161fcbad;
-            color: #ffffff; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m3__item span {
-            margin-left: 10px; }
-
-/*HTML PERIAPICAL*/
-.body-periapical {
-  width: 100%;
-  overflow-x: hidden; }
-  .body-periapical main {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    height: auto; }
-    .body-periapical main .inicio {
-      width: 100%;
-      padding-left: 1000px;
-      padding: 0;
-      position: relative;
-      text-align: center; }
-      .body-periapical main .inicio .topnav {
-        background-color: none;
-        overflow: hidden;
-        position: relative; }
-        .body-periapical main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-periapical main .inicio .topnav #myLinks {
-          display: none;
-          width: 70%;
-          padding-left: 30%;
-          flex-direction: row;
-          padding-top: 1.8%;
-          text-align: right; }
-          .body-periapical main .inicio .topnav #myLinks a {
-            color: #3e5a86;
-            font-weight: bold;
-            text-align: end;
-            padding: 1% 1%;
-            text-decoration: none;
-            font-size: 1.7rem;
-            display: flex;
-            margin-right: 0;
-            flex-direction: row;
-            width: 50%;
-            position: relative; }
-            .body-periapical main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-periapical main .inicio .topnav .icon {
-          background: #3e5a86;
-          height: 48px;
-          width: 48px;
-          text-align: center;
-          padding-top: .6%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative;
-          right: 20px;
-          top: 0px;
-          float: right; }
-          .body-periapical main .inicio .topnav .icon i {
-            font-size: 2rem;
-            padding: 0;
-            color: #f7f7f7; }
-    .body-periapical main .titulo {
-      width: 100%;
-      height: 100px;
-      text-align: center; }
-      .body-periapical main .titulo #h1 {
-        padding-right: 0;
-        padding-top: 0;
-        color: #3e5a86;
-        font-weight: 500;
-        font-size: 3rem;
-        margin: 0;
-        position: relative; }
-    .body-periapical main .periapicales {
-      position: relative;
-      display: flex;
-      flex-wrap: wrap;
-      padding-top: 0;
-      width: 80%;
-      margin-left: 15%;
-      height: auto;
-      margin-bottom: 2%; }
-      .body-periapical main .periapicales .card {
-        position: relative;
-        box-shadow: 2px 2px 2px 2px #a5a3a3;
-        margin: .8%;
-        width: 100%;
-        height: 550px;
-        padding-bottom: 1%; }
-        .body-periapical main .periapicales .card .card-body .card-title {
-          font-size: 1.1rem;
-          font-weight: bold;
-          color: #3e5a86; }
-        .body-periapical main .periapicales .card .card-body img {
-          width: 90%;
-          height: auto;
-          margin-top: 5%; }
-        .body-periapical main .periapicales .card .card-body .btn {
-          display: block;
-          width: 40%;
-          margin: auto;
-          margin-top: 5%;
-          background-color: #3e5a86;
-          color: #fff; }
-
-.body-periapicalIndividual {
-  width: 100%;
-  overflow-x: hidden; }
-  .body-periapicalIndividual main {
-    margin-bottom: 100px; }
-    .body-periapicalIndividual main .inicio {
-      width: 100%;
-      padding-left: 1000px;
-      padding: 0;
-      height: 100px; }
-      .body-periapicalIndividual main .inicio .topnav {
-        background-color: none;
-        overflow: hidden;
-        position: relative; }
-        .body-periapicalIndividual main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-periapicalIndividual main .inicio .topnav #myLinks {
-          display: none;
-          width: 70%;
-          padding-left: 30%;
-          flex-direction: row;
-          padding-top: 1.8%;
-          text-align: right; }
-          .body-periapicalIndividual main .inicio .topnav #myLinks a {
-            color: #3e5a86;
-            font-weight: bold;
-            text-align: end;
-            padding: 1% 1%;
-            text-decoration: none;
-            font-size: 1.7rem;
-            display: flex;
-            margin-right: 0;
-            flex-direction: row;
-            width: 50%;
-            position: relative; }
-            .body-periapicalIndividual main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-periapicalIndividual main .inicio .topnav .icon {
-          background: #3e5a86;
-          height: 48px;
-          width: 48px;
-          text-align: center;
-          padding-top: .6%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative;
-          right: 20px;
-          top: 0px;
-          float: right; }
-          .body-periapicalIndividual main .inicio .topnav .icon i {
-            font-size: 2rem;
-            padding: 0;
-            color: #f7f7f7; }
-      .body-periapicalIndividual main .inicio #h1 {
-        text-align: center;
-        color: #3e5a86;
-        font-size: 3rem; }
-    .body-periapicalIndividual main .card {
-      box-shadow: 2px 2px 2px 2px #a5a3a3;
-      margin: auto;
-      height: 540px;
-      width: 100%; }
-      .body-periapicalIndividual main .card .card-body .card-title {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: #3e5a86;
-        padding-bottom: 1%; }
-      .body-periapicalIndividual main .card .card-body img {
-        width: 235px;
-        height: 380px;
-        margin-top: 5%; }
-      .body-periapicalIndividual main .card .card-body .btn {
-        display: block;
-        width: 40%;
-        margin: auto;
-        margin-top: 5%;
-        background-color: #3e5a86;
-        color: #fff; }
-
-@media (max-width: 575.98px) {
-  .bodyIndex {
-    width: 100%; }
-    .bodyIndex main {
-      padding: 0%;
-      width: 100%;
-      margin-bottom: 0; }
-      .bodyIndex main .inicio {
-        background-image: url("../../imagenes/implante.png");
-        background-repeat: no-repeat;
-        background-size: 60%;
-        background-position-x: 60%;
-        background-position-y: 100%;
-        height: 300px;
-        width: 100%;
-        padding: 0; }
-        .bodyIndex main .inicio .topnav {
-          background-color: none;
-          overflow-x: hidden;
-          z-index: 1;
-          width: 100%;
-          height: 400px; }
-          .bodyIndex main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .bodyIndex main .inicio .topnav #myLinks {
-            display: none;
-            width: 50%;
-            height: 150px;
-            padding-left: 40px;
-            padding-right: 10px;
-            padding-bottom: 0;
-            margin-left: 90px;
-            margin-top: 20%;
-            top: -30px;
-            flex-direction: column;
-            background: rgba(248, 246, 246, 0.8); }
-            .bodyIndex main .inicio .topnav #myLinks a {
-              text-align: start;
-              font-size: 1.5rem;
-              width: 100%;
-              color: #3e5a86; }
-              .bodyIndex main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .bodyIndex main .inicio .topnav .icon {
-            float: right;
-            top: 5px;
-            right: 5px;
-            background: #3e5a86;
-            text-align: center;
-            padding-top: 0%;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative; }
-            .bodyIndex main .inicio .topnav .icon i {
-              font-size: 2.3rem;
-              padding: 0;
-              color: #f7f7f7; }
-      .bodyIndex main #h1 {
-        text-align: center;
-        width: 100%;
-        padding-right: 0;
-        padding-top: 3%;
-        color: #3e5a86;
-        font-weight: 500;
-        font-size: 2rem;
-        margin-left: 0%;
-        margin-bottom: 3%;
-        margin-top: 2%;
-        position: relative;
-        top: 0px; }
-      .bodyIndex main section {
-        display: block;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin: auto;
-        position: absolute;
-        top: 410px;
-        z-index: 1;
-        margin-bottom: 1%;
-        margin-left: 22%; }
-        .bodyIndex main section .cuadro1, .bodyIndex main section .cuadro2, .bodyIndex main section .cuadro3 {
-          margin-top: 1%;
-          box-sizing: border-box;
-          width: 200px;
-          height: 70px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          box-shadow: none;
-          display: flex;
-          margin: auto; }
-          .bodyIndex main section .cuadro1 a, .bodyIndex main section .cuadro2 a, .bodyIndex main section .cuadro3 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro1:hover, .bodyIndex main section .cuadro2:hover, .bodyIndex main section .cuadro3:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-        .bodyIndex main section .cuadro2 {
-          margin-top: 5%;
-          box-sizing: border-box;
-          width: 200px;
-          height: 70px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          display: flex; }
-          .bodyIndex main section .cuadro2 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro2:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-        .bodyIndex main section .cuadro3 {
-          margin-top: 5%;
-          box-sizing: border-box;
-          width: 200px;
-          height: 70px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          display: flex; }
-          .bodyIndex main section .cuadro3 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro3:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-      .bodyIndex main .calibre {
-        width: 100%;
-        margin-top: 300px;
-        padding-bottom: 3%; }
-        .bodyIndex main .calibre h2 {
-          text-align: center;
-          font-size: 2rem;
-          font-weight: 500;
-          padding-top: 2%;
-          color: #3e5a86; }
-        .bodyIndex main .calibre p {
-          text-align: center;
-          font-size: 1.7rem;
-          padding: 1% 2% 1%;
-          color: #3e5a86; }
-        .bodyIndex main .calibre .img {
-          text-align: center; }
-          .bodyIndex main .calibre .img img {
-            height: 120px;
-            width: 330px; }
-  .body-rosca main {
-    width: 100%;
-    padding-bottom: 15%;
-    height: auto;
-    margin: auto; }
-    .body-rosca main .inicio {
-      background-image: url("../../imagenes/implante.png");
-      background-repeat: no-repeat;
-      background-size: 60%;
-      background-position-x: 60%;
-      background-position-y: 100%;
-      height: 300px;
-      width: 100%;
-      padding: 0; }
-      .body-rosca main .inicio .topnav {
-        background-color: none;
-        overflow-x: hidden;
-        z-index: 1;
+      .bodyIndex main .container .calibre {
         width: 100%; }
-        .body-rosca main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-rosca main .inicio .topnav #myLinks {
-          display: none;
-          width: 50%;
-          height: 150px;
-          padding-left: 30px;
-          padding-right: 20px;
-          margin-left: 90px;
-          margin-top: 20%;
-          padding-top: 0%;
-          margin-bottom: 0;
-          top: -30px;
-          flex-direction: column;
-          background: rgba(248, 246, 246, 0.8); }
-          .body-rosca main .inicio .topnav #myLinks a {
-            font-size: 1.5rem;
-            width: 100%;
-            color: #3e5a86; }
-            .body-rosca main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-rosca main .inicio .topnav .icon {
-          float: right;
-          top: 5px;
-          right: 5px;
-          background: #3e5a86;
+        .bodyIndex main .container .calibre h2 {
           text-align: center;
-          padding-top: 2%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative; }
-          .body-rosca main .inicio .topnav .icon i {
-            font-size: 2.5rem;
-            padding: 0;
-            color: #f7f7f7; }
-    .body-rosca main #h1 {
-      text-align: center;
-      width: 100%;
-      padding-right: 0;
-      padding-top: 3%;
-      color: #3e5a86;
-      font-weight: 500;
-      font-size: 2rem;
-      margin-left: 0%;
-      margin-bottom: 0;
-      margin-top: 2%;
-      position: relative;
-      top: 0px; }
-    .body-rosca main .container {
-      display: block;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      position: relative;
-      top: 35px;
-      width: 83%;
-      margin: auto; }
-      .body-rosca main .container .menu__desplegable {
-        padding-top: 0; }
-        .body-rosca main .container .menu__desplegable .nav .m1 {
-          text-decoration: none;
-          background-color: #4f2f7a;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m1 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 {
-              text-decoration: none;
-              background-color: #4f2f7a;
-              width: 250px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block; }
-              .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 ul {
-                padding: 0;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m1 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #4f2f7a;
-                font-size: 1.2rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item:hover {
-                  background-color: #4f2f7ab2;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m1 ul li .m1__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m2 {
-          text-decoration: none;
-          background-color: #ee2556;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m2 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m2 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #ee2556;
-                font-size: 1.2rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item:hover {
-                  background-color: #ee2557a8;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m2 ul li .m2__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m3 {
-          text-decoration: none;
-          background-color: #161fcb;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m3 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m3 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #161fcb;
-                font-size: 1.2rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item:hover {
-                  background-color: #161fcbad;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m3 ul li .m3__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m4 {
-          text-decoration: none;
-          background-color: #08a908;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m4 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m4 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #08a908;
-                font-size: 1.2rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item:hover {
-                  background-color: #08a908a9;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m4 ul li .m4__item span {
-                  margin-left: 10px; }
-        .body-rosca main .container .menu__desplegable .nav .m5 {
-          text-decoration: none;
-          background-color: #fce221;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block; }
-          .body-rosca main .container .menu__desplegable .nav .m5 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff; }
-            .body-rosca main .container .menu__desplegable .nav .m5 ul li {
-              list-style: none;
-              text-decoration: none;
-              color: #ffffff;
-              font-size: 1rem;
-              text-align: left;
-              float: none;
-              margin: 5px;
-              padding: 2% 0% 2% 0%; }
-              .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item {
-                display: block;
-                text-decoration: none;
-                list-style-type: none;
-                background-color: #ffffff;
-                color: #fce221;
-                font-size: 1.2rem;
-                padding: 2% 4% 2% 4%; }
-                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item:hover {
-                  background-color: #fce221d8;
-                  color: #ffffff; }
-                .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item span {
-                  margin-left: 10px; }
-  /*HTML CONEXIÓN*/
-  .body-conexion main {
-    width: 100%;
-    padding-bottom: 15%;
-    height: auto;
-    margin: auto; }
-    .body-conexion main .inicio {
-      background-image: url("../../imagenes/implante.png");
-      background-repeat: no-repeat;
-      background-size: 60%;
-      background-position-x: 60%;
-      background-position-y: 100%;
-      height: 300px;
-      width: 100%;
-      padding: 0; }
-      .body-conexion main .inicio .topnav {
-        background-color: none;
-        overflow-x: hidden;
-        z-index: 1;
-        width: 100%; }
-        .body-conexion main .inicio .topnav .logo {
-          float: left;
-          position: relative;
-          margin: 1%; }
-        .body-conexion main .inicio .topnav #myLinks {
-          display: none;
-          width: 50%;
-          height: 150px;
-          padding-left: 40px;
-          padding-right: 30px;
-          margin-left: 90px;
-          margin-top: 20%;
-          padding-bottom: 0%;
-          margin-bottom: 0;
-          top: -30px;
-          flex-direction: column;
-          background: rgba(248, 246, 246, 0.8); }
-          .body-conexion main .inicio .topnav #myLinks a {
-            margin-left: 5%;
-            font-size: 1.5rem;
-            width: 100%;
-            color: #3e5a86; }
-            .body-conexion main .inicio .topnav #myLinks a:hover {
-              background: rgba(248, 246, 246, 0.4); }
-        .body-conexion main .inicio .topnav .icon {
-          float: right;
-          top: 5px;
-          right: 5px;
-          background: #3e5a86;
-          text-align: center;
-          padding-top: 2%;
-          text-shadow: 2px 2px 3px #000;
-          margin: 1%;
-          position: relative; }
-          .body-conexion main .inicio .topnav .icon i {
-            font-size: 2.5rem;
-            padding: 0;
-            color: #f7f7f7; }
-    .body-conexion main #h1 {
-      text-align: center;
-      width: 100%;
-      padding-right: 0;
-      padding-top: 3%;
-      color: #3e5a86;
-      font-weight: 500;
-      font-size: 2rem;
-      margin-left: 0%;
-      margin-bottom: 5%;
-      margin-top: 1%;
-      position: relative;
-      top: 0px; }
-    .body-conexion main .container {
-      display: block;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      width: 83%;
-      margin: auto;
-      position: relative;
-      top: 0px; }
-      .body-conexion main .container .menu__desplegable--conexion {
-        margin-top: 5px; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m1 {
-          text-decoration: none;
-          background-color: #3e5a86;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block;
-          font-size: 1.3rem; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul {
-            padding: 0%;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff;
-            display: none;
-            list-style: none; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #ee2556;
-              font-size: 1.5rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item:hover {
-                background-color: #ee2557a8;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m2__item span {
-                margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 {
-              text-decoration: none;
-              background-color: #8695b8;
-              width: 250px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              font-size: 1.3rem; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul {
-                padding: 0%;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff;
-                display: none; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #4f2f7a;
-                  font-size: 1.5rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item:hover {
-                    background-color: #4f2f7ab2;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m1__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #ee2556;
-                  font-size: 1.5rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item:hover {
-                    background-color: #ee2557a8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m2__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #08a908;
-                  font-size: 1.5rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item:hover {
-                    background-color: #08a908a9;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m4__item span {
-                    margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #fce221;
-                  font-size: 1.5rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item:hover {
-                    background-color: #fce221d8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 ul .m5__item span {
-                    margin-left: 10px; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m2 {
-          text-decoration: none;
-          background-color: #3e5a86;
-          width: 250px;
-          font-weight: bold;
-          color: #ffffff;
-          text-align: center;
-          padding: 2% 0% 2% 0%;
-          margin: 2% 0% 2% 0%;
-          display: block;
-          font-size: 1.3rem; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul {
-            padding: 0;
-            margin: 0%;
-            top: 100%;
-            left: 0;
-            height: auto;
-            display: none;
-            background: #fff;
-            display: none;
-            list-style: none; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 {
-              text-decoration: none;
-              background-color: #3e5a86;
-              width: 250px;
-              font-weight: bold;
-              color: #ffffff;
-              text-align: center;
-              padding: 2% 0% 2% 0%;
-              margin: 2% 0% 2% 0%;
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              font-size: 1.3rem; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul {
-                padding: 0;
-                margin: 0%;
-                top: 100%;
-                left: 0;
-                height: auto;
-                display: none;
-                background: #fff;
-                display: none; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
-                  text-decoration: none;
-                  background-color: #8695b8;
-                  width: 250px;
-                  font-weight: bold;
-                  color: #ffffff;
-                  text-align: center;
-                  padding: 2% 0% 2% 0%;
-                  margin: 2% 0% 2% 0%;
-                  display: block;
-                  font-size: 1.3rem; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul {
-                    padding: 0;
-                    margin: 0%;
-                    top: 100%;
-                    left: 0;
-                    height: auto;
-                    display: none;
-                    background: #fff;
-                    display: none; }
-                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item {
-                      display: block;
-                      text-decoration: none;
-                      list-style-type: none;
-                      background-color: #ffffff;
-                      color: #4f2f7a;
-                      font-size: 1.5rem;
-                      padding: 2% 4% 2% 2%;
-                      height: 40px; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item:hover {
-                        background-color: #4f2f7ab2;
-                        color: #ffffff; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m1__item span {
-                        margin-left: 10px; }
-                    .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item {
-                      display: block;
-                      text-decoration: none;
-                      list-style-type: none;
-                      background-color: #ffffff;
-                      color: #ee2556;
-                      font-size: 1.5rem;
-                      padding: 2% 4% 2% 2%;
-                      height: 40px; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item:hover {
-                        background-color: #ee2557a8;
-                        color: #ffffff; }
-                      .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 ul .m2__item span {
-                        margin-left: 10px; }
-                .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item {
-                  display: block;
-                  text-decoration: none;
-                  list-style-type: none;
-                  background-color: #ffffff;
-                  color: #ee2556;
-                  font-size: 1.5rem;
-                  padding: 2% 4% 2% 2%;
-                  height: 40px; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item:hover {
-                    background-color: #ee2557a8;
-                    color: #ffffff; }
-                  .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2__item span {
-                    margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #4f2f7a;
-              font-size: 1.5rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item:hover {
-                background-color: #4f2f7ab2;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m1__item span {
-                margin-left: 10px; }
-            .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item {
-              display: block;
-              text-decoration: none;
-              list-style-type: none;
-              background-color: #ffffff;
-              color: #08a908;
-              font-size: 1.5rem;
-              padding: 2% 4% 2% 2%;
-              height: 40px; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item:hover {
-                background-color: #08a908a9;
-                color: #ffffff; }
-              .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m4__item span {
-                margin-left: 10px; }
-        .body-conexion main .container .menu__desplegable--conexion .nav .m3__item {
-          display: block;
-          text-decoration: none;
-          list-style-type: none;
-          background-color: #ffffff;
-          color: #161fcb;
-          font-size: 1.5rem;
-          padding: 2% 4% 2% 2%;
-          height: 40px; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m3__item:hover {
-            background-color: #161fcbad;
-            color: #ffffff; }
-          .body-conexion main .container .menu__desplegable--conexion .nav .m3__item span {
-            margin-left: 10px; }
-  .body-periapical {
-    width: 100%; }
-    .body-periapical main {
-      width: 95%;
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 2%;
-      height: auto; }
-      .body-periapical main .inicio {
-        width: 100%;
-        padding-left: 1000px;
-        padding: 0;
-        height: 80px; }
-        .body-periapical main .inicio .topnav {
-          background-color: none;
-          overflow: hidden;
-          width: 100%;
-          z-index: 1;
-          width: 100%; }
-          .body-periapical main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .body-periapical main .inicio .topnav #myLinks {
-            display: none;
-            width: 50%;
-            height: auto;
-            padding-left: 50px;
-            margin-left: 80px;
-            padding-top: 0%;
-            top: -30px;
-            flex-direction: column;
-            background: rgba(248, 246, 246, 0.8); }
-            .body-periapical main .inicio .topnav #myLinks a {
-              font-size: 1.5rem;
-              width: 100%;
-              color: #3e5a86; }
-              .body-periapical main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .body-periapical main .inicio .topnav .icon {
-            float: right;
-            top: 5px;
-            right: 5px;
-            background: #3e5a86;
-            text-align: center;
-            padding-top: 2%;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative; }
-            .body-periapical main .inicio .topnav .icon i {
-              font-size: 2.5rem;
-              padding: 1%;
-              color: #f7f7f7; }
-      .body-periapical main .titulo {
-        width: 100%;
-        height: 100px;
-        text-align: center;
-        padding-bottom: 1%; }
-        .body-periapical main .titulo #h1 {
-          width: 100%;
-          text-align: center;
-          padding-right: 0;
-          padding-top: 10%;
-          color: #3e5a86;
-          font-size: 2rem;
-          font-weight: 500;
-          margin-top: 0px;
-          margin-left: 0%; }
-      .body-periapical main .periapicales {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 0;
-        width: 90%;
-        margin: auto;
-        height: auto; }
-        .body-periapical main .periapicales .card {
-          box-shadow: 2px 2px 2px 2px #a5a3a3;
-          margin: auto;
-          margin-top: 0%;
-          margin-bottom: 3%;
-          margin-left: 4%;
-          padding-bottom: 1%;
-          height: 480px; }
-          .body-periapical main .periapicales .card .card-body .card-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #3e5a86;
-            padding-bottom: 1%; }
-          .body-periapical main .periapicales .card .card-body img {
-            width: 90%;
-            height: auto;
-            margin-top: 5%; }
-          .body-periapical main .periapicales .card .card-body .btn {
-            display: block;
-            width: 40%;
-            margin: auto;
-            margin-top: 5%;
-            background-color: #3e5a86;
-            color: #fff; }
-  .body-periapicalIndividual {
-    width: 100%; }
-    .body-periapicalIndividual main {
-      margin-bottom: 50px; }
-      .body-periapicalIndividual main .inicio {
-        width: 100%;
-        padding-left: 1000px;
-        padding: 0;
-        height: 95px; }
-        .body-periapicalIndividual main .inicio .topnav {
-          background-color: none;
-          overflow: hidden;
-          width: 100%;
-          z-index: 1;
-          width: 100%; }
-          .body-periapicalIndividual main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .body-periapicalIndividual main .inicio .topnav #myLinks {
-            display: none;
-            width: 50%;
-            height: auto;
-            padding-left: 50px;
-            margin-left: 80px;
-            padding-top: 0%;
-            top: -30px;
-            flex-direction: column;
-            background: rgba(248, 246, 246, 0.8); }
-            .body-periapicalIndividual main .inicio .topnav #myLinks a {
-              font-size: 1.5rem;
-              width: 100%;
-              color: #3e5a86; }
-              .body-periapicalIndividual main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .body-periapicalIndividual main .inicio .topnav .icon {
-            float: right;
-            top: 5px;
-            right: 5px;
-            background: #3e5a86;
-            text-align: center;
-            padding-top: 2%;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative; }
-            .body-periapicalIndividual main .inicio .topnav .icon i {
-              font-size: 2.5rem;
-              padding: 1%;
-              color: #f7f7f7; }
-      .body-periapicalIndividual main .card {
-        box-shadow: 2px 2px 2px 2px #a5a3a3;
-        margin: auto;
-        margin-top: 11%;
-        margin-bottom: 1%;
-        height: 500px;
-        width: 90%; }
-        .body-periapicalIndividual main .card .card-body .card-title {
-          font-size: 1.2rem;
-          font-weight: bold;
-          color: #3e5a86;
-          padding-bottom: 1%; }
-        .body-periapicalIndividual main .card .card-body img {
-          width: 215px;
-          height: 350px;
-          margin-top: 5%; }
-        .body-periapicalIndividual main .card .card-body .btn {
-          display: block;
-          width: 40%;
-          margin: auto;
-          margin-top: 5%;
-          background: #3e5a86;
-          color: #fff; } }
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .bodyIndex {
-    overflow-x: hidden;
-    position: relative; }
-    .bodyIndex main {
-      width: 100%;
-      height: auto;
-      margin-bottom: 100px; }
-      .bodyIndex main .inicio {
-        background-image: url("../../imagenes/implante.png");
-        background-repeat: no-repeat;
-        background-size: 35%;
-        background-position-x: 20%;
-        background-position-y: 100%;
-        height: 600px;
-        width: 100%;
-        padding-left: 1000px;
-        padding: 0;
-        position: relative; }
-        .bodyIndex main .inicio .topnav {
-          background-color: none;
-          overflow: hidden;
-          position: relative; }
-          .bodyIndex main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .bodyIndex main .inicio .topnav #myLinks {
-            display: none;
-            width: 70%;
-            padding-left: 20%;
-            flex-direction: row;
-            padding-top: 1.8%;
-            text-align: right; }
-            .bodyIndex main .inicio .topnav #myLinks a {
-              color: #3e5a86;
-              font-weight: bold;
-              text-align: end;
-              padding: 1% 3%;
-              text-decoration: none;
-              font-size: 1.7rem;
-              display: flex;
-              margin-right: 0;
-              flex-direction: row;
-              width: 50%;
-              position: relative; }
-              .bodyIndex main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .bodyIndex main .inicio .topnav .icon {
-            background: #3e5a86;
-            height: 48px;
-            width: 48px;
-            text-align: center;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative;
-            right: 20px;
-            top: 0px;
-            float: right;
-            padding: 0%; }
-            .bodyIndex main .inicio .topnav .icon i {
-              font-size: 2.1rem;
-              padding-top: 0;
-              color: #f7f7f7; }
-      .bodyIndex main #h1 {
-        text-align: center;
-        padding-right: 0;
-        padding-top: 0;
-        color: #3e5a86;
-        font-weight: 500;
-        font-size: 3rem;
-        margin-bottom: 0;
-        margin-top: 0;
-        margin-left: 50%;
-        position: absolute;
-        top: 180px; }
-      .bodyIndex main section {
-        display: block;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin: auto;
-        position: absolute;
-        top: 280px;
-        z-index: 1;
-        margin-bottom: 0%;
-        margin-left: 60%; }
-        .bodyIndex main section .cuadro1, .bodyIndex main section .cuadro2, .bodyIndex main section .cuadro3 {
-          box-sizing: border-box;
-          width: 270px;
-          height: 80px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          display: flex;
-          margin: auto;
-          margin-top: 2.5%; }
-          .bodyIndex main section .cuadro1 a, .bodyIndex main section .cuadro2 a, .bodyIndex main section .cuadro3 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro1:hover, .bodyIndex main section .cuadro2:hover, .bodyIndex main section .cuadro3:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-        .bodyIndex main section .cuadro2 {
-          box-sizing: border-box;
-          width: 270px;
-          height: 80px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          display: flex;
-          margin: auto;
-          margin-top: 2.5%; }
-          .bodyIndex main section .cuadro2 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro2:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-        .bodyIndex main section .cuadro3 {
-          box-sizing: border-box;
-          width: 270px;
-          height: 80px;
-          justify-content: center;
-          transition: all 1s;
-          border-radius: 0px;
-          background: #3e5a86;
-          display: flex;
-          margin: auto;
-          margin-top: 2.5%; }
-          .bodyIndex main section .cuadro3 a {
-            outline: none;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.5rem;
-            font-weight: bolder;
-            text-align: center;
-            padding-top: 10%; }
-        .bodyIndex main section .cuadro3:hover {
-          transform: scale(1.2, 1.2);
-          cursor: pointer; }
-      .bodyIndex main .calibre {
-        width: 100%; }
-        .bodyIndex main .calibre h2 {
-          text-align: center;
-          font-size: 3rem;
+          font-size: 200%;
           margin-top: 0;
           padding-top: 0;
           color: #3e5a86; }
-        .bodyIndex main .calibre p {
+        .bodyIndex main .container .calibre p {
           text-align: center;
-          font-size: 2rem;
+          font-size: 150%;
           padding-top: 1%;
           color: #3e5a86; }
-        .bodyIndex main .calibre .img {
-          text-align: center; }
-  /*HTML ROSCA*/
-  .body-rosca {
-    overflow-x: hidden; }
-    .body-rosca main {
-      width: 100%;
-      height: auto;
-      margin-bottom: 100px; }
-      .body-rosca main .inicio {
-        background-image: url("../../imagenes/implante.png");
-        background-repeat: no-repeat;
-        background-size: 35%;
-        background-position-x: 20%;
-        background-position-y: 100%;
-        height: 600px;
-        width: 100%;
-        padding-left: 1000px;
-        padding: 0;
-        position: relative; }
-        .body-rosca main .inicio .topnav {
-          background-color: none;
-          overflow: hidden;
-          position: relative; }
-          .body-rosca main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .body-rosca main .inicio .topnav #myLinks {
-            display: none;
-            width: 70%;
-            padding-left: 30%;
-            flex-direction: row;
-            padding-top: 1.8%;
-            text-align: right; }
-            .body-rosca main .inicio .topnav #myLinks a {
-              color: #3e5a86;
-              font-weight: bold;
-              text-align: end;
-              padding: 1% 1%;
-              text-decoration: none;
-              font-size: 1.7rem;
-              display: flex;
-              margin-right: 0;
-              flex-direction: row;
-              width: 50%;
-              position: relative; }
-              .body-rosca main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .body-rosca main .inicio .topnav .icon {
-            background: #3e5a86;
-            height: 48px;
-            width: 48px;
-            text-align: center;
-            padding-top: .5%;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative;
-            right: 20px;
-            top: 0px;
-            float: right; }
-            .body-rosca main .inicio .topnav .icon i {
-              font-size: 2.1rem;
-              padding: 0;
-              color: #f7f7f7; }
-      .body-rosca main #h1 {
-        text-align: center;
-        padding-right: 0;
-        padding-top: 0;
-        color: #3e5a86;
-        font-weight: 500;
-        font-size: 3rem;
-        margin-bottom: 0;
-        margin-top: 0;
-        margin-left: 68%;
-        position: absolute;
-        top: 180px; }
-      .body-rosca main .container {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        width: 60%;
-        margin-left: 580px;
-        position: absolute;
-        top: 270px; }
+        .bodyIndex main .container .calibre .img {
+          text-align: center;
+          width: 75%;
+          height: auto;
+          margin: auto; }
+          .bodyIndex main .container .calibre .img img {
+            padding-top: 0 !important; }
+
+/*HTML ROSCA*/
+.body-rosca {
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 120%; }
+  .body-rosca main {
+    width: 100%;
+    height: auto; }
+    .body-rosca main .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-rosca main .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-rosca main .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86; }
+        .body-rosca main .inicio .topnav .navbar .navbar-toggler .navbar-toggler-icon {
+          color: white !important; }
+      .body-rosca main .inicio .topnav .navbar .navbar-nav {
+        background: none; }
+        .body-rosca main .inicio .topnav .navbar .navbar-nav a {
+          color: #3e5a86;
+          font-weight: bold;
+          text-align: end;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0; }
+          .body-rosca main .inicio .topnav .navbar .navbar-nav a:hover {
+            background: #3e5a86b9;
+            color: #fff; }
+    .body-rosca main .container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 100%; }
+      .body-rosca main .container img {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        padding: 5% 2% 0% 4%; }
+      .body-rosca main .container .titulo {
+        margin: auto;
+        margin-top: 12%; }
+        .body-rosca main .container .titulo #h1 {
+          text-align: center;
+          padding-right: 0% 0% 2% 0%;
+          color: #3e5a86;
+          font-weight: 500;
+          font-size: 220%;
+          margin-right: 0; }
+      .body-rosca main .container .menu__desplegable {
+        margin: auto;
+        padding-top: 3%; }
         .body-rosca main .container .menu__desplegable .nav {
-          font-size: 1.3rem; }
+          font-size: 105%; }
           .body-rosca main .container .menu__desplegable .nav .m1 {
             text-decoration: none;
             background-color: #4f2f7a;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2217,7 +186,7 @@
               .body-rosca main .container .menu__desplegable .nav .m1 ul .m1 {
                 text-decoration: none;
                 background-color: #4f2f7a;
-                width: 300px;
+                width: 100%;
                 font-weight: bold;
                 color: #ffffff;
                 text-align: center;
@@ -2257,7 +226,7 @@
           .body-rosca main .container .menu__desplegable .nav .m2 {
             text-decoration: none;
             background-color: #ee2556;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2297,7 +266,7 @@
           .body-rosca main .container .menu__desplegable .nav .m3 {
             text-decoration: none;
             background-color: #161fcb;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2337,7 +306,7 @@
           .body-rosca main .container .menu__desplegable .nav .m4 {
             text-decoration: none;
             background-color: #08a908;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2377,7 +346,7 @@
           .body-rosca main .container .menu__desplegable .nav .m5 {
             text-decoration: none;
             background-color: #fce221;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2414,98 +383,71 @@
                     color: #ffffff; }
                   .body-rosca main .container .menu__desplegable .nav .m5 ul li .m5__item span {
                     margin-left: 10px; }
-  /*HTML CONEXIÓN*/
-  .body-conexion {
+
+/*HTML CONEXIÓN*/
+.body-conexion {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 120%; }
+  .body-conexion main {
     width: 100%;
-    overflow-x: hidden; }
-    .body-conexion main {
-      width: 100%;
-      padding-bottom: 15%;
-      width: 100%;
-      margin-bottom: 600px; }
-      .body-conexion main .inicio {
-        background-image: url("../../imagenes/implante.png");
-        background-repeat: no-repeat;
-        background-size: 35%;
-        background-position-x: 20%;
-        background-position-y: 100%;
-        height: 600px;
-        width: 100%;
-        padding-left: 1000px;
-        padding: 0;
-        position: relative; }
-        .body-conexion main .inicio .topnav {
-          background-color: none;
-          overflow: hidden;
-          position: relative; }
-          .body-conexion main .inicio .topnav .logo {
-            float: left;
-            position: relative;
-            margin: 1%; }
-          .body-conexion main .inicio .topnav #myLinks {
-            display: none;
-            width: 70%;
-            padding-left: 20%;
-            padding-right: 5px;
-            margin-left: 170px;
-            flex-direction: row;
-            padding-top: 2%;
-            text-align: right; }
-            .body-conexion main .inicio .topnav #myLinks a {
-              color: #3e5a86;
-              font-weight: bold;
-              text-align: end;
-              padding: 1% 3%;
-              text-decoration: none;
-              font-size: 1.7rem;
-              margin-right: 0;
-              flex-direction: row;
-              width: 50%;
-              position: relative; }
-              .body-conexion main .inicio .topnav #myLinks a:hover {
-                background: rgba(248, 246, 246, 0.4); }
-          .body-conexion main .inicio .topnav .icon {
-            background: #3e5a86;
-            height: 48px;
-            width: 48px;
-            text-align: center;
-            padding-top: .6%;
-            text-shadow: 2px 2px 3px #000;
-            margin: 1%;
-            position: relative;
-            right: 20px;
-            top: 0px;
-            float: right; }
-            .body-conexion main .inicio .topnav .icon i {
-              font-size: 2.1rem;
-              padding: 0;
-              color: #f7f7f7; }
-      .body-conexion main #h1 {
-        text-align: center;
-        padding-right: 0;
-        padding-top: 0;
-        color: #3e5a86;
-        font-weight: 500;
-        font-size: 3rem;
-        margin-bottom: 0;
-        margin-top: 0;
-        margin-left: 65%;
-        position: absolute;
-        top: 150px; }
-      .body-conexion main .container {
-        display: block;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        width: 60%;
-        margin-left: 830px;
-        position: absolute;
-        top: 250px; }
+    padding-bottom: 15%; }
+    .body-conexion main .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-conexion main .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-conexion main .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86; }
+        .body-conexion main .inicio .topnav .navbar .navbar-toggler .navbar-toggler-icon {
+          color: white !important; }
+      .body-conexion main .inicio .topnav .navbar .navbar-nav {
+        background: none; }
+        .body-conexion main .inicio .topnav .navbar .navbar-nav a {
+          color: #3e5a86;
+          font-weight: bold;
+          text-align: end;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0; }
+          .body-conexion main .inicio .topnav .navbar .navbar-nav a:hover {
+            background: #3e5a86b9;
+            color: #fff; }
+    .body-conexion main .container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 100%; }
+      .body-conexion main .container img {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        padding: 5% 2% 0% 4%; }
+      .body-conexion main .container .titulo {
+        margin: auto;
+        margin-top: 12%; }
+        .body-conexion main .container .titulo #h1 {
+          text-align: center;
+          padding-right: 0% 0% 2% 0%;
+          color: #3e5a86;
+          font-weight: 500;
+          font-size: 220%;
+          margin-right: 0; }
+      .body-conexion main .container .menu__desplegable--conexion {
+        margin: auto;
+        padding-top: 3%;
+        width: 80%; }
         .body-conexion main .container .menu__desplegable--conexion .nav {
-          font-size: 1.1rem; }
+          font-size: 105%; }
           .body-conexion main .container .menu__desplegable--conexion .nav .m1 {
             text-decoration: none;
             background-color: #3e5a86;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2539,7 +481,7 @@
               .body-conexion main .container .menu__desplegable--conexion .nav .m1 ul .m1 {
                 text-decoration: none;
                 background-color: #8695b8;
-                width: 300px;
+                width: 100%;
                 font-weight: bold;
                 color: #ffffff;
                 text-align: center;
@@ -2616,7 +558,7 @@
           .body-conexion main .container .menu__desplegable--conexion .nav .m2 {
             text-decoration: none;
             background-color: #3e5a86;
-            width: 300px;
+            width: 100%;
             font-weight: bold;
             color: #ffffff;
             text-align: center;
@@ -2636,7 +578,7 @@
               .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 {
                 text-decoration: none;
                 background-color: #3e5a86;
-                width: 300px;
+                width: 100%;
                 font-weight: bold;
                 color: #ffffff;
                 text-align: center;
@@ -2657,7 +599,7 @@
                   .body-conexion main .container .menu__desplegable--conexion .nav .m2 ul .m2 ul .m2 {
                     text-decoration: none;
                     background-color: #8695b8;
-                    width: 300px;
+                    width: 100%;
                     font-weight: bold;
                     color: #ffffff;
                     text-align: center;
@@ -2756,12 +698,444 @@
               background-color: #161fcbad;
               color: #ffffff; }
             .body-conexion main .container .menu__desplegable--conexion .nav .m3__item span {
-              margin-left: 10px; } }
+              margin-left: 10px; }
+
+/*HTML PERIAPICAL*/
+.body-periapical {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 120%; }
+  .body-periapical main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto; }
+    .body-periapical main .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-periapical main .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-periapical main .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86; }
+        .body-periapical main .inicio .topnav .navbar .navbar-toggler .navbar-toggler-icon {
+          color: white !important; }
+      .body-periapical main .inicio .topnav .navbar .navbar-nav {
+        background: none; }
+        .body-periapical main .inicio .topnav .navbar .navbar-nav a {
+          color: #3e5a86;
+          font-weight: bold;
+          text-align: end;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0; }
+          .body-periapical main .inicio .topnav .navbar .navbar-nav a:hover {
+            background: #3e5a86b9;
+            color: #fff; }
+    .body-periapical main .container-fluid .titulo {
+      text-align: center;
+      padding-bottom: 5%; }
+      .body-periapical main .container-fluid .titulo #h1 {
+        padding-right: 0;
+        padding-top: 0;
+        color: #3e5a86;
+        font-weight: 500;
+        font-size: 220%; }
+
+.body-periapicalIndividual {
+  width: 100%;
+  overflow-x: hidden; }
+  .body-periapicalIndividual main {
+    margin-bottom: 100px; }
+    .body-periapicalIndividual main .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-periapicalIndividual main .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-periapicalIndividual main .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86; }
+        .body-periapicalIndividual main .inicio .topnav .navbar .navbar-toggler .navbar-toggler-icon {
+          color: white !important; }
+      .body-periapicalIndividual main .inicio .topnav .navbar .navbar-nav {
+        background: none; }
+        .body-periapicalIndividual main .inicio .topnav .navbar .navbar-nav a {
+          color: #3e5a86;
+          font-weight: bold;
+          text-align: end;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0; }
+          .body-periapicalIndividual main .inicio .topnav .navbar .navbar-nav a:hover {
+            background: #3e5a86b9;
+            color: #fff; }
+    .body-periapicalIndividual main .container-fluid {
+      width: 80%;
+      margin: auto; }
+      .body-periapicalIndividual main .container-fluid .card {
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        margin: auto; }
+        .body-periapicalIndividual main .container-fluid .card .card-body .card-title {
+          font-size: 100%;
+          font-weight: bold;
+          color: #3e5a86;
+          padding-bottom: 1%;
+          text-align: center !important; }
+        .body-periapicalIndividual main .container-fluid .card .card-body img {
+          width: 70%;
+          height: auto;
+          margin-top: 5%; }
+        .body-periapicalIndividual main .container-fluid .card .card-footer {
+          margin: auto;
+          background: none;
+          border-top: none;
+          padding: 3%; }
+          .body-periapicalIndividual main .container-fluid .card .card-footer .btn,
+          .body-periapicalIndividual main .container-fluid .card .card-footer .btn-primary {
+            background-color: #3e5a86 !important;
+            color: #fff !important;
+            border-color: #3e5a86 !important;
+            justify-content: center !important;
+            align-items: center !important; }
+
+@media (max-width: 575.98px) {
+  .bodyIndex {
+    font-size: 100%; }
+    .bodyIndex .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .bodyIndex .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .bodyIndex .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .bodyIndex .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .bodyIndex .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .bodyIndex .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .bodyIndex .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%; }
+    .bodyIndex .container .titulo {
+      margin: auto;
+      margin-top: 0%; }
+    .bodyIndex .container .calibre p {
+      text-align: center;
+      font-size: 100%;
+      padding-top: 1%;
+      color: #3e5a86; }
+  .body-rosca {
+    font-size: 100%; }
+    .body-rosca .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-rosca .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-rosca .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .body-rosca .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .body-rosca .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .body-rosca .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .body-rosca .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%; }
+  .body-conexion {
+    font-size: 100%; }
+    .body-conexion .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-conexion .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-conexion .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .body-conexion .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .body-conexion .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .body-conexion .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .body-conexion .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%; }
+  .body-periapical .inicio .topnav .logo {
+    float: left;
+    position: relative;
+    margin: 1%; }
+  .body-periapical .inicio .topnav .navbar {
+    padding: 2% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important; }
+    .body-periapical .inicio .topnav .navbar .navbar-toggler {
+      background: #3e5a86;
+      color: white !important; }
+    .body-periapical .inicio .topnav .navbar .navbar-nav {
+      background: #3e5a86ce !important; }
+      .body-periapical .inicio .topnav .navbar .navbar-nav a {
+        color: #fff !important;
+        font-weight: bold;
+        text-align: center !important;
+        margin-right: 3% !important;
+        text-decoration: none;
+        font-size: 120%;
+        margin-right: 0;
+        width: 20% !important; }
+        .body-periapical .inicio .topnav .navbar .navbar-nav a:hover {
+          background: none !important;
+          color: none !important; }
+  .body-periapicalIndividual .inicio .topnav .logo {
+    float: left;
+    position: relative;
+    margin: 1%; }
+  .body-periapicalIndividual .inicio .topnav .navbar {
+    padding: 2% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important; }
+    .body-periapicalIndividual .inicio .topnav .navbar .navbar-toggler {
+      background: #3e5a86;
+      color: white !important; }
+    .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav {
+      background: #3e5a86ce !important; }
+      .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav a {
+        color: #fff !important;
+        font-weight: bold;
+        text-align: center !important;
+        margin-right: 3% !important;
+        text-decoration: none;
+        font-size: 120%;
+        margin-right: 0;
+        width: 20% !important; }
+        .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav a:hover {
+          background: none !important;
+          color: none !important; } }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .bodyIndex {
+    font-size: 100%; }
+    .bodyIndex .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .bodyIndex .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .bodyIndex .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .bodyIndex .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .bodyIndex .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .bodyIndex .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .bodyIndex .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%; }
+    .bodyIndex .container .calibre p {
+      text-align: center;
+      font-size: 100%;
+      padding-top: 1%;
+      color: #3e5a86; }
+    .bodyIndex .container .calibre .img {
+      width: 100%;
+      height: auto; }
+  .body-rosca {
+    font-size: 100%; }
+    .body-rosca .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-rosca .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-rosca .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .body-rosca .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .body-rosca .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .body-rosca .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .body-rosca .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%; }
+  .body-conexion {
+    font-size: 100%; }
+    .body-conexion .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-conexion .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-conexion .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .body-conexion .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .body-conexion .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .body-conexion .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+    .body-conexion .container img {
+      margin: auto;
+      width: 50%;
+      height: auto;
+      padding: 5% 2% 0% 4%;
+      position: relative; }
+  .body-periapical {
+    font-size: 100%; }
+    .body-periapical .inicio .topnav .logo {
+      float: left;
+      position: relative;
+      margin: 1%; }
+    .body-periapical .inicio .topnav .navbar {
+      padding: 2% !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #fff !important; }
+      .body-periapical .inicio .topnav .navbar .navbar-toggler {
+        background: #3e5a86;
+        color: white !important; }
+      .body-periapical .inicio .topnav .navbar .navbar-nav {
+        background: #3e5a86ce !important; }
+        .body-periapical .inicio .topnav .navbar .navbar-nav a {
+          color: #fff !important;
+          font-weight: bold;
+          text-align: center !important;
+          margin-right: 3% !important;
+          text-decoration: none;
+          font-size: 120%;
+          margin-right: 0;
+          width: 20% !important; }
+          .body-periapical .inicio .topnav .navbar .navbar-nav a:hover {
+            background: none !important;
+            color: none !important; }
+  .body-periapicalIndividual .inicio .topnav .logo {
+    float: left;
+    position: relative;
+    margin: 1%; }
+  .body-periapicalIndividual .inicio .topnav .navbar {
+    padding: 2% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important; }
+    .body-periapicalIndividual .inicio .topnav .navbar .navbar-toggler {
+      background: #3e5a86;
+      color: white !important; }
+    .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav {
+      background: #3e5a86ce !important; }
+      .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav a {
+        color: #fff !important;
+        font-weight: bold;
+        text-align: center !important;
+        margin-right: 3% !important;
+        text-decoration: none;
+        font-size: 120%;
+        margin-right: 0;
+        width: 20% !important; }
+        .body-periapicalIndividual .inicio .topnav .navbar .navbar-nav a:hover {
+          background: none !important;
+          color: none !important; } }
 
 header {
   width: 50%; }
   header .wapp {
-    margin-left: 1400px;
     margin-top: 100px;
     position: fixed;
     z-index: 2; }
@@ -2773,7 +1147,6 @@ header {
   header {
     width: 50%; }
     header .wapp {
-      margin-left: 280px;
       margin-top: 70px;
       position: fixed;
       z-index: 2; }
@@ -2785,250 +1158,76 @@ header {
         width: 50px;
         height: 50px; } }
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  header {
-    width: 40%; }
-    header .wapp {
-      margin-left: 1290px;
-      margin-top: 70px;
-      position: fixed;
-      z-index: 2; }
-      header .wapp a {
-        cursor: pointer;
-        width: fit-content;
-        height: fit-content; }
-      header .wapp img {
-        width: 50px;
-        height: 50px; } }
-
-.grid__footer {
-  padding-top: 1%;
-  padding-bottom: 2%;
-  width: 100%;
+footer {
   font-weight: bold;
   background-color: #3e5a86;
   color: #fff;
-  font-size: 0.8rem;
-  display: grid;
-  position: relative;
-  grid-template: 23px 23px 23px 23px 23px / 1fr 1fr 1fr 1fr;
-  grid-template-areas: "direccion  .   .   ." "telefono   telefono  . seguinos" "horario  horario  .  seguinos" "email email   .   ." "web  web  .    ."; }
-  .grid__footer .direccion {
-    grid-area: direccion;
+  font-size: 0.8rem; }
+  footer .direccion {
     display: flex;
     flex-direction: row;
     align-items: center; }
-    .grid__footer .direccion ion-icon {
+    footer .direccion ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 10px; }
-    .grid__footer .direccion p {
-      margin-left: 20px;
-      margin-top: 24px;
+      margin: 8px 0px 0px 20px; }
+    footer .direccion p {
+      margin: 18px 0px 10px 20px;
       font-size: 1rem; }
-  .grid__footer .telefono {
-    grid-area: telefono;
+  footer .telefono {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 10px 0px 0px 0px; }
-    .grid__footer .telefono ion-icon {
+    align-items: center; }
+    footer .telefono ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 14px; }
-    .grid__footer .telefono p {
-      margin-left: 20px;
-      margin-top: 24px;
+      margin: 8px 0px 0px 20px; }
+    footer .telefono p {
+      margin: 18px 0px 10px 20px;
       font-size: 1rem; }
-  .grid__footer .horario {
-    grid-area: horario;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px 0px 0px 0px; }
-    .grid__footer .horario ion-icon {
+  footer .horario {
+    align-items: center; }
+    footer .horario ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 16px; }
-    .grid__footer .horario p {
-      margin-left: 20px;
-      margin-top: 30px;
+      margin: 8px 0px 0px 20px; }
+    footer .horario p {
+      margin: 18px 0px 10px 20px;
       font-size: 1rem; }
-  .grid__footer .email {
-    grid-area: email;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    align-items: center;
-    margin: 10px 0px 0px 0px; }
-    .grid__footer .email ion-icon {
+  footer .email {
+    align-items: center; }
+    footer .email ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 18px; }
-    .grid__footer .email p {
-      margin-left: 20px;
-      margin-top: 32px;
+      margin: 8px 0px 0px 20px; }
+    footer .email p {
+      margin: 18px 0px 10px 20px;
       font-size: 1rem; }
-  .grid__footer .web {
-    grid-area: web;
-    display: flex;
-    flex-direction: row;
+  footer .web {
     align-items: center;
-    margin: 10px 0px 0px 0px;
-    color: #fff; }
-    .grid__footer .web ion-icon {
+    color: #fff;
+    position: relative; }
+    footer .web ion-icon {
       width: 20px;
       height: 20px;
-      margin-left: 20px;
-      margin-top: 20px; }
-    .grid__footer .web p {
-      margin-left: 20px; }
-      .grid__footer .web p a {
+      margin: 8px 0px 0px 20px; }
+    footer .web p {
+      margin: 18px 0px 10px 20px; }
+      footer .web p a {
         text-decoration: none;
         font-size: 1rem;
-        grid-area: web;
-        display: flex;
-        flex-direction: row;
         padding: 0;
         color: #fff;
         margin-top: 34px; }
-  .grid__footer .seguinos {
-    text-align: end;
-    grid-area: seguinos;
-    font-size: 1.2rem;
-    padding-right: 3%;
-    display: block;
-    position: relative; }
-    .grid__footer .seguinos p {
-      margin-right: 5%; }
-    .grid__footer .seguinos a {
+  footer .seguinos {
+    font-size: 1rem;
+    color: #fff; }
+    footer .seguinos p {
+      margin: 15px 0px 10px 20px; }
+    footer .seguinos a {
       cursor: pointer; }
-      .grid__footer .seguinos a ion-icon {
-        width: 35px;
-        height: 35px;
+      footer .seguinos a ion-icon {
+        width: 25px;
+        height: 25px;
         color: #fff;
-        padding-right: 5%; }
-
-@media (max-width: 575.98px) {
-  .grid__footer {
-    padding-top: 1%;
-    padding-bottom: 15%;
-    width: 100%;
-    font-weight: bold;
-    background-color: #3e5a86;
-    color: #fff;
-    display: grid;
-    grid-template: 18px 18px 18px 18px 18px 18px 18px /1.5fr 1fr;
-    grid-template-areas: "direccion direccion" "telefono telefono" "horario horario" "email email" "web web" "seguinos seguinos"; }
-    .grid__footer .direccion {
-      grid-area: direccion;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 4%; }
-      .grid__footer .direccion ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 2%; }
-      .grid__footer .direccion p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px; }
-    .grid__footer .telefono {
-      grid-area: telefono;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 4%; }
-      .grid__footer .telefono ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 2%; }
-      .grid__footer .telefono p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px; }
-    .grid__footer .horario {
-      grid-area: horario;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 5%; }
-      .grid__footer .horario ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 3%; }
-      .grid__footer .horario p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px; }
-    .grid__footer .email {
-      grid-area: email;
-      display: flex;
-      flex-direction: row;
-      margin-left: 11%;
-      padding-top: 7%; }
-      .grid__footer .email ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 4%; }
-      .grid__footer .email p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px; }
-    .grid__footer .web {
-      grid-area: web;
-      display: flex;
-      flex-direction: row;
-      padding-bottom: 20px;
-      color: #fff;
-      margin-left: 11%;
-      padding-top: 8%; }
-      .grid__footer .web ion-icon {
-        width: 22px;
-        height: 22px;
-        margin: 0;
-        padding-top: 4%; }
-      .grid__footer .web p {
-        margin-left: 10px;
-        font-size: 1.1rem;
-        text-align: left;
-        margin-top: 18px; }
-        .grid__footer .web p a {
-          text-decoration: none;
-          font-size: 1.1rem;
-          grid-area: web;
-          display: flex;
-          flex-direction: row;
-          margin: 0;
-          margin-top: 8px;
-          color: #fff; }
-    .grid__footer .seguinos {
-      text-align: start;
-      grid-area: seguinos;
-      font-size: 1.1rem;
-      margin-left: 13%;
-      padding-top: 13%;
-      color: #fff;
-      display: flex; }
-      .grid__footer .seguinos p {
-        margin-right: 5%; }
-      .grid__footer .seguinos a {
-        cursor: pointer; }
-        .grid__footer .seguinos a ion-icon {
-          width: 28px;
-          height: 28px;
-          color: #fff;
-          padding-right: 5%; } }
+        margin: 10px 0px 0px 20px; }
